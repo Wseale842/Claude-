@@ -84,7 +84,7 @@
     <thead><tr><th>Domaine</th><th>Contenu</th><th>DPGF</th></tr></thead>
     <tbody>
       <tr><td><strong>Études d'exécution CFA</strong></td><td>Architecture IT et audiovisuel, synoptiques IT, sûreté et GTC, plans, fiches, PAQ</td><td>§ 2 (EXE.CFA)</td></tr>
-      <tr><td><strong>VDI et informatique</strong></td><td>Répartiteurs principaux (Hubs 1, 2, 3) et secondaires avec switchs PoE, anneaux fibre OS2, liaisons cuivre Cat. 6A, paramétrage, recettes</td><td>§ 4</td></tr>
+      <tr><td><strong>VDI et informatique</strong></td><td>Répartiteurs principaux (Hubs 1, 2, 3) et secondaires, anneaux fibre OS2, liaisons cuivre Cat. 6A ; pose, raccordement et paramétrage des switchs (switchs informatiques fournis par EXYTE, switchs de vidéoprotection fournis par PROSYB), recettes</td><td>§ 4</td></tr>
       <tr><td><strong>Wi-Fi</strong></td><td>84 bornes : 4 en phase 2, 20 en phase 3, 60 en phase 4</td><td>§ 4</td></tr>
       <tr><td><strong>Audiovisuel et affichage</strong></td><td>10 salles de réunion mobiles (écran iiyama 86" 4K sur chariot Chief, Logitech Rally Bar, 4 micros déportés), 6 afficheurs de chantier Samsung OHDX 55" 3 500 cd/m², diffusion centralisée Navori sur 16 écrans</td><td>§ 4</td></tr>
       <tr><td><strong>Vidéoprotection</strong></td><td>28 caméras sur mâts, réseau PoE, NVR, analyse intrusion et port des EPI</td><td>§ 6 + CCTP lot 03</td></tr>
@@ -139,6 +139,7 @@
       <li><strong>Deux réseaux physiquement séparés</strong> : le réseau terrain (sûreté, GTB, affichage) et le réseau informatique et Wi-Fi d'EXYTE ont chacun leur anneau fibre et leurs switchs.</li>
       <li><strong>Anneaux autocicatrisants</strong> : la coupure d'une fibre, fréquente sur un chantier, ne coupe aucun répartiteur ; le trafic repart par l'autre sens en moins de 50 ms (protocole ERPS, ITU-T G.8032).</li>
       <li><strong>Actifs secourus</strong> : répartiteurs principaux sur le TD ondulé des Hubs (onduleurs 10 kVA, lot électricité), switchs de zone sur les départs secourus.</li>
+      <li><strong>Répartition des fournitures</strong> : les switchs du réseau informatique (bureautique) sont fournis par EXYTE ; PROSYB fournit uniquement les switchs de vidéoprotection. L'installation, le raccordement et le paramétrage de l'ensemble des switchs restent à la charge de PROSYB (voir ci-dessous).</li>
     </ul>
     <ul>
       <li><strong>Segmentation</strong> : un VLAN par usage, routage maîtrisé et flux interdits par défaut entre VLAN.</li>
@@ -154,14 +155,14 @@
   <table class="compact"><colgroup><col style="width:20%"><col style="width:40%"><col></colgroup>
     <thead><tr><th>Niveau</th><th>Réseau terrain (PROSYB)</th><th>Réseau informatique et Wi-Fi (EXYTE)</th></tr></thead>
     <tbody>
-      <tr><td><strong>1 · Cœur</strong></td><td>Switchs de niveau 3 dans les Hubs 1 et 2 (Hub 3 en phase 4). Ils portent les passerelles des VLAN en redondance VRRP et appliquent les règles de filtrage entre VLAN.</td><td>Switch de niveau 3 au répartiteur principal, relié en 10 Gbit/s au pare-feu d'EXYTE, qui assure le routage, le filtrage et la sortie internet.</td></tr>
+      <tr><td><strong>1 · Cœur</strong></td><td>Switch de niveau 3 au Hub 1 (Hub 3 en phase 4, second cœur pour la nouvelle zone), qui porte les passerelles des VLAN et applique les règles de filtrage entre VLAN. Le Hub 2 reste en niveau 2, relié en fibre au cœur du Hub 1. Un switch de niveau 3 de rechange (même référence) est maintenu en stock sur site, prêt à remplacer l'un des deux cœurs en cas de panne — solution la plus économique pour un réseau de chantier temporaire, en l'absence d'exigence de double cœur actif dans le DCE. <strong>Fourniture</strong> : le switch de niveau 3 du Hub 1, qui agrège l'anneau des switchs de vidéoprotection, est fourni par PROSYB ; les switchs des Hubs 2 et 3 sont fournis par EXYTE. PROSYB installe et paramètre l'ensemble.</td><td>Switch de niveau 3 au répartiteur principal (fourni par EXYTE, posé et paramétré par PROSYB), relié en 10 Gbit/s au pare-feu d'EXYTE, qui assure le routage, le filtrage et la sortie internet.</td></tr>
       <tr><td><strong>2 · Anneaux</strong></td><td>Switchs industriels de zone (Est 1 à 3, Ouest 1 et 2, Nord, annexes) chaînés en anneau ERPS sur la fibre OS2.</td><td>Anneau fibre informatique entre le répartiteur principal et les répartiteurs base vie A et B (phase 4).</td></tr>
-      <tr><td><strong>3 · Accès</strong></td><td>Ports PoE des switchs de zone : caméras, automates, afficheurs, interfaces des lots tiers.</td><td>Piles de switchs 48 ports PoE+ desservant les prises des îlots, les salles de réunion et les bornes Wi-Fi.</td></tr>
+      <tr><td><strong>3 · Accès</strong></td><td>Ports PoE des switchs de zone : caméras, automates, afficheurs, interfaces des lots tiers.</td><td>Switchs d'accès PoE+ fournis par EXYTE, posés et paramétrés par PROSYB, desservant les prises des îlots, les salles de réunion et les bornes Wi-Fi.</td></tr>
       <tr><td><strong>4 · Terminaux</strong></td><td>28 caméras et NVR, 3 automates WAGO et poste de supervision, 6 afficheurs.</td><td>Postes CAD, 84 bornes Wi-Fi, 10 salles de visioconférence, imprimantes.</td></tr>
     </tbody>
   </table>
   <div class="fig"><div class="screen"><img src="img/vlan_logique.svg"></div>
-    <div class="cap">Figure 2 — Architecture logique et plan de VLAN proposé : passerelles redondées sur les cœurs terrain, routage et filtrage informatique par le pare-feu EXYTE.</div></div>
+    <div class="cap">Figure 2 — Architecture logique et plan de VLAN proposé : cœurs L3 aux Hubs 1 et 3, switch L2 relayé au Hub 2, routage et filtrage informatique par le pare-feu EXYTE.</div></div>
 </section>
 
 <section>
@@ -171,13 +172,13 @@
     <thead><tr><th>VLAN</th><th>Nom</th><th>Équipements</th><th>Adressage</th><th>Passerelle</th></tr></thead>
     <tbody>
       <tr><td colspan="5" style="background:#F3EFFF;color:#5B3FD0"><strong>Réseau terrain — fourni, configuré et administré par PROSYB</strong></td></tr>
-      <tr><td>10</td><td>ADMIN-TERRAIN</td><td>Administration des switchs, cartes SNMP des onduleurs, poste de supervision réseau</td><td>10.20.10.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
-      <tr><td>20</td><td>VIDEO-CAMERAS</td><td>28 caméras Hikvision</td><td>10.20.20.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
-      <tr><td>21</td><td>VIDEO-ENREG</td><td>NVR, poste de visualisation du poste de garde</td><td>10.20.21.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
-      <tr><td>30</td><td>GTB</td><td>3 automates WAGO, passerelles de comptage, poste de supervision GTB</td><td>10.20.30.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
-      <tr><td>40</td><td>SURETE-INTERFACES</td><td>Contrôle d'accès, interphonie, report SSI (équipements des lots concernés)</td><td>10.20.40.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
-      <tr><td>50</td><td>AFFICHAGE</td><td>6 afficheurs de chantier, 16 lecteurs Navori StiX et le serveur de diffusion Navori QL</td><td>10.20.50.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
-      <tr><td>60</td><td>IRVE</td><td>Réservé à la supervision des bornes de recharge (lot électricité)</td><td>10.20.60.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
+      <tr><td>10</td><td>ADMIN-TERRAIN</td><td>Administration des switchs, cartes SNMP des onduleurs, poste de supervision réseau</td><td>10.20.10.0/24</td><td>Cœur terrain L3 (Hub 1/3)</td></tr>
+      <tr><td>20</td><td>VIDEO-CAMERAS</td><td>28 caméras Hikvision</td><td>10.20.20.0/24</td><td>Cœur terrain L3 (Hub 1/3)</td></tr>
+      <tr><td>21</td><td>VIDEO-ENREG</td><td>NVR, poste de visualisation du poste de garde</td><td>10.20.21.0/24</td><td>Cœur terrain L3 (Hub 1/3)</td></tr>
+      <tr><td>30</td><td>GTB</td><td>3 automates WAGO, passerelles de comptage, poste de supervision GTB</td><td>10.20.30.0/24</td><td>Cœur terrain L3 (Hub 1/3)</td></tr>
+      <tr><td>40</td><td>SURETE-INTERFACES</td><td>Contrôle d'accès, interphonie, report SSI (équipements des lots concernés)</td><td>10.20.40.0/24</td><td>Cœur terrain L3 (Hub 1/3)</td></tr>
+      <tr><td>50</td><td>AFFICHAGE</td><td>6 afficheurs de chantier, 16 lecteurs Navori StiX et le serveur de diffusion Navori QL</td><td>10.20.50.0/24</td><td>Cœur terrain L3 (Hub 1/3)</td></tr>
+      <tr><td>60</td><td>IRVE</td><td>Réservé à la supervision des bornes de recharge (lot électricité)</td><td>10.20.60.0/24</td><td>Cœur terrain L3 (Hub 1/3)</td></tr>
       <tr><td>900</td><td>TRANSIT-EXYTE</td><td>Interconnexion entre les cœurs terrain et le pare-feu EXYTE</td><td>/29 fourni par EXYTE</td><td>Pare-feu EXYTE</td></tr>
       <tr><td>910</td><td>ACCES-DISTANT</td><td>Routeur 4G/5G et VPN de maintenance, uniquement si EXYTE le valide</td><td>10.20.91.0/29</td><td>Routeur VPN</td></tr>
       <tr><td>999</td><td>NATIF-INUTILISE</td><td>VLAN natif des liens inter-switchs et ports non affectés, sans aucun équipement</td><td>—</td><td>—</td></tr>
@@ -230,10 +231,12 @@
   <table class="compact"><colgroup><col style="width:22%"><col style="width:22%"><col><col style="width:12%"></colgroup>
     <thead><tr><th>Équipement</th><th>Emplacement</th><th>Caractéristiques minimales</th><th>Quantité</th></tr></thead>
     <tbody>
-      <tr><td>Switch cœur terrain niveau 3</td><td>Baies des Hubs 1, 2 (phase 2) et 3 (phase 4)</td><td>Rackable 19", 24 ports 1 Gbit/s PoE+, 4 ports SFP+ 10 Gbit/s, double alimentation, VRRP, ERPS, ACL, SNMPv3 — modèle retenu : <strong>ELB S57244-B0</strong> (24×SFP 1 Gb + 4×SFP+ 10 Gb)</td><td>3</td></tr>
-      <tr><td>Switch industriel de zone</td><td>Coffrets des répartiteurs secondaires et des annexes</td><td>Rail DIN, -40 à +70 °C, 8 ports PoE+ (budget ≥ 240 W), 2 à 4 SFP 1 Gbit/s, ERPS, administrable ; coffret IP55/IP66 ventilé, parafoudres Ethernet, alimentation 48 V</td><td>10 environ</td></tr>
-      <tr><td>Switch cœur informatique niveau 3</td><td>Répartiteur principal desservant la base vie</td><td>48 ports 1 Gbit/s PoE+, 4 SFP+ 10 Gbit/s, empilable, liaisons redondées vers le pare-feu EXYTE</td><td>1</td></tr>
-      <tr><td>Switch d'accès base vie</td><td>Répartiteur principal (phases 2-3), répartiteurs A et B (phase 4)</td><td>48 ports 1 Gbit/s PoE+ 802.3at (budget ≥ 370 W), 2 uplinks SFP+ 10 Gbit/s, empilable ; réemployés d'une phase à l'autre</td><td>3 puis 8</td></tr>
+      <tr><td>Switch cœur terrain niveau 3</td><td>Baie du Hub 1 (phase 2) : agrégation vidéo, <em>fourniture PROSYB</em> ; baie du Hub 3 (phase 4) : <em>fourniture EXYTE</em></td><td>Rackable 19", 24 ports 1 Gbit/s PoE+, 4 ports SFP+ 10 Gbit/s, double alimentation, ERPS, ACL, SNMPv3 — modèle retenu au Hub 1 : <strong>ELB S57244-B0</strong> (24×SFP 1 Gb + 4×SFP+ 10 Gb)</td><td>2</td></tr>
+      <tr><td>Switch cœur terrain L3 de rechange (spare)</td><td>Stock chantier</td><td>Même référence que les cœurs L3, prêt à remplacer l'un des deux en cas de panne (option)</td><td>1</td></tr>
+      <tr><td>Switch zone terrain niveau 2</td><td>Baie du Hub 2 (phase 2) — <em>fourniture EXYTE</em></td><td>Rackable 19", 8 ports PoE+ 2,5 Gbit/s, 2 SFP+, remonte en fibre vers le cœur L3 du Hub 1</td><td>1</td></tr>
+      <tr><td>Switch industriel de zone (vidéoprotection) — <em>fourniture PROSYB</em></td><td>Coffrets électriques extérieurs fournis et posés par le lot électricité (SPIE)</td><td>Rail DIN, -40 à +70 °C, 8 ports PoE+ (budget ≥ 240 W), 4 SFP 1 Gbit/s, ERPS, administrable ; alimentation 48 V DC rail DIN, boîtier optique rail DIN et parafoudres Ethernet intégrés par PROSYB dans le coffret</td><td>8</td></tr>
+      <tr><td>Switch cœur informatique niveau 3 — <em>fourniture EXYTE</em></td><td>Répartiteur principal desservant la base vie</td><td>48 ports 1 Gbit/s PoE+, 4 SFP+ 10 Gbit/s, empilable, liaisons redondées vers le pare-feu EXYTE</td><td>1</td></tr>
+      <tr><td>Switchs d'accès informatiques (îlots, salles, Wi-Fi) — <em>fourniture EXYTE</em></td><td>Répartiteurs principaux (phases 2-3), répartiteurs A et B (phase 4)</td><td>48 ports 1 Gbit/s PoE+ 802.3at (budget ≥ 370 W), 2 uplinks SFP+ 10 Gbit/s, empilable ; réemployés d'une phase à l'autre — modèles du standard EXYTE</td><td>Selon EXYTE</td></tr>
       <tr><td>Borne Wi-Fi</td><td>Plafond des modules et salles</td><td>Wi-Fi 6 (802.11ax) bi-bande, PoE 802.3at, gestion centralisée ; modèle aligné sur le standard EXYTE</td><td>84</td></tr>
       <tr><td>Modules optiques</td><td>Tous les répartiteurs</td><td>SFP 1 Gbit/s LX et SFP+ 10 Gbit/s LR monomode, compatibles constructeur</td><td>Selon liaisons</td></tr>
       <tr><td>Routeur 4G/5G VPN</td><td>Baie du Hub 1</td><td>VPN chiffré, journalisation, activation à la demande</td><td>Option</td></tr>
@@ -241,14 +244,15 @@
     </tbody>
   </table>
   <p class="small">Les switchs de zone vidéo de l'étude AVP (R.O.1, R.O.2, R.N, R.E.1 à R.E.3, R.H.1, R.H.2) sont les nœuds de l'anneau terrain : un même switch dessert les caméras, les automates et les afficheurs de sa zone, chacun dans son VLAN. Le modèle retenu, sur devis fournisseur, est le <strong>switch industriel RG-NIS3100-8GT4SFP-HP</strong> (8 répartiteurs) : administrable couche 2, 8 ports RJ45 Gigabit PoE/PoE+, 4 ports SFP 1 Gbit/s, budget PoE 240 W, alimentation 48 V DC dédiée (module RFOFIBRE-M430400-VB), avec boîtier optique rail DIN 8 SC simplex OS2 (BOPTDIN08SCSS2E) et modules SFP monomode 20 km (SFPL-1GD31-20) pour le raccordement fibre.</p>
+  <div class="note"><div class="lab">Fournitures et prestations des switchs</div><p><strong>Switchs informatiques (bureautique)</strong> : fournis par EXYTE et livrés sur site ; PROSYB assure leur réception, leur installation en baie ou en coffret, leur raccordement (cuivre et fibre, modules optiques) et leur paramétrage complet (VLAN, PoE, redondance, supervision, sauvegarde des configurations, mise à jour des firmwares), puis les recettes.<br><strong>Switchs de vidéoprotection</strong> : fournis, installés, raccordés et paramétrés par PROSYB (8 switchs industriels de zone sur rail DIN, switch d'agrégation du Hub 1, switch PoE local du poste de garde).<br><strong>Coffrets extérieurs de zone</strong> : enveloppe fournie et posée par le lot électricité (SPIE) avec l'alimentation 230 V ; PROSYB n'en prévoit aucune. PROSYB y amène la fibre optique et les liaisons des caméras et y installe le matériel courants faibles : switch industriel rail DIN, alimentation 48 V DC, boîtier optique rail DIN, modules SFP et parafoudres Ethernet.</p></div>
 
   <h2>Évolution du réseau par phase</h2>
   <table class="compact"><colgroup><col style="width:15%"><col></colgroup>
     <thead><tr><th>Phase</th><th>Réseau mis en service</th></tr></thead>
     <tbody>
-      <tr><td><span class="phase p2">Phase 2</span></td><td>Cœurs terrain des Hubs 1 et 2, anneau terrain et switchs de zone, <strong>plan de VLAN complet configuré</strong> dès le départ ; cœur informatique et accès des îlots 1 et 2.</td></tr>
+      <tr><td><span class="phase p2">Phase 2</span></td><td>Switch d'agrégation vidéo du Hub 1, anneau terrain et switchs de zone, <strong>plan de VLAN complet configuré</strong> dès le départ ; cœur informatique et accès des îlots 1 et 2.</td></tr>
       <tr><td><span class="phase p3">Phase 3</span></td><td>Switchs des bâtiments annexes, raccordement des caméras, des afficheurs et des liaisons techniques ; switchs d'accès pour les îlots 3 à 10.</td></tr>
-      <tr><td><span class="phase p4">Phase 4</span></td><td>Cœur terrain du Hub 3, anneau informatique vers les répartiteurs A et B. Les switchs sont <strong>préconfigurés et testés avant la bascule</strong>, réalisée îlot par îlot en dehors des heures d'occupation.</td></tr>
+      <tr><td><span class="phase p4">Phase 4</span></td><td>Switch informatique du Hub 3 (fourni par EXYTE), anneau informatique vers les répartiteurs A et B. Les switchs sont <strong>préconfigurés et testés avant la bascule</strong>, réalisée îlot par îlot en dehors des heures d'occupation.</td></tr>
     </tbody>
   </table>
   <div class="note"><div class="lab">Implantation générale</div><p>Le plan d'implantation de l'étude AVP (FR02201-ENG-ELEC-DRW-1007) positionne les postes énergie, la base vie, les mâts et les cheminements ; il sert de base à nos plans d'exécution courants faibles.</p></div>
@@ -262,11 +266,11 @@
   <table class="compact">
     <thead><tr><th>Répartiteur</th><th>Phase</th><th>Emplacement</th><th>Équipement</th></tr></thead>
     <tbody>
-      <tr><td>Principal Hub 1 et Hub 2</td><td><span class="phase p2">2</span></td><td>Postes énergie, compartiment CFA climatisé</td><td>Baie 19", tiroirs optiques, panneaux Cat. 6A, switch PoE, onduleur amont</td></tr>
-      <tr><td>Secondaires Est 1, 2, 3 et Ouest 1, 2</td><td><span class="phase p2">2</span></td><td>Zones de chantier</td><td>Coffret étanche IP55 minimum, tiroir optique, switch PoE industriel</td></tr>
-      <tr><td>Secondaires bâtiments annexes ×2</td><td><span class="phase p3">3</span></td><td>Bâtiments techniques</td><td>Coffret ou baie murale, switch PoE</td></tr>
-      <tr><td>Principal Hub 3</td><td><span class="phase p4">4</span></td><td>Poste énergie Hub 3</td><td>Baie 19", tiroirs optiques, switch PoE</td></tr>
-      <tr><td>Secondaires base vie A et B</td><td><span class="phase p4">4</span></td><td>Base vie îlots 1-10 et 11-20</td><td>Baie, panneaux Cat. 6A, switch PoE</td></tr>
+      <tr><td>Principal Hub 1 et Hub 2</td><td><span class="phase p2">2</span></td><td>Postes énergie, compartiment CFA climatisé</td><td>Baie 19", tiroirs optiques, panneaux Cat. 6A, onduleur amont ; switch informatique fourni par EXYTE, switch d'agrégation vidéo PROSYB au Hub 1</td></tr>
+      <tr><td>Secondaires Est 1, 2, 3 et Ouest 1, 2</td><td><span class="phase p2">2</span></td><td>Zones de chantier</td><td>Coffret électrique extérieur fourni et posé par le lot électricité (SPIE) ; PROSYB y installe boîtier optique rail DIN, switch PoE industriel rail DIN, alimentation 48 V et parafoudres</td></tr>
+      <tr><td>Secondaires bâtiments annexes ×2</td><td><span class="phase p3">3</span></td><td>Bâtiments techniques</td><td>Coffret ou baie murale ; switch fourni par EXYTE</td></tr>
+      <tr><td>Principal Hub 3</td><td><span class="phase p4">4</span></td><td>Poste énergie Hub 3</td><td>Baie 19", tiroirs optiques ; switch fourni par EXYTE</td></tr>
+      <tr><td>Secondaires base vie A et B</td><td><span class="phase p4">4</span></td><td>Base vie îlots 1-10 et 11-20</td><td>Baie, panneaux Cat. 6A ; switchs fournis par EXYTE</td></tr>
     </tbody>
   </table>
   <h2>Liaisons</h2>
@@ -310,7 +314,7 @@
     <li><strong>Matériel</strong> : la DPGF prévoit la fourniture des bornes en phase 3 et leur seule pose en phases 2 et 4. Nous proposons d'aligner le modèle fourni sur le standard du réseau EXYTE (voir chapitre 12).</li>
   </ul>
   <h2>Équipements informatiques</h2>
-  <p>Le paramétrage des équipements informatiques, selon le plan de VLAN du chapitre 3, comprend la configuration des switchs (VLAN, PoE, agrégation et redondance des anneaux, supervision SNMP, sauvegarde des configurations), la mise à jour des firmwares et la remise des configurations au DOE.</p>
+  <p>Les switchs informatiques sont fournis par EXYTE ; leur installation et leur paramétrage restent à notre charge. Le paramétrage des équipements informatiques, selon le plan de VLAN du chapitre 3, comprend la configuration des switchs (VLAN, PoE, agrégation et redondance des anneaux, supervision SNMP, sauvegarde des configurations), la mise à jour des firmwares et la remise des configurations au DOE.</p>
   <h2>Postes de travail</h2>
   <p>Chaque îlot reçoit 12 prises RJ45 (18 en phase 4) pour les postes de travail CAD et les bornes Wi-Fi, repérées et testées. Les postes eux-mêmes et les licences restent fournis par EXYTE.</p>
 </section>
@@ -410,7 +414,7 @@
     <tbody>
       <tr><td>Caméras Hikvision DS-2CD1643G2-LIZSU ×28</td><td>Bullet 4 MP, objectif varifocal motorisé 2,8-12 mm, Smart Hybrid Light (infrarouge et lumière blanche), WDR 120 dB, détection humain / véhicule, micro intégré, IP67, PoE</td></tr>
       <tr><td>Mâts</td><td>Mâts sur massif béton (massifs au lot génie civil), caméras hors de portée et protégées des chocs</td></tr>
-      <tr><td>Switchs PoE de zone ×8</td><td>Coffrets étanches par zone (R.O.1, R.O.2, R.N, R.E.1, R.E.2, R.E.3, R.H.1, R.H.2), raccordés en fibre au local Hub 1, alimentation 230/48 V — modèle <strong>RG-NIS3100-8GT4SFP-HP</strong> (8 ports RJ45 PoE/PoE+ 240 W, 4 SFP), avec module d'alimentation 48 V DC RFOFIBRE-M430400-VB, boîtier optique rail DIN BOPTDIN08SCSS2E et modules SFP monomode 20 km SFPL-1GD31-20</td></tr>
+      <tr><td>Switchs PoE de zone ×8</td><td>Installés sur rail DIN dans les coffrets électriques de zone fournis et posés par le lot électricité (SPIE) : (R.O.1, R.O.2, R.N, R.E.1, R.E.2, R.E.3, R.H.1, R.H.2), raccordés en fibre au local Hub 1, alimentation 230/48 V — modèle <strong>RG-NIS3100-8GT4SFP-HP</strong> (8 ports RJ45 PoE/PoE+ 240 W, 4 SFP), avec module d'alimentation 48 V DC RFOFIBRE-M430400-VB, boîtier optique rail DIN BOPTDIN08SCSS2E et modules SFP monomode 20 km SFPL-1GD31-20</td></tr>
       <tr><td>Switch PoE local poste de garde</td><td>Modèle <strong>TL-SG3210XHP-M2</strong> : 8 ports PoE 2,5 Gbit/s + 2 SFP+, dédié aux équipements locaux (NVR, PC, périphériques), conforme à la demande de 8 ports RJ45 PoE+ du CCTP</td></tr>
       <tr><td>Enregistreur Hikvision DS-7732NXI-K4/16P(E)</td><td>NVR AcuSense 32 voies (28 utilisées + 4 de réserve) avec 16 ports PoE intégrés, 256 Mbit/s en entrée, H.265+, 4 baies disques, 2 ports réseau, relecture synchrone 16 voies, sortie HDMI 4K, recherche AcuSearch</td></tr>
       <tr><td>Disque de surveillance</td><td>1 disque <strong>HW-SP-HDD-SATA-20TB</strong> (20 To, SATA 6 Gbit/s, 7.2K, hot-plug), dimensionné pour la durée de conservation retenue, évolutif par ajout de baies disque sur le NVR</td></tr>
@@ -462,7 +466,7 @@
       <tr><td>Caméras raccordées</td><td>28 caméras 4 MP, 32 voies disponibles</td></tr>
       <tr><td>Compression et débit moyen</td><td>H.265+, 3 à 4 Mbit/s par caméra, soit environ 110 Mbit/s pour une capacité d'entrée de 256 Mbit/s</td></tr>
       <tr><td>Mode d'enregistrement</td><td>Continu 24h/24, flux principal ; marquage des séquences sur événement</td></tr>
-      <tr><td>Stockage</td><td>4 disques de 10 To : environ 20 To pour 15 jours (estimation AVP : 18 à 22 To), jusqu'à environ 30 jours</td></tr>
+      <tr><td>Stockage</td><td>1 disque de 20 To (HW-SP-HDD-SATA-20TB) : environ 15 jours de conservation (estimation AVP : 18 à 22 To) ; extension possible par ajout de disques dans les baies libres du NVR</td></tr>
       <tr><td>Durée de conservation</td><td>Paramétrée selon la durée validée par EXYTE, effacement automatique au-delà, dans la limite légale d'un mois</td></tr>
     </tbody>
   </table>
@@ -681,6 +685,8 @@
     <li>Courants forts (HTA, TGBT, distribution, éclairage, IRVE) et système de sécurité incendie.</li>
     <li>Massifs, tranchées, fourreaux et chambres de tirage (lots génie civil et électricité).</li>
     <li>Alimentations électriques des équipements courants faibles, jusqu'à leur coffret (lot électricité).</li>
+    <li>Fourniture des switchs du réseau informatique (bureautique) : EXYTE. Leur installation, leur raccordement et leur paramétrage sont compris dans notre offre.</li>
+    <li>Enveloppes des coffrets extérieurs de zone : fournies et posées par le lot électricité (SPIE). Notre offre comprend les câbles (fibre et liaisons caméras) et le matériel courants faibles installé à l'intérieur.</li>
     <li>Arrivées opérateurs, abonnements, postes de travail, licences de visioconférence et contenus des afficheurs (EXYTE).</li>
     <li>Gardiennage, astreinte de levée de doute externalisée et intervention physique sur intrusion.</li>
   </ul>
@@ -695,7 +701,7 @@
       <tr><td>5</td><td>Salles de réunion : plateforme de visioconférence d'EXYTE, mode USB ou salle Teams Rooms (licence), et validation de 4 micros déportés au lieu de 5.</td></tr>
       <tr><td>6</td><td>GTB : logiciel de supervision attendu (supervision web des automates ou logiciel tiers) et destinataires des alertes.</td></tr>
       <tr><td>7</td><td>Maintenance : répartition de la permanence 24/7 entre le lot électricité et le lot courants faibles.</td></tr>
-      <tr><td>8</td><td>Réseau : plan d'adressage et numérotation des VLAN d'EXYTE, modèles du pare-feu et des switchs du standard KHAZNA, authentification des prises des îlots (802.1X ou MAC), validation de l'accès VPN de maintenance.</td></tr>
+      <tr><td>8</td><td>Réseau : plan d'adressage et numérotation des VLAN d'EXYTE, modèles du pare-feu et des switchs du standard KHAZNA fournis par EXYTE (dates de livraison sur site pour chaque phase), authentification des prises des îlots (802.1X ou MAC), validation de l'accès VPN de maintenance.</td></tr>
       <tr><td>9</td><td>Afficheurs : validation des six emplacements sous abri (auvents de modules ou totems couverts) et du poste EXYTE qui assurera la diffusion des contenus.</td></tr>
     </tbody>
   </table>

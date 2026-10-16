@@ -374,7 +374,7 @@ table.compact td{padding:1.25mm 2.5mm}
   <table class="compact"><colgroup><col style="width:22%"><col style="width:22%"><col><col style="width:12%"></colgroup>
     <thead><tr><th>Équipement</th><th>Emplacement</th><th>Caractéristiques minimales</th><th>Quantité</th></tr></thead>
     <tbody>
-      <tr><td>Switch cœur terrain niveau 3</td><td>Baie du Hub 1 (phase 2) : agrégation vidéo, <em>fourniture PROSYB</em> ; baie du Hub 3 (phase 4) : <em>fourniture EXYTE</em></td><td>Rackable 19", 24 ports 1 Gbit/s PoE+, 4 ports SFP+ 10 Gbit/s, double alimentation, ERPS, ACL, SNMPv3</td><td>2</td></tr>
+      <tr><td>Switch cœur terrain niveau 3</td><td>Baie du Hub 1 (phase 2) : agrégation vidéo, <em>fourniture PROSYB</em> ; baie du Hub 3 (phase 4) : <em>fourniture EXYTE</em></td><td>Rackable 19", 24 ports 1 Gbit/s PoE+, 4 ports SFP+ 10 Gbit/s, double alimentation, ERPS, ACL, SNMPv3 — modèle retenu au Hub 1 : <strong>ELB S57244-B0</strong> (24×SFP 1 Gb + 4×SFP+ 10 Gb)</td><td>2</td></tr>
       <tr><td>Switch cœur terrain L3 de rechange (spare)</td><td>Stock chantier</td><td>Même référence que les cœurs L3, prêt à remplacer l'un des deux en cas de panne (option)</td><td>1</td></tr>
       <tr><td>Switch zone terrain niveau 2</td><td>Baie du Hub 2 (phase 2) — <em>fourniture EXYTE</em></td><td>Rackable 19", 8 ports PoE+ 2,5 Gbit/s, 2 SFP+, remonte en fibre vers le cœur L3 du Hub 1</td><td>1</td></tr>
       <tr><td>Switch industriel de zone (vidéoprotection) — <em>fourniture PROSYB</em></td><td>Coffrets électriques extérieurs fournis et posés par le lot électricité (SPIE)</td><td>Rail DIN, -40 à +70 °C, 8 ports PoE+ (budget ≥ 240 W), 4 SFP 1 Gbit/s, ERPS, administrable ; alimentation 48 V DC rail DIN, boîtier optique rail DIN et parafoudres Ethernet intégrés par PROSYB dans le coffret</td><td>8</td></tr>
@@ -386,7 +386,7 @@ table.compact td{padding:1.25mm 2.5mm}
       <tr><td>Supervision réseau</td><td>Poste du Hub 1 ou machine virtuelle EXYTE</td><td>Surveillance SNMPv3, collecte syslog, sauvegarde des configurations, alertes e-mail</td><td>1</td></tr>
     </tbody>
   </table>
-  <p class="small">Les switchs de zone vidéo de l'étude AVP (R.O.1, R.O.2, R.N, R.E.1 à R.E.3, R.H.1, R.H.2) sont les nœuds de l'anneau terrain : un même switch dessert les caméras, les automates et les afficheurs de sa zone, chacun dans son VLAN. Les modèles exacts sont proposés au visa d'EXYTE avec les fiches techniques, en cohérence avec le standard informatique de KHAZNA.</p>
+  <p class="small">Les switchs de zone vidéo de l'étude AVP (R.O.1, R.O.2, R.N, R.E.1 à R.E.3, R.H.1, R.H.2) sont les nœuds de l'anneau terrain : un même switch dessert les caméras, les automates et les afficheurs de sa zone, chacun dans son VLAN. Le modèle retenu, sur devis fournisseur, est le <strong>switch industriel RG-NIS3100-8GT4SFP-HP</strong> (8 répartiteurs) : administrable couche 2, 8 ports RJ45 Gigabit PoE/PoE+, 4 ports SFP 1 Gbit/s, budget PoE 240 W, alimentation 48 V DC dédiée (module RFOFIBRE-M430400-VB), avec boîtier optique rail DIN 8 SC simplex OS2 (BOPTDIN08SCSS2E) et modules SFP monomode 20 km (SFPL-1GD31-20) pour le raccordement fibre.</p>
   <div class="note"><div class="lab">Fournitures et prestations des switchs</div><p><strong>Switchs informatiques (bureautique)</strong> : fournis par EXYTE et livrés sur site ; PROSYB assure leur réception, leur installation en baie ou en coffret, leur raccordement (cuivre et fibre, modules optiques) et leur paramétrage complet (VLAN, PoE, redondance, supervision, sauvegarde des configurations, mise à jour des firmwares), puis les recettes.<br><strong>Switchs de vidéoprotection</strong> : fournis, installés, raccordés et paramétrés par PROSYB (8 switchs industriels de zone sur rail DIN, switch d'agrégation du Hub 1, switch PoE local du poste de garde).<br><strong>Coffrets extérieurs de zone</strong> : enveloppe fournie et posée par le lot électricité (SPIE) avec l'alimentation 230 V ; PROSYB n'en prévoit aucune. PROSYB y amène la fibre optique et les liaisons des caméras et y installe le matériel courants faibles : switch industriel rail DIN, alimentation 48 V DC, boîtier optique rail DIN, modules SFP et parafoudres Ethernet.</p></div>
 
   <h2>Évolution du réseau par phase</h2>
@@ -557,11 +557,12 @@ table.compact td{padding:1.25mm 2.5mm}
     <tbody>
       <tr><td>Caméras Hikvision DS-2CD1643G2-LIZSU ×28</td><td>Bullet 4 MP, objectif varifocal motorisé 2,8-12 mm, Smart Hybrid Light (infrarouge et lumière blanche), WDR 120 dB, détection humain / véhicule, micro intégré, IP67, PoE</td></tr>
       <tr><td>Mâts</td><td>Mâts sur massif béton (massifs au lot génie civil), caméras hors de portée et protégées des chocs</td></tr>
-      <tr><td>Switchs PoE de zone ×8</td><td>Installés sur rail DIN dans les coffrets électriques de zone fournis et posés par le lot électricité (R.O.1, R.O.2, R.N, R.E.1, R.E.2, R.E.3, R.H.1, R.H.2), raccordés en fibre au local Hub 1, alimentation 230/48 V</td></tr>
-      <tr><td>Enregistreur Hikvision DS-7732NXI-K4</td><td>NVR AcuSense 32 voies (28 utilisées + 4 de réserve), 256 Mbit/s en entrée, H.265+, 4 baies disques jusqu'à 16 To, 2 ports réseau, relecture synchrone 16 voies, sortie HDMI 4K, recherche AcuSearch</td></tr>
-      <tr><td>Disques de surveillance</td><td>4 disques de 10 To spécial vidéosurveillance (40 To bruts), dimensionnés pour la durée de conservation retenue</td></tr>
+      <tr><td>Switchs PoE de zone ×8</td><td>Installés sur rail DIN dans les coffrets électriques de zone fournis et posés par le lot électricité (SPIE) : (R.O.1, R.O.2, R.N, R.E.1, R.E.2, R.E.3, R.H.1, R.H.2), raccordés en fibre au local Hub 1, alimentation 230/48 V — modèle <strong>RG-NIS3100-8GT4SFP-HP</strong> (8 ports RJ45 PoE/PoE+ 240 W, 4 SFP), avec module d'alimentation 48 V DC RFOFIBRE-M430400-VB, boîtier optique rail DIN BOPTDIN08SCSS2E et modules SFP monomode 20 km SFPL-1GD31-20</td></tr>
+      <tr><td>Switch PoE local poste de garde</td><td>Modèle <strong>TL-SG3210XHP-M2</strong> : 8 ports PoE 2,5 Gbit/s + 2 SFP+, dédié aux équipements locaux (NVR, PC, périphériques), conforme à la demande de 8 ports RJ45 PoE+ du CCTP</td></tr>
+      <tr><td>Enregistreur Hikvision DS-7732NXI-K4/16P(E)</td><td>NVR AcuSense 32 voies (28 utilisées + 4 de réserve) avec 16 ports PoE intégrés, 256 Mbit/s en entrée, H.265+, 4 baies disques, 2 ports réseau, relecture synchrone 16 voies, sortie HDMI 4K, recherche AcuSearch</td></tr>
+      <tr><td>Disque de surveillance</td><td>1 disque <strong>HW-SP-HDD-SATA-20TB</strong> (20 To, SATA 6 Gbit/s, 7.2K, hot-plug), dimensionné pour la durée de conservation retenue, évolutif par ajout de baies disque sur le NVR</td></tr>
       <tr><td>Logiciel iVMS-4200</td><td>Logiciel d'exploitation Hikvision, sans licence, installé au poste de garde (et sur un poste EXYTE si souhaité)</td></tr>
-      <tr><td>Poste de supervision</td><td>PC de supervision (processeur i5 ou supérieur, 16 Go de mémoire, carte graphique dédiée) et 2 écrans 27" au poste de garde, sur départ ondulé</td></tr>
+      <tr><td>Poste de supervision</td><td>PC <strong>Dell Inspiron 13</strong> (réf. INSPIRON13), configuration adaptée à la supervision du système de vidéosurveillance, au poste de garde, sur départ ondulé</td></tr>
     </tbody>
   </table>
   <div class="fig"><div class="screen"><img src="img/cctv_synoptique.png"></div>
@@ -591,7 +592,7 @@ table.compact td{padding:1.25mm 2.5mm}
   <div class="two" style="align-items:center">
     <div>
       <ul>
-        <li><strong>Enregistreur DS-7732NXI-K4</strong> installé dans la baie du Hub 1, sur le TD ondulé : il enregistre en continu les 28 caméras et garde 4 voies de réserve pour les évolutions de phase.</li>
+        <li><strong>Enregistreur DS-7732NXI-K4/16P(E)</strong> installé dans la baie du Hub 1, sur le TD ondulé, avec 16 ports PoE intégrés et disque 20 To (HW-SP-HDD-SATA-20TB) : il enregistre en continu les 28 caméras et garde 4 voies de réserve pour les évolutions de phase.</li>
         <li><strong>Logiciel iVMS-4200</strong> au poste de garde : vue en direct, relecture, centre d'événements et carte du site, sur deux écrans.</li>
         <li><strong>Réseau dédié</strong> : caméras dans le VLAN 20, enregistreur et poste de garde dans le VLAN 21 (voir chapitre 3).</li>
       </ul>
@@ -608,7 +609,7 @@ table.compact td{padding:1.25mm 2.5mm}
       <tr><td>Caméras raccordées</td><td>28 caméras 4 MP, 32 voies disponibles</td></tr>
       <tr><td>Compression et débit moyen</td><td>H.265+, 3 à 4 Mbit/s par caméra, soit environ 110 Mbit/s pour une capacité d'entrée de 256 Mbit/s</td></tr>
       <tr><td>Mode d'enregistrement</td><td>Continu 24h/24, flux principal ; marquage des séquences sur événement</td></tr>
-      <tr><td>Stockage</td><td>4 disques de 10 To : environ 20 To pour 15 jours (estimation AVP : 18 à 22 To), jusqu'à environ 30 jours</td></tr>
+      <tr><td>Stockage</td><td>1 disque de 20 To (HW-SP-HDD-SATA-20TB) : environ 15 jours de conservation (estimation AVP : 18 à 22 To) ; extension possible par ajout de disques dans les baies libres du NVR</td></tr>
       <tr><td>Durée de conservation</td><td>Paramétrée selon la durée validée par EXYTE, effacement automatique au-delà, dans la limite légale d'un mois</td></tr>
     </tbody>
   </table>
