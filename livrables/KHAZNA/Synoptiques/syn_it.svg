@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" font-family="Arial, Liberation Sans, Helvetica, sans-serif">
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#F3F2F6"/><line x1="0" y1="0" x2="0" y2="8" stroke="#D9D7E1" stroke-width="2.5"/></pattern>
+</defs>
+<rect x="0" y="0" width="1600" height="1000" fill="#FFFFFF"/>
+<text x="40.0" y="46.0" font-size="22" font-weight="bold" fill="#2B2640" text-anchor="start">Synoptique IT / VDI — réseau terrain et réseau informatique / Wi-Fi</text>
+<text x="40.0" y="70.0" font-size="13" fill="#6E6A86" text-anchor="start">Phases 2, 3 et 4 · deux anneaux fibre OS2 12 brins · d'après 1014 (rev 1), 1009 et DPGF §4.1 · fourniture PROSYB / EXYTE distinguée</text>
+<rect x="40.0" y="84.0" width="1520.0" height="1.5" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<path d="M165.0 160.0 L910.0 160.0 L910.0 500.0 L165.0 500.0 L165.0 160.0" fill="none" stroke="#8860FE" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M185.0 180.0 L890.0 180.0 L890.0 480.0 L185.0 480.0 L185.0 180.0" fill="none" stroke="#B5179E" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M140.0 426.0 L140.0 578.0 L690.0 578.0 L690.0 538.0" fill="none" stroke="#B5179E" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="289.6" y="571.5" width="270.9" height="14.9" rx="3" fill="#FFFFFF" stroke="none" stroke-width="1.2" />
+<text x="425.0" y="582.0" font-size="11" fill="#B5179E" text-anchor="middle">Liaison fibre OS2 12 brins Hub 1 ↔ Hub 2 (DPGF P2)</text>
+<rect x="40.0" y="220.0" width="270.0" height="206.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="40.0" y="220.0" width="6.0" height="206.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="272.5" y="229.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="285.3" y="242.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="56.0" y="242.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Hub 1 — poste A</text>
+<text x="56.0" y="262.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur principal · local CFA</text>
+<text x="56.0" y="279.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Switch L3 agrégation S57244-B0</text>
+<text x="56.0" y="296.4" font-size="11.5" fill="#8860FE" text-anchor="start">Switch zone R.H.1 RG-NIS3100</text>
+<text x="56.0" y="313.4" font-size="11.5" fill="#8860FE" text-anchor="start">Tiroir optique 24 ports</text>
+<text x="56.0" y="330.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Switchs bureautiques : fournis</text>
+<text x="56.0" y="347.4" font-size="11.5" fill="#6E6A86" text-anchor="start">EXYTE, posés/paramétrés PROSYB</text>
+<text x="56.0" y="364.4" font-size="11.5" fill="#2B2640" text-anchor="start">Prises îlots 1-10 : 24 + 96 RJ45</text>
+<text x="56.0" y="381.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Onduleur 10 kVA (jeu de barres ondulé)</text>
+<rect x="335.0" y="122.0" width="210.0" height="96.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="335.0" y="122.0" width="6.0" height="96.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="507.5" y="131.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="520.3" y="144.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="351.0" y="144.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Ouest 1 · R.O.1</text>
+<text x="351.0" y="163.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur secondaire</text>
+<text x="351.0" y="179.4" font-size="11.5" fill="#8860FE" text-anchor="start">Terrain : RG-NIS3100</text>
+<text x="351.0" y="195.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Info/Wi-Fi : switch PoE EXYTE</text>
+<rect x="565.0" y="122.0" width="210.0" height="96.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="565.0" y="122.0" width="6.0" height="96.0" rx="3" fill="#9A97A8" stroke="none" stroke-width="0" />
+<rect x="734.1" y="131.0" width="28.9" height="18.0" rx="9" fill="#9A97A8" stroke="none" stroke-width="1.2" />
+<text x="748.5" y="144.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P ?</text>
+<text x="581.0" y="144.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Nord · R.N</text>
+<text x="581.0" y="163.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur secondaire</text>
+<text x="581.0" y="179.4" font-size="11.5" fill="#8860FE" text-anchor="start">Terrain : RG-NIS3100</text>
+<text x="581.0" y="195.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Info/Wi-Fi : à confirmer</text>
+<rect x="795.0" y="122.0" width="210.0" height="96.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="795.0" y="122.0" width="6.0" height="96.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="967.5" y="131.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="980.3" y="144.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="811.0" y="144.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Est 1 · R.E.1</text>
+<text x="811.0" y="163.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur secondaire</text>
+<text x="811.0" y="179.4" font-size="11.5" fill="#8860FE" text-anchor="start">Terrain : RG-NIS3100</text>
+<text x="811.0" y="195.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Info/Wi-Fi : switch PoE EXYTE</text>
+<rect x="795.0" y="282.0" width="210.0" height="96.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="795.0" y="282.0" width="6.0" height="96.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="967.5" y="291.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="980.3" y="304.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="811.0" y="304.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Est 2 · R.E.2</text>
+<text x="811.0" y="323.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur secondaire</text>
+<text x="811.0" y="339.4" font-size="11.5" fill="#8860FE" text-anchor="start">Terrain : RG-NIS3100</text>
+<text x="811.0" y="355.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Info/Wi-Fi : switch PoE EXYTE</text>
+<rect x="795.0" y="442.0" width="210.0" height="96.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="795.0" y="442.0" width="6.0" height="96.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="967.5" y="451.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="980.3" y="464.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="811.0" y="464.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Est 3 · R.E.3</text>
+<text x="811.0" y="483.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur secondaire</text>
+<text x="811.0" y="499.4" font-size="11.5" fill="#8860FE" text-anchor="start">Terrain : RG-NIS3100</text>
+<text x="811.0" y="515.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Info/Wi-Fi : switch PoE EXYTE</text>
+<rect x="565.0" y="442.0" width="210.0" height="96.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="565.0" y="442.0" width="6.0" height="96.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="737.5" y="451.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="750.3" y="464.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="581.0" y="464.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Hub 2 · R.H.2</text>
+<text x="581.0" y="483.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur principal</text>
+<text x="581.0" y="499.4" font-size="11.5" fill="#8860FE" text-anchor="start">Terrain : RG-NIS3100</text>
+<text x="581.0" y="515.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Info : switch PoE EXYTE</text>
+<rect x="335.0" y="442.0" width="210.0" height="96.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="335.0" y="442.0" width="6.0" height="96.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="507.5" y="451.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="520.3" y="464.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="351.0" y="464.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Ouest 2 · R.O.2</text>
+<text x="351.0" y="483.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur secondaire</text>
+<text x="351.0" y="499.4" font-size="11.5" fill="#8860FE" text-anchor="start">Terrain : RG-NIS3100</text>
+<text x="351.0" y="515.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Info/Wi-Fi : switch PoE EXYTE</text>
+<rect x="334.0" y="236.0" width="448.0" height="188.0" rx="8" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="348.0" y="260.0" font-size="12.5" font-weight="bold" fill="#8860FE" text-anchor="start">Anneau fibre Terrain</text>
+<text x="490.0" y="260.0" font-size="11.5" fill="#6E6A86" text-anchor="start">— réseau terrain switch lot Élec (PROSYB)</text>
+<text x="348.0" y="282.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">VLAN 10</text>
+<text x="402.0" y="282.0" font-size="11.5" fill="#2B2640" text-anchor="start">ADMIN-TERRAIN</text>
+<text x="348.0" y="300.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">VLAN 20</text>
+<text x="402.0" y="300.0" font-size="11.5" fill="#2B2640" text-anchor="start">VIDEO-CAMERAS</text>
+<text x="348.0" y="318.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">VLAN 30</text>
+<text x="402.0" y="318.0" font-size="11.5" fill="#2B2640" text-anchor="start">GTB</text>
+<text x="563.0" y="282.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">VLAN 40</text>
+<text x="617.0" y="282.0" font-size="11.5" fill="#2B2640" text-anchor="start">SSI / report</text>
+<text x="563.0" y="300.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">VLAN 50</text>
+<text x="617.0" y="300.0" font-size="11.5" fill="#2B2640" text-anchor="start">AFFICHAGE</text>
+<text x="563.0" y="318.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">VLAN 60</text>
+<text x="617.0" y="318.0" font-size="11.5" fill="#2B2640" text-anchor="start">IRVE</text>
+<text x="348.0" y="340.0" font-size="11" fill="#6E6A86" text-anchor="start">Autres VLAN du plan MEM : 21, 900, 910, 999 (usage à confirmer)</text>
+<rect x="348.0" y="354.0" width="420.0" height="1.0" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="348.0" y="376.0" font-size="12.5" font-weight="bold" fill="#B5179E" text-anchor="start">Anneau fibre Informatique &amp; Wi-Fi</text>
+<text x="562.0" y="376.0" font-size="11.5" fill="#6E6A86" text-anchor="start">— réseau EXYTE</text>
+<text x="348.0" y="396.0" font-size="11.5" fill="#2B2640" text-anchor="start">VLAN 110 VISIO · autres VLAN EXYTE : 100, 120, 130, 140, 190</text>
+<text x="348.0" y="414.0" font-size="11" fill="#6E6A86" text-anchor="start" font-style="italic">Chaînage exact des deux anneaux : à confirmer (DPGF : 1 boucle)</text>
+<path d="M105.0 426.0 L105.0 655.0 L300.0 655.0" fill="none" stroke="#B5179E" stroke-width="4.5" stroke-dasharray="10 6" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="300.0" y="610.0" width="230.0" height="92.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="300.0" y="610.0" width="6.0" height="92.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="492.5" y="619.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="505.3" y="632.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="316.0" y="632.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Poste de garde</text>
+<text x="316.0" y="651.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Répartiteur Poste de garde (1014)</text>
+<text x="316.0" y="667.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Absent DPGF : à confirmer</text>
+<text x="316.0" y="683.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Support depuis Hub 1 : à confirmer</text>
+<path d="M70.0 426.0 L70.0 795.0 L300.0 795.0" fill="none" stroke="#B5179E" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="148.9" y="777.5" width="72.2" height="14.9" rx="3" fill="#FFFFFF" stroke="none" stroke-width="1.2" />
+<text x="185.0" y="788.0" font-size="11" fill="#B5179E" text-anchor="middle">OS2 12 brins</text>
+<rect x="143.1" y="801.5" width="83.8" height="14.9" rx="3" fill="#FFFFFF" stroke="none" stroke-width="1.2" />
+<text x="185.0" y="812.0" font-size="11" fill="#6E6A86" text-anchor="middle">Hub 1 → Hub 3</text>
+<rect x="300.0" y="740.0" width="230.0" height="112.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="300.0" y="740.0" width="6.0" height="112.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="0" />
+<rect x="492.5" y="749.0" width="25.5" height="18.0" rx="9" fill="#3FA7D6" stroke="none" stroke-width="1.2" />
+<text x="505.3" y="762.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P4</text>
+<text x="316.0" y="762.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Hub 3 — poste C</text>
+<text x="316.0" y="781.4" font-size="11.5" fill="#2B2640" text-anchor="start">Répartiteur principal · DC11</text>
+<text x="316.0" y="797.4" font-size="11.5" fill="#8860FE" text-anchor="start">Terrain : switch lot Élec</text>
+<text x="316.0" y="813.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Info : switch PoE EXYTE</text>
+<text x="316.0" y="829.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Réseau base vie phase 4</text>
+<path d="M530.0 766.0 L600.0 766.0" fill="none" stroke="#B5179E" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="600.0" y="738.0" width="300.0" height="56.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="600.0" y="738.0" width="6.0" height="56.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="0" />
+<rect x="864.5" y="745.0" width="25.5" height="18.0" rx="9" fill="#3FA7D6" stroke="none" stroke-width="1.2" />
+<text x="877.3" y="758.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P4</text>
+<text x="614.0" y="758.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Répartiteur base vie A</text>
+<text x="614.0" y="777.4" font-size="11.5" fill="#6E6A86" text-anchor="start">îlots 1 à 10 · 180 prises RJ45</text>
+<path d="M530.0 830.0 L600.0 830.0" fill="none" stroke="#B5179E" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="600.0" y="802.0" width="300.0" height="56.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="600.0" y="802.0" width="6.0" height="56.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="0" />
+<rect x="864.5" y="809.0" width="25.5" height="18.0" rx="9" fill="#3FA7D6" stroke="none" stroke-width="1.2" />
+<text x="877.3" y="822.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P4</text>
+<text x="614.0" y="822.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Répartiteur base vie B</text>
+<text x="614.0" y="841.4" font-size="11.5" fill="#6E6A86" text-anchor="start">îlots 11 à 20 · 180 prises RJ45</text>
+<text x="910.0" y="768.0" font-size="11" fill="#6E6A86" text-anchor="start">Fibre OS2</text>
+<text x="910.0" y="784.0" font-size="11" fill="#6E6A86" text-anchor="start">depuis Hub 3</text>
+<text x="910.0" y="800.0" font-size="11" fill="#6E6A86" text-anchor="start">(DPGF P4)</text>
+<path d="M900.0 538.0 L900.0 610.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="640.0" y="610.0" width="300.0" height="92.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="640.0" y="610.0" width="6.0" height="92.0" rx="3" fill="#7598F4" stroke="none" stroke-width="0" />
+<rect x="902.5" y="619.0" width="25.5" height="18.0" rx="9" fill="#7598F4" stroke="none" stroke-width="1.2" />
+<text x="915.3" y="632.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P3</text>
+<text x="656.0" y="632.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Bâtiments annexes × 2</text>
+<text x="656.0" y="651.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Répartiteurs secondaires (DPGF P3)</text>
+<text x="656.0" y="667.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Raccordement à l'anneau : à confirmer</text>
+<text x="656.0" y="683.4" font-size="11.5" fill="#6E6A86" text-anchor="start">30 liaisons Cat.6A bât. techniques/ext.</text>
+<text x="1060.0" y="112.0" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Distribution terminale par phase (DPGF §4.1)</text>
+<rect x="1060.0" y="126.0" width="500.0" height="112.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="1060.0" y="126.0" width="6.0" height="112.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<text x="1076.0" y="148.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Phase 2 — base vie îlots 1 et 2</text>
+<text x="1076.0" y="168.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Prises RJ45 Cat.6A F/STP : 24 (12 par îlot)</text>
+<text x="1076.0" y="185.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Câblées depuis le répartiteur principal (Hub 1)</text>
+<text x="1076.0" y="202.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Bornes Wi-Fi : 4 — pose et raccordement PROSYB, fourniture EXYTE</text>
+<text x="1076.0" y="219.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Salles de réunion équipées AV : 3</text>
+<rect x="1060.0" y="270.0" width="500.0" height="129.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="1060.0" y="270.0" width="6.0" height="129.0" rx="3" fill="#7598F4" stroke="none" stroke-width="0" />
+<text x="1076.0" y="292.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Phase 3 — base vie îlots 3 à 10</text>
+<text x="1076.0" y="312.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Prises RJ45 Cat.6A F/STP : 96 (12 par îlot)</text>
+<text x="1076.0" y="329.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Câblées depuis le répartiteur principal (Hub 1)</text>
+<text x="1076.0" y="346.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Liaisons RJ45 Cat.6A bâtiments techniques &amp; extérieurs : 30</text>
+<text x="1076.0" y="363.4" font-size="11.5" fill="#8860FE" text-anchor="start">Bornes Wi-Fi : 20 — fourniture et pose PROSYB</text>
+<text x="1076.0" y="380.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Salles de réunion équipées AV : 7</text>
+<rect x="1060.0" y="432.0" width="500.0" height="112.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="1060.0" y="432.0" width="6.0" height="112.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="0" />
+<text x="1076.0" y="454.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Phase 4 — base vie DC11 îlots 1 à 20</text>
+<text x="1076.0" y="474.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Prises RJ45 Cat.6A F/STP : 360 (18 par îlot)</text>
+<text x="1076.0" y="491.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Câblées depuis les répartiteurs secondaires A et B</text>
+<text x="1076.0" y="508.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Bornes Wi-Fi : 60 — pose seule, fourniture EXYTE (à confirmer)</text>
+<text x="1076.0" y="525.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Fibre Hub 1 → Hub 3 → A / B · réflectométrie P2 et P4</text>
+<rect x="1060.0" y="566.0" width="500.0" height="136.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="1072.0" y="588.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Totaux marché et fourniture</text>
+<text x="1072.0" y="608.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">480 prises RJ45 · 84 bornes Wi-Fi · 10 salles AV</text>
+<text x="1072.0" y="625.4" font-size="11.5" fill="#8860FE" text-anchor="start">PROSYB : fibre OS2, cuivre Cat.6A, switch L3 S57244-B0,</text>
+<text x="1072.0" y="642.4" font-size="11.5" fill="#8860FE" text-anchor="start">8 switchs de zone RG-NIS3100 (8 PoE+, 4 SFP, 48 V DC), 20 bornes P3</text>
+<text x="1072.0" y="659.4" font-size="11.5" fill="#6E6A86" text-anchor="start">EXYTE : switchs bureautiques (posés/paramétrés PROSYB),</text>
+<text x="1072.0" y="676.4" font-size="11.5" fill="#6E6A86" text-anchor="start">bornes Wi-Fi P2 et P4, réseau informatique / Wi-Fi</text>
+<rect x="1060.0" y="718.0" width="500.0" height="134.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="1072.0" y="740.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Points à confirmer</text>
+<text x="1072.0" y="760.4" font-size="11.5" fill="#6E6A86" text-anchor="start">DPGF P2 : boucle « Est 1, Est 2, Ouest 1, Ouest 2, Ouest 3 »</text>
+<text x="1072.0" y="777.4" font-size="11.5" fill="#6E6A86" text-anchor="start">→ lue Est 1-2-3, Ouest 1-2 ; Nord présent au 1014 / 1009 seulement</text>
+<text x="1072.0" y="794.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Répartiteur Poste de garde : au 1014, absent DPGF</text>
+<text x="1072.0" y="811.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Prises P2-P3 depuis Hub 1 : longueurs &gt; 90 m à vérifier</text>
+<text x="1072.0" y="828.4" font-size="11.5" fill="#6E6A86" text-anchor="start">(1014 : « Convertisseur FIBRE » ×3, réseaux base vie 1 et 2)</text>
+<text x="40.0" y="884.0" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Légende</text>
+<path d="M40.0 901.0 L70.0 901.0" fill="none" stroke="#8860FE" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="78.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Fibre OS2 12 brins — anneau Terrain</text>
+<path d="M340.0 901.0 L370.0 901.0" fill="none" stroke="#B5179E" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="378.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Fibre OS2 12 brins — Informatique / Wi-Fi</text>
+<path d="M640.0 901.0 L670.0 901.0" fill="none" stroke="#B5179E" stroke-width="4.5" stroke-dasharray="10 6" stroke-linejoin="round" stroke-linecap="round" />
+<text x="678.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Fibre, tracé à confirmer</text>
+<path d="M940.0 901.0 L970.0 901.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="978.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Cuivre Cat.6A F/STP, à confirmer</text>
+<rect x="1240.0" y="895.0" width="30.0" height="12.0" rx="3" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="1278.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Phase 2</text>
+<rect x="40.0" y="917.0" width="30.0" height="12.0" rx="3" fill="#7598F4" stroke="none" stroke-width="1.2" />
+<text x="78.0" y="927.0" font-size="11" fill="#2B2640" text-anchor="start">Phase 3</text>
+<rect x="340.0" y="917.0" width="30.0" height="12.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="1.2" />
+<text x="378.0" y="927.0" font-size="11" fill="#2B2640" text-anchor="start">Phase 4</text>
+<rect x="640.0" y="917.0" width="30.0" height="12.0" rx="3" fill="#9A97A8" stroke="none" stroke-width="1.2" />
+<text x="678.0" y="927.0" font-size="11" fill="#2B2640" text-anchor="start">Phase à confirmer</text>
+<text x="40.0" y="950.0" font-size="11" font-weight="bold" fill="#8860FE" text-anchor="start">Texte violet : fourniture PROSYB</text>
+<text x="250.0" y="950.0" font-size="11" fill="#6E6A86" text-anchor="start">Texte gris « EXYTE » : fourni EXYTE, posé / paramétré PROSYB</text>
+<rect x="1043.6" y="960.0" width="516.4" height="26.0" rx="6" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="1055.6" y="977.0" font-size="11" fill="#6E6A86" text-anchor="start">PROSYB — KHAZNA ORY01 — Synoptique IT / VDI — indice A — 10/2026 — document de principe</text>
+</svg>

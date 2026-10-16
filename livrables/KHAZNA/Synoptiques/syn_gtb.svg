@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" font-family="Arial, Liberation Sans, Helvetica, sans-serif">
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#F3F2F6"/><line x1="0" y1="0" x2="0" y2="8" stroke="#D9D7E1" stroke-width="2.5"/></pattern>
+</defs>
+<rect x="0" y="0" width="1600" height="1000" fill="#FFFFFF"/>
+<text x="40.0" y="46.0" font-size="22" font-weight="bold" fill="#2B2640" text-anchor="start">Synoptique GTB / GTE — supervision des 3 TGBT</text>
+<text x="40.0" y="70.0" font-size="13" fill="#6E6A86" text-anchor="start">Phases 2 et 4 · d'après 1017 « Synoptique GTC » (rev 02) et DPGF §7 · un automate WAGO par TGBT, remontée sur le réseau terrain</text>
+<rect x="40.0" y="84.0" width="1520.0" height="1.5" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="40.0" y="116.0" font-size="15" font-weight="bold" fill="#2B2640" text-anchor="start">Poste énergie Hub 1</text>
+<rect x="194.2" y="102.0" width="27.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="207.9" y="115.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<rect x="40.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="49.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Onduleur 1</text>
+<text x="49.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">10 kVA on-line</text>
+<rect x="156.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="165.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Transfo TR1</text>
+<text x="165.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">1000 kVA</text>
+<rect x="272.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="281.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">GE1</text>
+<text x="281.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">630 kVA HVO</text>
+<rect x="70.0" y="226.0" width="250.0" height="142.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="70.0" y="226.0" width="6.0" height="142.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<text x="86.0" y="248.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">TGBT Hub 1</text>
+<text x="306.0" y="248.0" font-size="11" fill="#6E6A86" text-anchor="end">inverseur N/S</text>
+<rect x="86.0" y="254.0" width="222.0" height="34.0" rx="5" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="96.0" y="275.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Compteur QF1 – TR1</text>
+<text x="300.0" y="275.0" font-size="11" fill="#6E6A86" text-anchor="end">Modbus · 3 TC</text>
+<rect x="86.0" y="294.0" width="222.0" height="34.0" rx="5" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="96.0" y="315.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Compteur QF2 – GE1</text>
+<text x="300.0" y="315.0" font-size="11" fill="#6E6A86" text-anchor="end">Modbus · 3 TC</text>
+<text x="86.0" y="356.0" font-size="11" fill="#6E6A86" text-anchor="start">Contacts SD départs : 15 · défauts, positions</text>
+<path d="M140.0 368.0 L140.0 402.0" fill="none" stroke="#F59E0B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="148.0" y="390.0" font-size="11" font-weight="bold" fill="#F59E0B" text-anchor="start">RS485</text>
+<path d="M245.0 368.0 L245.0 402.0" fill="none" stroke="#2B2640" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="253.0" y="390.0" font-size="11" font-weight="bold" fill="#2B2640" text-anchor="start">TOR × 22</text>
+<rect x="70.0" y="402.0" width="250.0" height="146.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="70.0" y="402.0" width="6.0" height="146.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<text x="86.0" y="424.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">WAGO Compact Controller 100</text>
+<text x="86.0" y="443.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Réf. 751-9301 · fourniture PROSYB</text>
+<text x="86.0" y="459.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Alimentation 230 V AC / 24 V DC</text>
+<text x="86.0" y="475.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Interface RS485 : 2 compteurs</text>
+<text x="86.0" y="491.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Entrées TOR : 2 × 16 voies (1017)</text>
+<text x="86.0" y="507.4" font-size="11.5" fill="#2B2640" text-anchor="start">Points TOR câblés : 22</text>
+<text x="86.0" y="523.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Supervision page web · port X1</text>
+<path d="M60.0 196.0 L60.0 440.0 L70.0 440.0" fill="none" stroke="#8E8AA3" stroke-width="1.8" stroke-dasharray="5 4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M48.0 196.0 L48.0 622.0 L70.0 622.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M324.0 196.0 L324.0 212.0 L350.0 212.0 L350.0 622.0 L320.0 622.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="338.1" y="469.6" width="23.9" height="14.9" rx="3" fill="#FFFFFF" stroke="none" stroke-width="1.2" />
+<text x="350.0" y="480.0" font-size="11" font-weight="bold" fill="#3B6FE0" text-anchor="middle">GE</text>
+<path d="M195.0 548.0 L195.0 596.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="203.0" y="583.0" font-size="11" font-weight="bold" fill="#3B6FE0" text-anchor="start">X1 · Cat.6A</text>
+<rect x="70.0" y="596.0" width="250.0" height="56.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="70.0" y="596.0" width="6.0" height="56.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<text x="84.0" y="616.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Switch réseau terrain Hub 1</text>
+<text x="84.0" y="635.4" font-size="11.5" fill="#8860FE" text-anchor="start">S57244-B0 + R.H.1</text>
+<path d="M195.0 652.0 L195.0 706.0" fill="none" stroke="#8860FE" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="420.0" y="116.0" font-size="15" font-weight="bold" fill="#2B2640" text-anchor="start">Poste énergie Hub 2</text>
+<rect x="574.2" y="102.0" width="27.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="587.9" y="115.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<rect x="420.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="429.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Onduleur 2</text>
+<text x="429.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">10 kVA on-line</text>
+<rect x="536.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="545.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Transfo TR2</text>
+<text x="545.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">1000 kVA</text>
+<rect x="652.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="661.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">GE2</text>
+<text x="661.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">630 kVA HVO</text>
+<rect x="450.0" y="226.0" width="250.0" height="142.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="450.0" y="226.0" width="6.0" height="142.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<text x="466.0" y="248.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">TGBT Hub 2</text>
+<text x="686.0" y="248.0" font-size="11" fill="#6E6A86" text-anchor="end">inverseur N/S</text>
+<rect x="466.0" y="254.0" width="222.0" height="34.0" rx="5" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="476.0" y="275.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Compteur QF1 – TR2</text>
+<text x="680.0" y="275.0" font-size="11" fill="#6E6A86" text-anchor="end">Modbus · 3 TC</text>
+<rect x="466.0" y="294.0" width="222.0" height="34.0" rx="5" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="476.0" y="315.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Compteur QF2 – GE2</text>
+<text x="680.0" y="315.0" font-size="11" fill="#6E6A86" text-anchor="end">Modbus · 3 TC</text>
+<text x="466.0" y="356.0" font-size="11" fill="#6E6A86" text-anchor="start">Contacts SD départs : 14 · défauts, positions</text>
+<path d="M520.0 368.0 L520.0 402.0" fill="none" stroke="#F59E0B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="528.0" y="390.0" font-size="11" font-weight="bold" fill="#F59E0B" text-anchor="start">RS485</text>
+<path d="M625.0 368.0 L625.0 402.0" fill="none" stroke="#2B2640" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="633.0" y="390.0" font-size="11" font-weight="bold" fill="#2B2640" text-anchor="start">TOR × 21</text>
+<rect x="450.0" y="402.0" width="250.0" height="146.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="450.0" y="402.0" width="6.0" height="146.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<text x="466.0" y="424.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">WAGO Compact Controller 100</text>
+<text x="466.0" y="443.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Réf. 751-9301 · fourniture PROSYB</text>
+<text x="466.0" y="459.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Alimentation 230 V AC / 24 V DC</text>
+<text x="466.0" y="475.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Interface RS485 : 2 compteurs</text>
+<text x="466.0" y="491.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Entrées TOR : 2 × 16 voies (1017)</text>
+<text x="466.0" y="507.4" font-size="11.5" fill="#2B2640" text-anchor="start">Points TOR câblés : 21</text>
+<text x="466.0" y="523.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Supervision page web · port X1</text>
+<path d="M440.0 196.0 L440.0 440.0 L450.0 440.0" fill="none" stroke="#8E8AA3" stroke-width="1.8" stroke-dasharray="5 4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M428.0 196.0 L428.0 622.0 L450.0 622.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M704.0 196.0 L704.0 212.0 L730.0 212.0 L730.0 622.0 L700.0 622.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="718.1" y="469.6" width="23.9" height="14.9" rx="3" fill="#FFFFFF" stroke="none" stroke-width="1.2" />
+<text x="730.0" y="480.0" font-size="11" font-weight="bold" fill="#3B6FE0" text-anchor="middle">GE</text>
+<path d="M575.0 548.0 L575.0 596.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="583.0" y="583.0" font-size="11" font-weight="bold" fill="#3B6FE0" text-anchor="start">X1 · Cat.6A</text>
+<rect x="450.0" y="596.0" width="250.0" height="56.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="450.0" y="596.0" width="6.0" height="56.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<text x="464.0" y="616.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Switch réseau terrain Hub 2</text>
+<text x="464.0" y="635.4" font-size="11.5" fill="#8860FE" text-anchor="start">R.H.2 RG-NIS3100</text>
+<path d="M575.0 652.0 L575.0 706.0" fill="none" stroke="#8860FE" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="800.0" y="116.0" font-size="15" font-weight="bold" fill="#2B2640" text-anchor="start">Poste énergie Hub 3</text>
+<rect x="954.2" y="102.0" width="27.5" height="18.0" rx="9" fill="#3FA7D6" stroke="none" stroke-width="1.2" />
+<text x="967.9" y="115.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P4</text>
+<rect x="800.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="809.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Onduleur 3</text>
+<text x="809.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">10 kVA on-line</text>
+<rect x="916.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="925.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Transfo TR3</text>
+<text x="925.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">800 kVA</text>
+<rect x="1032.0" y="134.0" width="104.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="1041.0" y="152.6" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">GE3</text>
+<text x="1041.0" y="170.6" font-size="11" fill="#6E6A86" text-anchor="start">400 kVA</text>
+<rect x="830.0" y="226.0" width="250.0" height="142.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="830.0" y="226.0" width="6.0" height="142.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="0" />
+<text x="846.0" y="248.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">TGBT Hub 3</text>
+<text x="1066.0" y="248.0" font-size="11" fill="#6E6A86" text-anchor="end">inverseur N/S</text>
+<rect x="846.0" y="254.0" width="222.0" height="34.0" rx="5" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="856.0" y="275.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Compteur QF1 – TR3</text>
+<text x="1060.0" y="275.0" font-size="11" fill="#6E6A86" text-anchor="end">Modbus · 3 TC</text>
+<rect x="846.0" y="294.0" width="222.0" height="34.0" rx="5" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="856.0" y="315.0" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Compteur QF2 – GE3</text>
+<text x="1060.0" y="315.0" font-size="11" fill="#6E6A86" text-anchor="end">Modbus · 3 TC</text>
+<text x="846.0" y="356.0" font-size="11" fill="#6E6A86" text-anchor="start">Contacts SD départs : 8 · défauts, positions</text>
+<path d="M900.0 368.0 L900.0 402.0" fill="none" stroke="#F59E0B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="908.0" y="390.0" font-size="11" font-weight="bold" fill="#F59E0B" text-anchor="start">RS485</text>
+<path d="M1005.0 368.0 L1005.0 402.0" fill="none" stroke="#2B2640" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="1013.0" y="390.0" font-size="11" font-weight="bold" fill="#2B2640" text-anchor="start">TOR × 15</text>
+<rect x="830.0" y="402.0" width="250.0" height="146.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="830.0" y="402.0" width="6.0" height="146.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="0" />
+<text x="846.0" y="424.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">WAGO Compact Controller 100</text>
+<text x="846.0" y="443.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">Réf. 751-9301 · fourniture PROSYB</text>
+<text x="846.0" y="459.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Alimentation 230 V AC / 24 V DC</text>
+<text x="846.0" y="475.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Interface RS485 : 2 compteurs</text>
+<text x="846.0" y="491.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Entrées TOR : 2 × 16 voies (1017)</text>
+<text x="846.0" y="507.4" font-size="11.5" fill="#2B2640" text-anchor="start">Points TOR câblés : 15</text>
+<text x="846.0" y="523.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Supervision page web · port X1</text>
+<path d="M820.0 196.0 L820.0 440.0 L830.0 440.0" fill="none" stroke="#8E8AA3" stroke-width="1.8" stroke-dasharray="5 4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M808.0 196.0 L808.0 622.0 L830.0 622.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M1084.0 196.0 L1084.0 212.0 L1110.0 212.0 L1110.0 622.0 L1080.0 622.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="1098.1" y="469.6" width="23.9" height="14.9" rx="3" fill="#FFFFFF" stroke="none" stroke-width="1.2" />
+<text x="1110.0" y="480.0" font-size="11" font-weight="bold" fill="#3B6FE0" text-anchor="middle">GE</text>
+<path d="M955.0 548.0 L955.0 596.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="963.0" y="583.0" font-size="11" font-weight="bold" fill="#3B6FE0" text-anchor="start">X1 · Cat.6A</text>
+<rect x="830.0" y="596.0" width="250.0" height="56.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="830.0" y="596.0" width="6.0" height="56.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="0" />
+<text x="844.0" y="616.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Switch réseau terrain Hub 3</text>
+<text x="844.0" y="635.4" font-size="11.5" fill="#6E6A86" text-anchor="start">switch lot Élec Hub 3</text>
+<path d="M955.0 652.0 L955.0 706.0" fill="none" stroke="#8860FE" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M195.0 706.0 L1160.0 706.0 L1160.0 468.0 L1180.0 468.0" fill="none" stroke="#8860FE" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="179.4" y="717.1" width="581.2" height="15.5" rx="3" fill="#FFFFFF" stroke="none" stroke-width="1.2" />
+<text x="470.0" y="728.0" font-size="11.5" font-weight="bold" fill="#8860FE" text-anchor="middle">Réseau terrain — anneau fibre OS2 12 brins (Hub 1 ↔ Hub 2 en P2, Hub 1 → Hub 3 en P4) · VLAN 30 GTB</text>
+<rect x="1180.0" y="100.0" width="380.0" height="248.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="1194.0" y="124.0" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Entrées TOR par TGBT (1017)</text>
+<text x="1430.0" y="146.0" font-size="11" font-weight="bold" fill="#6E6A86" text-anchor="middle">Hub 1</text>
+<text x="1475.0" y="146.0" font-size="11" font-weight="bold" fill="#6E6A86" text-anchor="middle">Hub 2</text>
+<text x="1520.0" y="146.0" font-size="11" font-weight="bold" fill="#6E6A86" text-anchor="middle">Hub 3</text>
+<text x="1194.0" y="168.0" font-size="11.5" fill="#2B2640" text-anchor="start">Défaut TR</text>
+<text x="1430.0" y="168.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1475.0" y="168.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1520.0" y="168.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<rect x="1192.0" y="174.0" width="356.0" height="1.0" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="1194.0" y="190.0" font-size="11.5" fill="#2B2640" text-anchor="start">Défaut parafoudre</text>
+<text x="1430.0" y="190.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1475.0" y="190.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1520.0" y="190.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<rect x="1192.0" y="196.0" width="356.0" height="1.0" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="1194.0" y="212.0" font-size="11.5" fill="#2B2640" text-anchor="start">Position inverseur de sources</text>
+<text x="1430.0" y="212.0" font-size="11.5" fill="#2B2640" text-anchor="middle">2</text>
+<text x="1475.0" y="212.0" font-size="11.5" fill="#2B2640" text-anchor="middle">2</text>
+<text x="1520.0" y="212.0" font-size="11.5" fill="#2B2640" text-anchor="middle">2</text>
+<rect x="1192.0" y="218.0" width="356.0" height="1.0" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="1194.0" y="234.0" font-size="11.5" fill="#2B2640" text-anchor="start">Présence tension normale</text>
+<text x="1430.0" y="234.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1475.0" y="234.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1520.0" y="234.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<rect x="1192.0" y="240.0" width="356.0" height="1.0" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="1194.0" y="256.0" font-size="11.5" fill="#2B2640" text-anchor="start">Présence tension secourue</text>
+<text x="1430.0" y="256.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1475.0" y="256.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1520.0" y="256.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<rect x="1192.0" y="262.0" width="356.0" height="1.0" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="1194.0" y="278.0" font-size="11.5" fill="#2B2640" text-anchor="start">Présence tension ondulée</text>
+<text x="1430.0" y="278.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1475.0" y="278.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<text x="1520.0" y="278.0" font-size="11.5" fill="#2B2640" text-anchor="middle">1</text>
+<rect x="1192.0" y="284.0" width="356.0" height="1.0" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="1194.0" y="300.0" font-size="11.5" fill="#2B2640" text-anchor="start">Défauts départs (SD) disjoncteurs</text>
+<text x="1430.0" y="300.0" font-size="11.5" fill="#2B2640" text-anchor="middle">15</text>
+<text x="1475.0" y="300.0" font-size="11.5" fill="#2B2640" text-anchor="middle">14</text>
+<text x="1520.0" y="300.0" font-size="11.5" fill="#2B2640" text-anchor="middle">8</text>
+<rect x="1192.0" y="306.0" width="356.0" height="1.0" rx="0" fill="#E4E1F0" stroke="none" stroke-width="1.2" />
+<text x="1194.0" y="324.0" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Total</text>
+<text x="1430.0" y="324.0" font-size="12" font-weight="bold" fill="#8860FE" text-anchor="middle">22</text>
+<text x="1475.0" y="324.0" font-size="12" font-weight="bold" fill="#8860FE" text-anchor="middle">21</text>
+<text x="1520.0" y="324.0" font-size="12" font-weight="bold" fill="#8860FE" text-anchor="middle">15</text>
+<rect x="1180.0" y="380.0" width="380.0" height="176.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="1180.0" y="380.0" width="6.0" height="176.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<rect x="1522.5" y="389.0" width="25.5" height="18.0" rx="9" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="1535.3" y="402.0" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P2</text>
+<text x="1196.0" y="402.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Poste de supervision — poste de garde</text>
+<text x="1196.0" y="421.4" font-size="11.5" font-weight="bold" fill="#2B2640" text-anchor="start">PC fixe avec 2 écrans (DPGF §7) · PROSYB</text>
+<text x="1196.0" y="437.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Logiciel avec historisation (licence)</text>
+<text x="1196.0" y="453.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Tableaux de bord consommations (TR / GE)</text>
+<text x="1196.0" y="469.4" font-size="11.5" fill="#6E6A86" text-anchor="start">États TOR, défauts, positions inverseurs</text>
+<text x="1196.0" y="485.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Accès aux pages web des WAGO</text>
+<text x="1196.0" y="501.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Remontée GE et onduleurs (protocole à confirmer)</text>
+<text x="1196.0" y="517.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Alertes SMS / mail</text>
+<path d="M1370.0 556.0 L1370.0 596.0" fill="none" stroke="#6E6A86" stroke-width="1.8" stroke-dasharray="2 3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="1180.0" y="596.0" width="380.0" height="74.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<rect x="1180.0" y="596.0" width="6.0" height="74.0" rx="3" fill="#8860FE" stroke="none" stroke-width="0" />
+<text x="1196.0" y="618.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Alertes SMS / mail</text>
+<text x="1196.0" y="637.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Défauts TGBT, GE, onduleur, absence tension</text>
+<text x="1196.0" y="653.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Destinataires et passerelle SMS : à confirmer</text>
+<rect x="40.0" y="750.0" width="1120.0" height="96.0" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="52.0" y="772.4" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">Points à confirmer</text>
+<text x="52.0" y="793.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Le 1017 décrit un « WAGO I/O System » à 2 × 16 entrées digitales : adaptation au Compact Controller 100 (751-9301), modules d'extension TOR, à confirmer.</text>
+<text x="52.0" y="811.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Protocole des liaisons « communication GE » et « communication onduleur » vers le switch terrain : non précisé au 1017.</text>
+<text x="52.0" y="829.4" font-size="11.5" fill="#6E6A86" text-anchor="start">Compteurs et contacts OF/SD des TD divisionnaires : non câblés à la GTB au 1017 (seuls les 3 TGBT le sont).  Hub 3 et son automate : phase 4.</text>
+<text x="40.0" y="884.0" font-size="12" font-weight="bold" fill="#2B2640" text-anchor="start">Légende</text>
+<path d="M40.0 901.0 L70.0 901.0" fill="none" stroke="#8860FE" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="78.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Fibre OS2 — réseau terrain</text>
+<path d="M340.0 901.0 L370.0 901.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="378.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Cuivre Cat.6A (Ethernet)</text>
+<path d="M640.0 901.0 L670.0 901.0" fill="none" stroke="#3B6FE0" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="678.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Liaison communication GE / onduleur</text>
+<path d="M940.0 901.0 L970.0 901.0" fill="none" stroke="#F59E0B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="978.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Bus RS485 Modbus (compteurs)</text>
+<path d="M1240.0 901.0 L1270.0 901.0" fill="none" stroke="#2B2640" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="1278.0" y="905.0" font-size="11" fill="#2B2640" text-anchor="start">Câblage TOR (contacts)</text>
+<path d="M40.0 923.0 L70.0 923.0" fill="none" stroke="#8E8AA3" stroke-width="1.8" stroke-dasharray="5 4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="78.0" y="927.0" font-size="11" fill="#2B2640" text-anchor="start">Alimentation ondulée 230 V</text>
+<path d="M340.0 923.0 L370.0 923.0" fill="none" stroke="#6E6A86" stroke-width="1.8" stroke-dasharray="2 3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="378.0" y="927.0" font-size="11" fill="#2B2640" text-anchor="start">Notification (logique)</text>
+<rect x="640.0" y="917.0" width="30.0" height="12.0" rx="3" fill="#8860FE" stroke="none" stroke-width="1.2" />
+<text x="678.0" y="927.0" font-size="11" fill="#2B2640" text-anchor="start">Phase 2</text>
+<rect x="940.0" y="917.0" width="30.0" height="12.0" rx="3" fill="#7598F4" stroke="none" stroke-width="1.2" />
+<text x="978.0" y="927.0" font-size="11" fill="#2B2640" text-anchor="start">Phase 3</text>
+<rect x="1240.0" y="917.0" width="30.0" height="12.0" rx="3" fill="#3FA7D6" stroke="none" stroke-width="1.2" />
+<text x="1278.0" y="927.0" font-size="11" fill="#2B2640" text-anchor="start">Phase 4</text>
+<rect x="1026.3" y="960.0" width="533.7" height="26.0" rx="6" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.2" />
+<text x="1038.3" y="977.0" font-size="11" fill="#6E6A86" text-anchor="start">PROSYB — KHAZNA ORY01 — Synoptique GTB / GTE — indice A — 10/2026 — document de principe</text>
+</svg>
