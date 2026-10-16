@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial,Helvetica,sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8860FE"/><stop offset=".5" stop-color="#7598F4"/><stop offset="1" stop-color="#66C2EB"/></linearGradient>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2B2640"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E5484D"/></marker>
+  </defs>
+  <rect width="900" height="400" fill="#fff"/>
+  <!-- zones -->
+  <rect x="12" y="40" width="168" height="300" rx="10" fill="#F7F6FC" stroke="#E4E1F0"/>
+  <text x="96" y="30" text-anchor="middle" font-size="12" font-weight="bold" fill="#6E6A86">RÉSEAU EXYTE</text>
+  <rect x="236" y="40" width="652" height="300" rx="10" fill="#F7F6FC" stroke="#E4E1F0"/>
+  <text x="562" y="30" text-anchor="middle" font-size="12" font-weight="bold" fill="#6E6A86">RÉSEAU TERRAIN PROSYB — VLAN 50 « AFFICHAGE »</text>
+  <!-- postes EXYTE -->
+  <rect x="28" y="70" width="136" height="70" rx="8" fill="#fff" stroke="#7598F4" stroke-width="1.5"/>
+  <text x="96" y="96" text-anchor="middle" font-size="13" font-weight="bold" fill="#2B2640">Postes EXYTE</text>
+  <text x="96" y="114" text-anchor="middle" font-size="11" fill="#6E6A86">HSE · communication</text>
+  <text x="96" y="129" text-anchor="middle" font-size="11" fill="#6E6A86">navigateur web</text>
+  <rect x="28" y="230" width="136" height="80" rx="8" fill="#FDECEC" stroke="#E5484D" stroke-width="1.5"/>
+  <text x="96" y="256" text-anchor="middle" font-size="13" font-weight="bold" fill="#B4232A">Alerte prioritaire</text>
+  <text x="96" y="274" text-anchor="middle" font-size="11" fill="#2B2640">évacuation · vent fort</text>
+  <text x="96" y="289" text-anchor="middle" font-size="11" fill="#2B2640">accès fermé — 1 clic,</text>
+  <text x="96" y="303" text-anchor="middle" font-size="11" fill="#2B2640">tous les écrans</text>
+  <!-- pare-feu -->
+  <rect x="196" y="150" width="28" height="80" rx="4" fill="#2B2640"/>
+  <text x="210" y="190" text-anchor="middle" font-size="11" fill="#fff" transform="rotate(-90 210 190)">PARE-FEU</text>
+  <path d="M164 105 H182 V170 H194" fill="none" stroke="#2B2640" stroke-width="1.6" marker-end="url(#a)"/>
+  <path d="M164 270 H182 V212 H194" fill="none" stroke="#E5484D" stroke-width="1.6" marker-end="url(#r)"/>
+  <!-- serveur -->
+  <rect x="252" y="135" width="170" height="110" rx="10" fill="url(#g)"/>
+  <text x="337" y="162" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">Serveur Navori QL</text>
+  <text x="337" y="180" text-anchor="middle" font-size="11" fill="#fff">installé sur site — baie Hub 1</text>
+  <text x="337" y="196" text-anchor="middle" font-size="11" fill="#fff">secouru par l'onduleur</text>
+  <text x="337" y="212" text-anchor="middle" font-size="11" fill="#fff">programmation · groupes</text>
+  <text x="337" y="228" text-anchor="middle" font-size="11" fill="#fff">supervision des lecteurs</text>
+  <path d="M224 190 H250" stroke="#2B2640" stroke-width="1.6" marker-end="url(#a)"/>
+  <!-- anneau -->
+  <rect x="448" y="92" width="26" height="196" rx="4" fill="#fff" stroke="#7598F4" stroke-width="1.5"/>
+  <text x="461" y="190" text-anchor="middle" font-size="10.5" fill="#2B2640" transform="rotate(-90 461 190)">anneau fibre + switchs de zone PoE</text>
+  <path d="M422 190 H446" stroke="#2B2640" stroke-width="1.6" marker-end="url(#a)"/>
+  <!-- groupes -->
+  <g font-size="11" fill="#2B2640">
+    <rect x="504" y="52" width="372" height="60" rx="8" fill="#fff" stroke="#E4E1F0"/>
+    <text x="518" y="74" font-size="12.5" font-weight="bold">Groupe Base vie — 3 écrans muraux</text>
+    <text x="518" y="92">Samsung OHDX 55" sous auvent, bras orientable antivol</text>
+    <text x="518" y="106" fill="#6E6A86">+ lecteur Navori StiX 3800 PoE par écran</text>
+    <rect x="504" y="120" width="372" height="60" rx="8" fill="#fff" stroke="#E4E1F0"/>
+    <text x="518" y="142" font-size="12.5" font-weight="bold">Groupe Entrées — 2 totems</text>
+    <text x="518" y="160">Samsung OHDX 55" sur totem ERARD OUTDOOH</text>
+    <text x="518" y="174" fill="#6E6A86">+ lecteur Navori StiX 3800 PoE par écran</text>
+    <rect x="504" y="188" width="372" height="60" rx="8" fill="#fff" stroke="#E4E1F0"/>
+    <text x="518" y="210" font-size="12.5" font-weight="bold">Groupe Livraisons — 1 totem</text>
+    <text x="518" y="228">Samsung OHDX 55" sur totem ERARD OUTDOOH</text>
+    <text x="518" y="242" fill="#6E6A86">+ lecteur Navori StiX 3800 PoE</text>
+    <rect x="504" y="256" width="372" height="72" rx="8" fill="#fff" stroke="#E4E1F0"/>
+    <text x="518" y="278" font-size="12.5" font-weight="bold">Groupe Salles de réunion — 10 écrans</text>
+    <text x="518" y="296">iiyama 86" 4K sur chariot Chief — hors réunion :</text>
+    <text x="518" y="310">messages HSE, planning, alertes</text>
+    <text x="518" y="324" fill="#6E6A86">+ lecteur Navori StiX 3800 PoE par écran</text>
+  </g>
+  <g stroke="#2B2640" stroke-width="1.4" fill="none">
+    <path d="M474 150 H488 V82 H502" marker-end="url(#a)"/>
+    <path d="M474 160 H488 V150 H502" marker-end="url(#a)"/>
+    <path d="M474 210 H488 V218 H502" marker-end="url(#a)"/>
+    <path d="M474 230 H488 V292 H502" marker-end="url(#a)"/>
+  </g>
+  <text x="450" y="372" text-anchor="middle" font-size="11" fill="#6E6A86">Lecteurs avec contenus en mémoire locale : l'affichage continue en cas de coupure réseau · aucun accès internet · aucun abonnement cloud</text>
+</svg>

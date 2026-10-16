@@ -1,0 +1,731 @@
+<style>
+.cover .clientcard img{width:44mm}
+.cover h1{font-size:34pt;width:140mm}
+.flow{display:flex;gap:2mm;margin:4mm 0;break-inside:avoid}
+.flow .s{flex:1;background:#fff;border:.3mm solid var(--ligne);border-radius:2.5mm;padding:2.8mm 2.5mm}
+.flow .s .k{display:inline-flex;align-items:center;justify-content:center;width:8mm;height:7mm;background:var(--grad);clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);color:#fff;font-weight:bold;font-size:9pt;margin-bottom:1.5mm}
+.flow .s b{display:block;font-size:9pt;margin-bottom:.8mm}
+.flow .s span{font-size:8pt;color:var(--mute);line-height:1.3;display:block}
+.screen{border:.3mm solid var(--ligne);border-radius:2.5mm;overflow:hidden;break-inside:avoid;background:#fff}
+.screen img{width:100%;display:block}
+.ok{color:#1E9E5A;font-weight:bold}
+.phase{display:inline-block;font-size:7.3pt;font-weight:bold;padding:.4mm 1.6mm;border-radius:1mm;color:#fff}
+.p2{background:#8860FE}.p3{background:#7598F4}.p4{background:#3FA7D6}
+</style>
+
+<!-- =================== PAGE DE GARDE =================== -->
+<section class="cover">
+  <img class="logo" src="logo-blanc.png" alt="PROSYB">
+  <div class="clientcard"><img src="logo-client.png" alt="EXYTE"></div>
+  <div class="kicker">Mémoire technique</div>
+  <h1>Courants faibles<br>base vie &amp; chantier</h1>
+  <div class="filet"></div>
+  <div class="accroche">Data center KHAZNA ORY01 — Fouju (77).
+    <small>Réseaux, Wi-Fi, vidéoprotection, GTB et salles de visioconférence pendant 29 mois de chantier.</small></div>
+  <div class="integ">
+    <div class="t">INTÉGRATEUR</div>
+    <div class="doms"><b>CFA/VDI</b> <b>SÛRETÉ</b> <b>GTB</b> <b>RÉSEAUX</b> CFO · CVC · SSI</div>
+  </div>
+  <div class="card">
+    <div class="row"><div class="c"><div class="lab">Affaire</div><div class="val big">KHAZNA ORY01 — Base vie &amp; chantier — Lot courants faibles</div></div></div>
+    <div class="row"><div class="c"><div class="lab">Client</div><div class="val">EXYTE — entreprise générale</div></div><div class="c"><div class="lab">N° d'offre</div><div class="val"><span class="champ">[ DEV_PSB26xxxx ]</span></div></div></div>
+    <div class="row"><div class="c"><div class="lab">Site / adresse</div><div class="val">RD 57 — 77390 Fouju</div></div><div class="c"><div class="lab">Lot / périmètre</div><div class="val">VDI · Wi-Fi · IT · Vidéo · GTB · Audiovisuel</div></div></div>
+    <div class="row"><div class="c"><div class="lab">Date de remise</div><div class="val"><span class="champ">[ date ]</span></div></div><div class="c"><div class="lab">Responsable</div><div class="val">Woody SEALE, Président</div></div></div>
+  </div>
+  <div class="foot">
+    <div><b>PROSYB — Énergies et Connectivités</b><br>Bureau d'études intégré · Équipes travaux · Mise en service · Maintenance</div>
+    <div class="r"><b>SIREN 941 519 092</b><br><a>www.prosyb.com</a></div>
+  </div>
+</section>
+
+<!-- =================== SOMMAIRE =================== -->
+<section>
+  <div class="kick">Sommaire</div>
+  <h1 class="t1">Ce que contient ce mémoire</h1>
+  <p>Réponse de PROSYB pour le lot <strong>courants faibles</strong> des installations provisoires de base vie et de chantier du data center KHAZNA ORY01, établie sur le dossier de consultation (étude AVP FR02201, DPGF, synoptiques, CCTP vidéosurveillance), avec une place particulière pour l'<strong>exploitation et la maintenance</strong>.</p>
+  <div class="toc">
+    <div class="it"><span class="n">1</span><div class="x"><b>Synthèse de l'offre</b><div>Périmètre · chiffres clés · engagements</div></div></div>
+    <div class="it"><span class="n">2</span><div class="x"><b>Compréhension du besoin</b><div>Le projet · une base vie qui évolue en trois phases · enjeux</div></div></div>
+    <div class="it"><span class="n">3</span><div class="x"><b>Architecture des réseaux</b><div>Architecture logique · plan de VLAN · flux autorisés · sécurisation · typologie des équipements · évolution par phase</div></div></div>
+    <div class="it"><span class="n">4</span><div class="x"><b>VDI — câblage fibre et cuivre</b><div>Répartiteurs · fibre OS2 · cuivre Cat. 6A · recette</div></div></div>
+    <div class="it"><span class="n">5</span><div class="x"><b>Wi-Fi et informatique</b><div>Bornes · paramétrage des équipements · postes de travail</div></div></div>
+    <div class="it"><span class="n">6</span><div class="x"><b>Audiovisuel et affichage</b><div>Salles de visioconférence · afficheurs de chantier</div></div></div>
+    <div class="it"><span class="n">7</span><div class="x"><b>Vidéoprotection et détection intrusion</b><div>Couverture · caméras · NVR Hikvision · logiciel iVMS-4200 · enregistrement · RGPD · conformité au CCTP</div></div></div>
+    <div class="it"><span class="n">8</span><div class="x"><b>GTB / GTE</b><div>Automates WAGO · comptage · alarmes techniques · supervision</div></div></div>
+    <div class="it"><span class="n">9</span><div class="x"><b>Organisation, études et phasage</b><div>Équipe · études d'exécution · planning · interfaces · sécurité</div></div></div>
+    <div class="it"><span class="n">10</span><div class="x"><b>Essais et réception</b><div>Recettes par domaine · livrables · DOE</div></div></div>
+    <div class="it"><span class="n">11</span><div class="x"><b>Exploitation et maintenance</b><div>Organisation sur 29 mois · préventif · correctif · délais · astreinte · évolutions de phase</div></div></div>
+    <div class="it"><span class="n">12</span><div class="x"><b>Hypothèses, interfaces et questions</b><div>Limites de prestation · points à confirmer avec EXYTE</div></div></div>
+    <div class="it"><span class="n">13</span><div class="x"><b>Pourquoi PROSYB</b><div>Nos engagements</div></div></div>
+  </div>
+</section>
+
+<!-- =================== 1 SYNTHÈSE =================== -->
+<section class="chap">
+  <div class="kick">L'essentiel</div>
+  <h1 class="t1"><span class="num">1</span>Synthèse de l'offre</h1>
+  <p>Pendant la construction du data center KHAZNA ORY01, les équipes d'EXYTE, des entreprises et des maîtres d'ouvrage vivront et travailleront dans une base vie qui grandit de 2 à 20 îlots, sur un chantier ouvert jour et nuit. PROSYB prend en charge <strong>l'ensemble des courants faibles</strong> de ces installations provisoires : du câble jusqu'au service rendu, de l'installation jusqu'au repli final, avec une <strong>maintenance assurée en continu pendant 29 mois</strong>.</p>
+  <div class="kpis">
+    <div class="kpi"><div class="v">480</div><div class="l">prises RJ45 Cat. 6A dans les îlots, + 30 liaisons techniques</div></div>
+    <div class="kpi"><div class="v">84</div><div class="l">bornes Wi-Fi sur les trois phases</div></div>
+    <div class="kpi"><div class="v">28</div><div class="l">caméras Hikvision avec analyse intrusion</div></div>
+    <div class="kpi"><div class="v">10</div><div class="l">salles de visioconférence équipées</div></div>
+  </div>
+  <h2>Le périmètre de notre offre</h2>
+  <table class="compact"><colgroup><col style="width:30%"><col><col style="width:16%"></colgroup>
+    <thead><tr><th>Domaine</th><th>Contenu</th><th>DPGF</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Études d'exécution CFA</strong></td><td>Architecture IT et audiovisuel, synoptiques IT, sûreté et GTC, plans, fiches, PAQ</td><td>§ 2 (EXE.CFA)</td></tr>
+      <tr><td><strong>VDI et informatique</strong></td><td>Répartiteurs principaux (Hubs 1, 2, 3) et secondaires avec switchs PoE, anneaux fibre OS2, liaisons cuivre Cat. 6A, paramétrage, recettes</td><td>§ 4</td></tr>
+      <tr><td><strong>Wi-Fi</strong></td><td>84 bornes : 4 en phase 2, 20 en phase 3, 60 en phase 4</td><td>§ 4</td></tr>
+      <tr><td><strong>Audiovisuel et affichage</strong></td><td>10 salles de réunion mobiles (écran iiyama 86" 4K sur chariot Chief, Logitech Rally Bar, 4 micros déportés), 6 afficheurs de chantier Samsung OHDX 55" 3 500 cd/m², diffusion centralisée Navori sur 16 écrans</td><td>§ 4</td></tr>
+      <tr><td><strong>Vidéoprotection</strong></td><td>28 caméras sur mâts, réseau PoE, NVR, analyse intrusion et port des EPI</td><td>§ 6 + CCTP lot 03</td></tr>
+      <tr><td><strong>GTB / GTE</strong></td><td>3 automates WAGO, comptage et alarmes des TGBT, poste de supervision, historisation et alertes</td><td>§ 7</td></tr>
+      <tr><td><strong>Exploitation et maintenance CFA</strong></td><td>Maintenance préventive et corrective, permanence, adaptations de phase, repli</td><td>§ 8 (part CFA)</td></tr>
+    </tbody>
+  </table>
+  <div class="feat" style="margin:3mm 0">
+    <div class="f"><b>Un réseau qui suit le chantier</b><span>Anneaux fibre autocicatrisants, répartiteurs par zone : chaque phase s'ajoute sans couper la précédente.</span></div>
+    <div class="f"><b>Une sûreté conforme</b><span>Couverture du périmètre, levée de doute vidéo, enregistrement maîtrisé, RGPD intégré dès l'étude.</span></div>
+    <div class="f"><b>Un service garanti</b><span>Maintenance préventive, astreinte et stock de pièces sur site pendant toute la durée du chantier.</span></div>
+  </div>
+</section>
+
+<!-- =================== 2 BESOIN =================== -->
+<section class="chap">
+  <div class="kick">Le projet</div>
+  <h1 class="t1"><span class="num">2</span>Compréhension du besoin</h1>
+  <h2>Le projet KHAZNA ORY01</h2>
+  <p>KHAZNA Data Centers construit à Fouju (77) le data center ORY01 : 80 MW IT répartis en cinq PODs de 16 MW, sur une parcelle d'environ 5 hectares. EXYTE en assure la réalisation en entreprise générale. Les installations provisoires de chantier — énergie, base vie, sécurité, réseaux — font l'objet d'une étude AVP (référence FR02201) qui sert de base à cette consultation.</p>
+  <h2>Une base vie qui évolue en trois phases</h2>
+  <table class="compact"><colgroup><col style="width:17%"><col style="width:22%"><col></colgroup>
+    <thead><tr><th>Phase</th><th>Période (planning AVP)</th><th>Contenu courants faibles</th></tr></thead>
+    <tbody>
+      <tr><td><span class="phase p2">Phase 2</span> 2 mois</td><td>Prêt le 14/12/2026</td><td>Cœur de réseau Hubs 1 et 2, 5 répartiteurs secondaires, boucle fibre, îlots 1 et 2 (24 prises, 4 bornes Wi-Fi, 3 salles visio), GTB</td></tr>
+      <tr><td><span class="phase p3">Phase 3</span> 5 mois</td><td>Prêt le 02/02/2027</td><td>Îlots 3 à 10 (96 prises, 20 bornes Wi-Fi, 7 salles visio), 2 répartiteurs annexes, 30 liaisons techniques, 6 afficheurs, vidéoprotection 28 caméras</td></tr>
+      <tr><td><span class="phase p4">Phase 4</span> 17 mois</td><td>Prêt le 18/06/2027</td><td>Hub 3, fibre vers les répartiteurs base vie A et B, îlots 1 à 20 (360 prises, 60 bornes Wi-Fi), transfert des équipements</td></tr>
+      <tr><td>Repli</td><td>Décembre 2028</td><td>Dépose, nettoyage et évacuation de l'ensemble</td></tr>
+    </tbody>
+  </table>
+  <h2>Ce que nous retenons des exigences</h2>
+  <ul>
+    <li><strong>Évolutivité</strong> : chaque phase réorganise la base vie ; le réseau doit s'étendre et se déplacer sans interrompre le service des îlots occupés.</li>
+    <li><strong>Deux réseaux distincts</strong> : le réseau terrain du lot électricité (vidéo, GTB, comptage, reports) et le réseau informatique et Wi-Fi d'EXYTE, sur des anneaux fibre séparés.</li>
+    <li><strong>Sûreté d'un chantier de data center</strong> : détection d'intrusion périmétrique, levée de doute, traçabilité, dans le respect du RGPD et des consignes EXYTE et KHAZNA.</li>
+    <li><strong>Disponibilité</strong> : équipements secourus par les onduleurs des Hubs, permanence technique 24/7 et maintenance pendant 28 mois.</li>
+    <li><strong>Référentiels</strong> : exigences IT KHAZNA, ISO/IEC 11801 et EIA/TIA 568 pour le câblage, EN 62676-4 pour la vidéoprotection, EN 50310 pour les liaisons équipotentielles des locaux IT.</li>
+  </ul>
+  <div class="cle"><div class="lab">NOTRE LECTURE</div><p>Sur un chantier de 29 mois, la qualité d'un réseau provisoire se juge moins le jour de la mise en service que le jour où il faut déplacer dix îlots sans couper personne. Notre réponse est construite pour ces moments-là.</p></div>
+</section>
+
+<!-- =================== 3 ARCHITECTURE =================== -->
+<section class="chap">
+  <div class="kick">La solution</div>
+  <h1 class="t1"><span class="num">3</span>Architecture des réseaux</h1>
+  <p>Nous reprenons l'architecture de l'étude AVP : un <strong>répartiteur principal dans chaque poste énergie</strong> (local CFA climatisé, alimenté par le TD ondulé du Hub), des <strong>répartiteurs secondaires par zone</strong>, et deux réseaux bien séparés reliés par des anneaux fibre OS2 12 brins autocicatrisants.</p>
+  <div class="fig"><div class="screen"><img src="img/archi_reseau.svg"></div>
+    <div class="cap">Figure 1 — Architecture de principe des réseaux courants faibles (d'après le synoptique IT FR02201-ENG-ELEC-DRW-1014).</div></div>
+  <h2>Principes retenus</h2>
+  <div class="two">
+    <ul>
+      <li><strong>Deux réseaux physiquement séparés</strong> : le réseau terrain (sûreté, GTB, affichage) et le réseau informatique et Wi-Fi d'EXYTE ont chacun leur anneau fibre et leurs switchs.</li>
+      <li><strong>Anneaux autocicatrisants</strong> : la coupure d'une fibre, fréquente sur un chantier, ne coupe aucun répartiteur ; le trafic repart par l'autre sens en moins de 50 ms (protocole ERPS, ITU-T G.8032).</li>
+      <li><strong>Actifs secourus</strong> : répartiteurs principaux sur le TD ondulé des Hubs (onduleurs 10 kVA, lot électricité), switchs de zone sur les départs secourus.</li>
+    </ul>
+    <ul>
+      <li><strong>Segmentation</strong> : un VLAN par usage, routage maîtrisé et flux interdits par défaut entre VLAN.</li>
+      <li><strong>Un seul point de passage</strong> entre les deux réseaux : le pare-feu d'EXYTE, sous sa politique de sécurité.</li>
+      <li><strong>Documentation vivante</strong> : plan d'adressage, synoptiques et repérage mis à jour à chaque changement de phase.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Architecture logique</h2>
+  <p>Le réseau est organisé en quatre niveaux, identiques sur le réseau terrain et sur le réseau informatique :</p>
+  <table class="compact"><colgroup><col style="width:20%"><col style="width:40%"><col></colgroup>
+    <thead><tr><th>Niveau</th><th>Réseau terrain (PROSYB)</th><th>Réseau informatique et Wi-Fi (EXYTE)</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1 · Cœur</strong></td><td>Switchs de niveau 3 dans les Hubs 1 et 2 (Hub 3 en phase 4). Ils portent les passerelles des VLAN en redondance VRRP et appliquent les règles de filtrage entre VLAN.</td><td>Switch de niveau 3 au répartiteur principal, relié en 10 Gbit/s au pare-feu d'EXYTE, qui assure le routage, le filtrage et la sortie internet.</td></tr>
+      <tr><td><strong>2 · Anneaux</strong></td><td>Switchs industriels de zone (Est 1 à 3, Ouest 1 et 2, Nord, annexes) chaînés en anneau ERPS sur la fibre OS2.</td><td>Anneau fibre informatique entre le répartiteur principal et les répartiteurs base vie A et B (phase 4).</td></tr>
+      <tr><td><strong>3 · Accès</strong></td><td>Ports PoE des switchs de zone : caméras, automates, afficheurs, interfaces des lots tiers.</td><td>Piles de switchs 48 ports PoE+ desservant les prises des îlots, les salles de réunion et les bornes Wi-Fi.</td></tr>
+      <tr><td><strong>4 · Terminaux</strong></td><td>28 caméras et NVR, 3 automates WAGO et poste de supervision, 6 afficheurs.</td><td>Postes CAD, 84 bornes Wi-Fi, 10 salles de visioconférence, imprimantes.</td></tr>
+    </tbody>
+  </table>
+  <div class="fig"><div class="screen"><img src="img/vlan_logique.svg"></div>
+    <div class="cap">Figure 2 — Architecture logique et plan de VLAN proposé : passerelles redondées sur les cœurs terrain, routage et filtrage informatique par le pare-feu EXYTE.</div></div>
+</section>
+
+<section>
+  <h2>Plan de VLAN</h2>
+  <p>La numérotation et l'adressage ci-dessous sont une <strong>proposition</strong> : ils seront validés avec le service informatique d'EXYTE pendant les études d'exécution et restent identiques sur les trois phases. Les extensions de phase ajoutent des switchs et des ports, jamais de nouveau plan d'adressage.</p>
+  <table class="compact"><colgroup><col style="width:7%"><col style="width:21%"><col style="width:34%"><col style="width:17%"><col></colgroup>
+    <thead><tr><th>VLAN</th><th>Nom</th><th>Équipements</th><th>Adressage</th><th>Passerelle</th></tr></thead>
+    <tbody>
+      <tr><td colspan="5" style="background:#F3EFFF;color:#5B3FD0"><strong>Réseau terrain — fourni, configuré et administré par PROSYB</strong></td></tr>
+      <tr><td>10</td><td>ADMIN-TERRAIN</td><td>Administration des switchs, cartes SNMP des onduleurs, poste de supervision réseau</td><td>10.20.10.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
+      <tr><td>20</td><td>VIDEO-CAMERAS</td><td>28 caméras Hikvision</td><td>10.20.20.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
+      <tr><td>21</td><td>VIDEO-ENREG</td><td>NVR, poste de visualisation du poste de garde</td><td>10.20.21.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
+      <tr><td>30</td><td>GTB</td><td>3 automates WAGO, passerelles de comptage, poste de supervision GTB</td><td>10.20.30.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
+      <tr><td>40</td><td>SURETE-INTERFACES</td><td>Contrôle d'accès, interphonie, report SSI (équipements des lots concernés)</td><td>10.20.40.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
+      <tr><td>50</td><td>AFFICHAGE</td><td>6 afficheurs de chantier, 16 lecteurs Navori StiX et le serveur de diffusion Navori QL</td><td>10.20.50.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
+      <tr><td>60</td><td>IRVE</td><td>Réservé à la supervision des bornes de recharge (lot électricité)</td><td>10.20.60.0/24</td><td>Cœurs terrain (VRRP)</td></tr>
+      <tr><td>900</td><td>TRANSIT-EXYTE</td><td>Interconnexion entre les cœurs terrain et le pare-feu EXYTE</td><td>/29 fourni par EXYTE</td><td>Pare-feu EXYTE</td></tr>
+      <tr><td>910</td><td>ACCES-DISTANT</td><td>Routeur 4G/5G et VPN de maintenance, uniquement si EXYTE le valide</td><td>10.20.91.0/29</td><td>Routeur VPN</td></tr>
+      <tr><td>999</td><td>NATIF-INUTILISE</td><td>VLAN natif des liens inter-switchs et ports non affectés, sans aucun équipement</td><td>—</td><td>—</td></tr>
+      <tr><td colspan="5" style="background:#EAF6FC;color:#1F7FAE"><strong>Réseau informatique et Wi-Fi — configuré par PROSYB selon la politique d'EXYTE</strong></td></tr>
+      <tr><td>100</td><td>POSTES</td><td>Postes de travail CAD des îlots</td><td rowspan="6">Plan d'adressage EXYTE</td><td rowspan="6">Pare-feu EXYTE</td></tr>
+      <tr><td>110</td><td>VISIO</td><td>10 salles de réunion (barres de visioconférence, écrans)</td></tr>
+      <tr><td>120</td><td>WIFI-EXYTE</td><td>SSID des équipes EXYTE, authentification 802.1X</td></tr>
+      <tr><td>130</td><td>WIFI-ENTREPRISES</td><td>SSID des entreprises intervenantes : accès internet seul, isolation entre clients</td></tr>
+      <tr><td>140</td><td>IMPRESSION</td><td>Imprimantes et multifonctions des îlots</td></tr>
+      <tr><td>190</td><td>ADMIN-IT</td><td>Administration des switchs informatiques et des bornes Wi-Fi</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Flux autorisés</h2>
+  <p>Sur le réseau terrain, <strong>tout flux entre VLAN est interdit par défaut</strong> ; seuls les flux nécessaires à l'exploitation sont ouverts, port par port.</p>
+  <table class="compact"><colgroup><col style="width:24%"><col style="width:24%"><col style="width:25%"><col></colgroup>
+    <thead><tr><th>Source</th><th>Destination</th><th>Flux</th><th>Usage</th></tr></thead>
+    <tbody>
+      <tr><td>NVR (VLAN 21)</td><td>Caméras (VLAN 20)</td><td>RTSP, SDK constructeur</td><td>Enregistrement et alarmes d'analyse</td></tr>
+      <tr><td>Poste de garde (VLAN 21)</td><td>NVR (VLAN 21)</td><td>Client vidéo</td><td>Visualisation, relecture, levée de doute</td></tr>
+      <tr><td>Supervision GTB (VLAN 30)</td><td>Automates WAGO (VLAN 30)</td><td>Modbus TCP, HTTPS</td><td>Supervision, historisation, alertes</td></tr>
+      <tr><td>Supervision réseau (VLAN 10)</td><td>Tous les switchs et onduleurs</td><td>SNMPv3, syslog, SSH, HTTPS</td><td>Surveillance et administration</td></tr>
+      <tr><td>NVR, GTB (VLAN 21, 30)</td><td>Pare-feu EXYTE (VLAN 900)</td><td>SMTP et NTP uniquement</td><td>Alertes e-mail et mise à l'heure</td></tr>
+      <tr><td>Postes EXYTE habilités</td><td>Supervisions vidéo et GTB</td><td>HTTPS via le pare-feu</td><td>Consultation depuis le réseau EXYTE, si validée</td></tr>
+    </tbody>
+  </table>
+  <div class="note"><div class="lab">Aucun accès internet direct</div><p>Conformément au CCTP vidéosurveillance, le réseau terrain n'a <strong>aucune sortie internet directe</strong>. La seule ouverture possible est le VPN de maintenance (VLAN 910), activé à la demande et tracé.</p></div>
+
+  <h2>Sécurisation des équipements</h2>
+  <div class="two">
+    <ul>
+      <li><strong>Administration</strong> en SSH, HTTPS et SNMPv3 uniquement, comptes nominatifs, protocoles non chiffrés désactivés.</li>
+      <li><strong>Ports d'accès</strong> affectés à un seul VLAN, sécurité de port (adresses MAC apprises), ports inutilisés désactivés et placés dans le VLAN 999.</li>
+      <li><strong>Protections</strong> DHCP snooping, protection ARP et BPDU guard sur les ports d'accès.</li>
+    </ul>
+    <ul>
+      <li><strong>Prises des îlots</strong> : authentification 802.1X ou MAC selon la politique d'EXYTE.</li>
+      <li><strong>Horodatage</strong> commun par NTP : indispensable pour exploiter les séquences vidéo et les alarmes GTB.</li>
+      <li><strong>Configurations</strong> sauvegardées automatiquement à chaque modification et remises au DOE.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Typologie des équipements</h2>
+  <div class="fig"><div class="screen"><img src="img/typologie_equipements.svg"></div>
+    <div class="cap">Figure 3 — Typologie des équipements actifs par niveau d'architecture.</div></div>
+  <table class="compact"><colgroup><col style="width:22%"><col style="width:22%"><col><col style="width:12%"></colgroup>
+    <thead><tr><th>Équipement</th><th>Emplacement</th><th>Caractéristiques minimales</th><th>Quantité</th></tr></thead>
+    <tbody>
+      <tr><td>Switch cœur terrain niveau 3</td><td>Baies des Hubs 1, 2 (phase 2) et 3 (phase 4)</td><td>Rackable 19", 24 ports 1 Gbit/s PoE+, 4 ports SFP+ 10 Gbit/s, double alimentation, VRRP, ERPS, ACL, SNMPv3 — modèle retenu : <strong>ELB S57244-B0</strong> (24×SFP 1 Gb + 4×SFP+ 10 Gb)</td><td>3</td></tr>
+      <tr><td>Switch industriel de zone</td><td>Coffrets des répartiteurs secondaires et des annexes</td><td>Rail DIN, -40 à +70 °C, 8 ports PoE+ (budget ≥ 240 W), 2 à 4 SFP 1 Gbit/s, ERPS, administrable ; coffret IP55/IP66 ventilé, parafoudres Ethernet, alimentation 48 V</td><td>10 environ</td></tr>
+      <tr><td>Switch cœur informatique niveau 3</td><td>Répartiteur principal desservant la base vie</td><td>48 ports 1 Gbit/s PoE+, 4 SFP+ 10 Gbit/s, empilable, liaisons redondées vers le pare-feu EXYTE</td><td>1</td></tr>
+      <tr><td>Switch d'accès base vie</td><td>Répartiteur principal (phases 2-3), répartiteurs A et B (phase 4)</td><td>48 ports 1 Gbit/s PoE+ 802.3at (budget ≥ 370 W), 2 uplinks SFP+ 10 Gbit/s, empilable ; réemployés d'une phase à l'autre</td><td>3 puis 8</td></tr>
+      <tr><td>Borne Wi-Fi</td><td>Plafond des modules et salles</td><td>Wi-Fi 6 (802.11ax) bi-bande, PoE 802.3at, gestion centralisée ; modèle aligné sur le standard EXYTE</td><td>84</td></tr>
+      <tr><td>Modules optiques</td><td>Tous les répartiteurs</td><td>SFP 1 Gbit/s LX et SFP+ 10 Gbit/s LR monomode, compatibles constructeur</td><td>Selon liaisons</td></tr>
+      <tr><td>Routeur 4G/5G VPN</td><td>Baie du Hub 1</td><td>VPN chiffré, journalisation, activation à la demande</td><td>Option</td></tr>
+      <tr><td>Supervision réseau</td><td>Poste du Hub 1 ou machine virtuelle EXYTE</td><td>Surveillance SNMPv3, collecte syslog, sauvegarde des configurations, alertes e-mail</td><td>1</td></tr>
+    </tbody>
+  </table>
+  <p class="small">Les switchs de zone vidéo de l'étude AVP (R.O.1, R.O.2, R.N, R.E.1 à R.E.3, R.H.1, R.H.2) sont les nœuds de l'anneau terrain : un même switch dessert les caméras, les automates et les afficheurs de sa zone, chacun dans son VLAN. Le modèle retenu, sur devis fournisseur, est le <strong>switch industriel RG-NIS3100-8GT4SFP-HP</strong> (8 répartiteurs) : administrable couche 2, 8 ports RJ45 Gigabit PoE/PoE+, 4 ports SFP 1 Gbit/s, budget PoE 240 W, alimentation 48 V DC dédiée (module RFOFIBRE-M430400-VB), avec boîtier optique rail DIN 8 SC simplex OS2 (BOPTDIN08SCSS2E) et modules SFP monomode 20 km (SFPL-1GD31-20) pour le raccordement fibre.</p>
+
+  <h2>Évolution du réseau par phase</h2>
+  <table class="compact"><colgroup><col style="width:15%"><col></colgroup>
+    <thead><tr><th>Phase</th><th>Réseau mis en service</th></tr></thead>
+    <tbody>
+      <tr><td><span class="phase p2">Phase 2</span></td><td>Cœurs terrain des Hubs 1 et 2, anneau terrain et switchs de zone, <strong>plan de VLAN complet configuré</strong> dès le départ ; cœur informatique et accès des îlots 1 et 2.</td></tr>
+      <tr><td><span class="phase p3">Phase 3</span></td><td>Switchs des bâtiments annexes, raccordement des caméras, des afficheurs et des liaisons techniques ; switchs d'accès pour les îlots 3 à 10.</td></tr>
+      <tr><td><span class="phase p4">Phase 4</span></td><td>Cœur terrain du Hub 3, anneau informatique vers les répartiteurs A et B. Les switchs sont <strong>préconfigurés et testés avant la bascule</strong>, réalisée îlot par îlot en dehors des heures d'occupation.</td></tr>
+    </tbody>
+  </table>
+  <div class="note"><div class="lab">Implantation générale</div><p>Le plan d'implantation de l'étude AVP (FR02201-ENG-ELEC-DRW-1007) positionne les postes énergie, la base vie, les mâts et les cheminements ; il sert de base à nos plans d'exécution courants faibles.</p></div>
+</section>
+
+<!-- =================== 4 VDI =================== -->
+<section class="chap">
+  <div class="kick">Le câblage</div>
+  <h1 class="t1"><span class="num">4</span>VDI — câblage fibre et cuivre</h1>
+  <h2>Répartiteurs</h2>
+  <table class="compact">
+    <thead><tr><th>Répartiteur</th><th>Phase</th><th>Emplacement</th><th>Équipement</th></tr></thead>
+    <tbody>
+      <tr><td>Principal Hub 1 et Hub 2</td><td><span class="phase p2">2</span></td><td>Postes énergie, compartiment CFA climatisé</td><td>Baie 19", tiroirs optiques, panneaux Cat. 6A, switch PoE, onduleur amont</td></tr>
+      <tr><td>Secondaires Est 1, 2, 3 et Ouest 1, 2</td><td><span class="phase p2">2</span></td><td>Zones de chantier</td><td>Coffret étanche IP55 minimum, tiroir optique, switch PoE industriel</td></tr>
+      <tr><td>Secondaires bâtiments annexes ×2</td><td><span class="phase p3">3</span></td><td>Bâtiments techniques</td><td>Coffret ou baie murale, switch PoE</td></tr>
+      <tr><td>Principal Hub 3</td><td><span class="phase p4">4</span></td><td>Poste énergie Hub 3</td><td>Baie 19", tiroirs optiques, switch PoE</td></tr>
+      <tr><td>Secondaires base vie A et B</td><td><span class="phase p4">4</span></td><td>Base vie îlots 1-10 et 11-20</td><td>Baie, panneaux Cat. 6A, switch PoE</td></tr>
+    </tbody>
+  </table>
+  <h2>Liaisons</h2>
+  <table class="compact">
+    <thead><tr><th>Liaison</th><th>Support</th><th>Desserte</th></tr></thead>
+    <tbody>
+      <tr><td>Boucle terrain phase 2</td><td>Fibre OS2 12 brins, câble armé extérieur</td><td>Hub 1 → Est 1, Est 2, Est 3, Ouest 1, Ouest 2 → Hub 1</td></tr>
+      <tr><td>Inter-Hubs</td><td>Fibre OS2 12 brins</td><td>Hub 1 ↔ Hub 2 (phase 2), Hub 1 ↔ Hub 3 (phase 4)</td></tr>
+      <tr><td>Base vie phase 4</td><td>Fibre OS2 12 brins</td><td>Hub 3 → répartiteurs A et B</td></tr>
+      <tr><td>Îlots</td><td>Cuivre Cat. 6A F/STP</td><td>12 prises par îlot (phases 2 et 3), 18 prises par îlot (phase 4) : 480 prises</td></tr>
+      <tr><td>Bâtiments techniques et extérieurs</td><td>Cuivre Cat. 6A F/STP extérieur</td><td>30 liaisons</td></tr>
+    </tbody>
+  </table>
+  <h2>Mise en œuvre</h2>
+  <div class="two">
+    <ul>
+      <li><strong>Cheminements</strong> en fourreaux CFA 40/25 le long de la clôture (posés au lot électricité), liaisons aériennes sur mâts lorsque l'AVP le prévoit.</li>
+      <li><strong>Câbles extérieurs</strong> armés et anti-rongeurs, protégés UV, rayons de courbure respectés.</li>
+      <li><strong>Raccordement</strong> fibre par soudure de pigtails, cuivre sur noyaux Cat. 6A blindés, continuité des écrans.</li>
+    </ul>
+    <ul>
+      <li><strong>Repérage</strong> de chaque câble, prise et port selon une nomenclature unique tenue sur 29 mois.</li>
+      <li><strong>Liaisons équipotentielles</strong> des baies selon EN 50310.</li>
+      <li><strong>Réserves</strong> de fibres et de ports dans chaque répartiteur pour les évolutions.</li>
+    </ul>
+  </div>
+  <h2>Recette</h2>
+  <p><strong>Fibre</strong> : test de réflectométrie (OTDR) dans les deux sens et mesure de photométrie de chaque brin, avec rapport. <strong>Cuivre</strong> : certification de chaque lien en classe EA (Cat. 6A) selon ISO/IEC 11801, avec rapport lien par lien. Les rapports sont remis avant l'ouverture de chaque phase.</p>
+  <div class="note"><div class="lab">Point d'attention</div><p>La DPGF prévoit des liaisons Cat. 6A F/STP, alors que la fiche technique jointe (FR02201-ENG-ELEC-OTH-1033) décrit des prises Legrand Mosaic Cat. 6. Notre offre retient une solution homogène <strong>Cat. 6A blindée</strong> de bout en bout, conforme à la DPGF.</p></div>
+</section>
+
+<!-- =================== 5 WIFI IT =================== -->
+<section>
+  <div class="kick">La connectivité</div>
+  <h1 class="t1"><span class="num">5</span>Wi-Fi et informatique</h1>
+  <h2>Bornes Wi-Fi</h2>
+  <p>84 bornes Wi-Fi alimentées en PoE depuis les switchs des répartiteurs : 4 en phase 2, 20 en phase 3, 60 en phase 4. Les bornes s'intègrent au <strong>réseau informatique et Wi-Fi d'EXYTE</strong> : SSID, authentification et politique de sécurité restent sous la maîtrise d'EXYTE, PROSYB assurant la pose, le raccordement, la mise sous tension et la vérification de la couverture.</p>
+  <ul>
+    <li><strong>Implantation</strong> validée sur plan avant pose : en plafond des modules, à distance des parois métalliques, une borne par zone de travail dense.</li>
+    <li><strong>Vérification de couverture</strong> après pose par relevé de niveau de signal dans chaque îlot.</li>
+    <li><strong>Matériel</strong> : la DPGF prévoit la fourniture des bornes en phase 3 et leur seule pose en phases 2 et 4. Nous proposons d'aligner le modèle fourni sur le standard du réseau EXYTE (voir chapitre 12).</li>
+  </ul>
+  <h2>Équipements informatiques</h2>
+  <p>Le paramétrage des équipements informatiques, selon le plan de VLAN du chapitre 3, comprend la configuration des switchs (VLAN, PoE, agrégation et redondance des anneaux, supervision SNMP, sauvegarde des configurations), la mise à jour des firmwares et la remise des configurations au DOE.</p>
+  <h2>Postes de travail</h2>
+  <p>Chaque îlot reçoit 12 prises RJ45 (18 en phase 4) pour les postes de travail CAD et les bornes Wi-Fi, repérées et testées. Les postes eux-mêmes et les licences restent fournis par EXYTE.</p>
+</section>
+
+<!-- =================== 6 AUDIOVISUEL =================== -->
+<section>
+  <div class="kick">La collaboration</div>
+  <h1 class="t1"><span class="num">6</span>Audiovisuel et affichage</h1>
+  <p>La solution audiovisuelle est construite avec notre distributeur <strong>Sonepar</strong> (pôle Communication, Sécurité &amp; VDI), sur des matériels professionnels disponibles sous une semaine : <strong>iiyama</strong> et <strong>Chief</strong> pour les écrans de salle, <strong>Logitech</strong> pour la visioconférence, <strong>Samsung</strong> pour l'affichage extérieur et <strong>Navori</strong> pour la diffusion centralisée.</p>
+  <h2>Salles de visioconférence</h2>
+  <p>Dix salles de réunion équipées : trois en phase 2, sept en phase 3. Chaque salle reçoit un ensemble <strong>mobile</strong>, adapté à une base vie dont les modules se déplacent d'une phase à l'autre : l'écran, la barre de visioconférence et les équipements sont portés par un chariot à roulettes, sans fixation dans les parois des modules.</p>
+  <div class="prod">
+    <div class="p"><img src="img/av_ecran86_iiyama.jpg"><b>Écran 86" 4K</b><span>iiyama ProLite LH8665UHSB-B1<br>usage 24/7, 800 cd/m²</span></div>
+    <div class="p"><img src="img/av_chariot_chief.jpg"><b>Chariot mobile</b><span>Chief Voyager LSCUW<br>+ étagère SCSSW</span></div>
+    <div class="p"><img src="img/av_rallybar.jpg"><b>Barre de visio</b><span>Logitech Rally Bar<br>caméra 4K, zoom 15X</span></div>
+    <div class="p"><img src="img/av_micpod.jpg"><b>Micros déportés</b><span>Logitech Rally Mic Pod<br>4 par salle</span></div>
+  </div>
+  <table class="compact"><colgroup><col style="width:24%"><col></colgroup>
+    <thead><tr><th>Élément</th><th>Caractéristiques</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Écran 86" 4K professionnel</strong></td><td>iiyama ProLite LH8665UHSB-B1 : dalle IPS 86" (85,6" visibles), 3840 × 2160, 800 cd/m², <strong>fonctionnement 24/7</strong>, 2 entrées HDMI 2.0, DisplayPort, USB, RJ45, haut-parleurs 2 × 10 W, VESA 600 × 400, 49 kg ; garantie 3 ans</td></tr>
+      <tr><td><strong>Chariot mobile</strong></td><td>Chief Voyager LSCUW (grand modèle, réglage manuel en hauteur) : centre de l'écran de 1,29 à 1,55 m, charge 79 kg, VESA jusqu'à 600 × 400, rangement des équipements derrière panneaux amovibles, gestion des câbles, roulettes verrouillables. Étagère Chief SCSSW pour les accessoires</td></tr>
+      <tr><td><strong>Barre de visioconférence</strong></td><td>Logitech Rally Bar : caméra 4K motorisée (zoom 15X dont 5X optique, champ 90°), cadrage automatique, 6 micros à formation de faisceaux (portée 7 m), 2 haut-parleurs 70 mm ; certifiée Microsoft Teams et Zoom, mode USB ou salle Teams Rooms</td></tr>
+      <tr><td><strong>Micros déportés</strong></td><td>4 Logitech Rally Mic Pod (réf. 989-000430) chaînés sur la table, portée 4,5 m chacun, en complément des 6 micros intégrés de la barre</td></tr>
+      <tr><td><strong>Connectique et réseau</strong></td><td>Cordons HDMI 4K (2 m et 10 m), raccordement table HDMI / USB pour les ordinateurs portables, switch PoE 8 ports TP-Link SG2210MP dans le chariot (barre, lecteur d'affichage, prise réseau), alimentation du chariot par une prise dédiée</td></tr>
+      <tr><td><strong>Lecteur d'affichage</strong></td><td>Lecteur Navori StiX 3800 sur chaque écran de salle : hors réunion, l'écran affiche les messages HSE, le planning et les alertes de la diffusion centralisée ; en réunion, l'entrée bascule sur la visioconférence</td></tr>
+    </tbody>
+  </table>
+  <p>En mode <strong>USB</strong>, chacun lance sa réunion depuis son ordinateur portable, quelle que soit la plateforme (Teams, Zoom, Webex). Un fonctionnement en <strong>salle Microsoft Teams Rooms</strong> autonome, avec écran tactile de commande, est possible en option ; il nécessite une licence Teams Rooms fournie par EXYTE.</p>
+  <p>Chaque salle est testée en appel réel avec EXYTE avant ouverture. Lors des changements de phase, les ensembles mobiles sont simplement déplacés, contrôlés et remis en service par nos équipes.</p>
+  <div class="note"><div class="lab">Micros déportés</div><p>La DPGF mentionne un kit de 5 micros déportés. La Rally Bar accepte au maximum 4 Rally Mic Pod (donnée constructeur Logitech) : nous retenons 4 micros déportés, qui s'ajoutent aux 6 micros intégrés de la barre et couvrent les tables de réunion des modules.</p></div>
+  <h2>Afficheurs de chantier</h2>
+  <p>Nous retenons six <strong>écrans d'extérieur professionnels Samsung OHDX 55"</strong> (réf. LH55OHDEBGBXEN), conçus pour la pleine lumière : <strong>3 500 cd/m²</strong> (plus du double des 1 500 cd/m² demandés), capteur de luminosité automatique, <strong>IP56</strong>, fonctionnement 24/7 de -30 à +50 °C. Chaque écran est piloté par un <strong>lecteur Navori StiX 3800</strong> alimenté en PoE et raccordé au réseau terrain.</p>
+  <div class="two" style="align-items:flex-start">
+    <div style="flex:1.1"><div class="fig" style="margin:0"><div class="screen"><img src="img/oh55dx.jpg"></div>
+      <div class="cap">Figure 4 — Écran d'extérieur Samsung OHDX 55" (visuel constructeur).</div></div></div>
+    <div><table class="compact"><colgroup><col style="width:42%"><col></colgroup>
+      <thead><tr><th>Écran OHDX 55"</th><th>Caractéristiques</th></tr></thead>
+      <tbody>
+        <tr><td>Dalle</td><td>55" Full HD, verre 3 mm anti-reflet</td></tr>
+        <tr><td>Luminosité</td><td>3 500 cd/m², capteur automatique</td></tr>
+        <tr><td>Protection</td><td>IP56 eau et poussière</td></tr>
+        <tr><td>Températures</td><td>-30 à +50 °C</td></tr>
+        <tr><td>Usage</td><td>24 h sur 24, 7 jours sur 7</td></tr>
+        <tr><td>Entrées</td><td>2 HDMI, RJ45, RS232, USB</td></tr>
+      </tbody></table></div>
+  </div>
+  <div class="two" style="align-items:flex-start">
+    <div style="flex:.8"><div class="fig" style="margin:0"><div class="screen"><img src="img/totem_erard.jpg"></div>
+      <div class="cap">Figure 5 — Totem extérieur ERARD PRO OUTDOOH (visuel constructeur).</div></div></div>
+    <div style="flex:1"><div class="fig" style="margin:0"><div class="screen"><img src="img/navori_stix.jpg"></div>
+      <div class="cap">Lecteur Navori StiX 3800 : 4K, PoE, sans ventilateur (visuel constructeur).</div></div></div>
+  </div>
+  <table class="compact"><colgroup><col style="width:24%"><col></colgroup>
+    <thead><tr><th>Élément</th><th>Solution</th></tr></thead>
+    <tbody>
+      <tr><td>Lecteur de diffusion</td><td>Navori StiX 3800 : 4K 60 i/s, Android 11, alimentation PoE, 2 ports RJ45, sans ventilateur, contenus stockés en local, lecture programmée, supervision de l'écran par le logiciel de gestion</td></tr>
+      <tr><td>Totems (entrées et aire de livraison)</td><td>3 totems ERARD PRO OUTDOOH, fabrication française : acier peint époxy anti-corrosion, fermeture par 2 serrures à clé, socle autonome de 900 × 550 mm sans génie civil, écran en portrait, centre de l'écran à 1,24 m ; toiture de protection et lestage adaptés au chantier</td></tr>
+      <tr><td>Supports muraux</td><td>3 bras muraux orientables antivol sous les auvents et coursives des modules de base vie, bas de l'écran à environ 1,80 m</td></tr>
+      <tr><td>Réseau</td><td>Liaison Cat. 6A vers le switch de zone, switch PoE local TP-Link SG2210MP, VLAN 50 « Affichage » du réseau terrain, aucune connexion internet</td></tr>
+      <tr><td>Alimentation</td><td>230 V depuis le lot électricité (dont trois afficheurs sur le réseau ondulé selon l'AVP), coffret IP65 avec protection et parafoudre</td></tr>
+    </tbody>
+  </table>
+  <h2>Diffusion centralisée</h2>
+  <p>Les seize écrans (six afficheurs extérieurs et dix écrans de salle) sont pilotés depuis un <strong>serveur de diffusion unique Navori QL installé sur site</strong>, dans la baie du Hub 1, sur le réseau terrain (VLAN 50, secouru par l'onduleur). Les licences Navori sont attachées à chaque lecteur, sans abonnement cloud ni accès internet. Les lecteurs récupèrent leurs programmes sur le serveur et les gardent en mémoire : <strong>l'affichage continue même en cas de coupure du réseau</strong>.</p>
+  <div class="fig"><div class="screen"><img src="img/diffusion_navori.svg"></div>
+    <div class="cap">Figure 6 — Diffusion centralisée Navori : serveur au Hub 1, publication depuis les postes EXYTE, écrans organisés par groupes, message d'alerte prioritaire.</div></div>
+  <table class="compact"><colgroup><col style="width:26%"><col></colgroup>
+    <thead><tr><th>Fonction</th><th>Mise en œuvre</th></tr></thead>
+    <tbody>
+      <tr><td>Publication</td><td>Les personnes désignées par EXYTE (HSE, communication) publient depuis leur navigateur, sur le réseau EXYTE, à travers le pare-feu (seul le flux de publication vers le serveur est ouvert) ; comptes nominatifs et droits par groupe</td></tr>
+      <tr><td>Groupes d'écrans</td><td>Base vie (3 écrans muraux), entrées (2 totems), livraisons (1 totem), salles de réunion (10) : un contenu commun et des contenus propres à chaque groupe</td></tr>
+      <tr><td>Programmation</td><td>Par jour et par plage horaire (accueil du matin, consignes de la journée, planning de la semaine), mise en veille automatique la nuit</td></tr>
+      <tr><td>Données automatiques</td><td>Compteur de jours sans accident, date et heure synchronisées sur le serveur de temps du réseau, météo et vent si EXYTE le souhaite</td></tr>
+      <tr><td>Alerte prioritaire</td><td>Message préparé (évacuation, vent fort, accès fermé) diffusé en un clic sur tous les écrans, puis retour automatique au programme</td></tr>
+      <tr><td>Supervision</td><td>État de chaque lecteur et de son écran (en ligne, contenu en cours, capture d'écran) consulté depuis le serveur ; écran ou lecteur hors service remonté à notre maintenance</td></tr>
+    </tbody>
+  </table>
+  <p>PROSYB livre la <strong>charte de mise en page</strong> (zone principale, compteur, horloge, bandeau défilant) et une dizaine de <strong>modèles prêts à l'emploi</strong> (consignes EPI, accueil, plan de circulation, livraisons en français et en anglais), puis forme les utilisateurs d'EXYTE pendant une demi-journée. Les contenus restent produits par EXYTE.</p>
+</section>
+
+<!-- =================== 7 VIDEO =================== -->
+<section class="chap">
+  <div class="kick">La sûreté</div>
+  <h1 class="t1"><span class="num">7</span>Vidéoprotection et détection intrusion</h1>
+  <p>Le dispositif répond au CCTP du lot 03 « Sécurisation du site par vidéosurveillance et détection intrusion » et à la section 6 de la DPGF : <strong>28 caméras sur mâts</strong> couvrant le périmètre, les accès, la base vie et les zones de stockage, avec <strong>détection d'intrusion par analyse vidéo</strong> et levée de doute immédiate.</p>
+  <div class="fig"><div class="screen"><img src="img/cctv_couverture.png"></div>
+    <div class="cap">Figure 7 — Plan de couverture des caméras de l'étude AVP (FR02201-ENG-ELEC-DRW-1009), point de départ de notre étude de couverture d'exécution.</div></div>
+</section>
+
+<section>
+  <h2>Étude de couverture</h2>
+  <p>Avant toute commande, nous réalisons l'étude de couverture sûreté demandée par le CCTP, à partir du PIC d'EXYTE et du plan AVP : contrôle des champs et des distances de chaque caméra selon la méthode DORI (EN 62676-4), suppression des angles morts sur les accès, portails, zones de livraison et de stockage, et masquage des zones hors emprise. Le plan d'implantation et le schéma d'architecture sont soumis à EXYTE.</p>
+  <h2>Matériel</h2>
+  <table class="compact">
+    <thead><tr><th>Équipement</th><th>Caractéristiques</th></tr></thead>
+    <tbody>
+      <tr><td>Caméras Hikvision DS-2CD1643G2-LIZSU ×28</td><td>Bullet 4 MP, objectif varifocal motorisé 2,8-12 mm, Smart Hybrid Light (infrarouge et lumière blanche), WDR 120 dB, détection humain / véhicule, micro intégré, IP67, PoE</td></tr>
+      <tr><td>Mâts</td><td>Mâts sur massif béton (massifs au lot génie civil), caméras hors de portée et protégées des chocs</td></tr>
+      <tr><td>Switchs PoE de zone ×8</td><td>Coffrets étanches par zone (R.O.1, R.O.2, R.N, R.E.1, R.E.2, R.E.3, R.H.1, R.H.2), raccordés en fibre au local Hub 1, alimentation 230/48 V — modèle <strong>RG-NIS3100-8GT4SFP-HP</strong> (8 ports RJ45 PoE/PoE+ 240 W, 4 SFP), avec module d'alimentation 48 V DC RFOFIBRE-M430400-VB, boîtier optique rail DIN BOPTDIN08SCSS2E et modules SFP monomode 20 km SFPL-1GD31-20</td></tr>
+      <tr><td>Switch PoE local poste de garde</td><td>Modèle <strong>TL-SG3210XHP-M2</strong> : 8 ports PoE 2,5 Gbit/s + 2 SFP+, dédié aux équipements locaux (NVR, PC, périphériques), conforme à la demande de 8 ports RJ45 PoE+ du CCTP</td></tr>
+      <tr><td>Enregistreur Hikvision DS-7732NXI-K4/16P(E)</td><td>NVR AcuSense 32 voies (28 utilisées + 4 de réserve) avec 16 ports PoE intégrés, 256 Mbit/s en entrée, H.265+, 4 baies disques, 2 ports réseau, relecture synchrone 16 voies, sortie HDMI 4K, recherche AcuSearch</td></tr>
+      <tr><td>Disque de surveillance</td><td>1 disque <strong>HW-SP-HDD-SATA-20TB</strong> (20 To, SATA 6 Gbit/s, 7.2K, hot-plug), dimensionné pour la durée de conservation retenue, évolutif par ajout de baies disque sur le NVR</td></tr>
+      <tr><td>Logiciel iVMS-4200</td><td>Logiciel d'exploitation Hikvision, sans licence, installé au poste de garde (et sur un poste EXYTE si souhaité)</td></tr>
+      <tr><td>Poste de supervision</td><td>PC <strong>Dell Inspiron 13</strong> (réf. INSPIRON13), configuration adaptée à la supervision du système de vidéosurveillance, au poste de garde, sur départ ondulé</td></tr>
+    </tbody>
+  </table>
+  <div class="fig"><div class="screen"><img src="img/cctv_synoptique.png"></div>
+    <div class="cap">Figure 8 — Synoptique sûreté de l'étude AVP (FR02201-ENG-ELEC-DRW-1015) : switchs PoE par zone, fibre vers le local Hub 1, NVR et poste de garde.</div></div>
+</section>
+
+<section>
+  <h2>Détection, levée de doute et alertes</h2>
+  <ul>
+    <li><strong>Détection d'intrusion</strong> par franchissement de ligne et entrée en zone sur les caméras périmétriques, avec filtrage humain / véhicule pour limiter les fausses alarmes.</li>
+    <li><strong>Plages horaires</strong> de surveillance renforcée hors horaires de chantier.</li>
+    <li><strong>Association automatique</strong> alarme → caméra concernée → enregistrement de la séquence.</li>
+    <li><strong>Notification</strong> au poste de garde et par e-mail aux personnes désignées par EXYTE ; journalisation des alarmes, acquittements et observations.</li>
+  </ul>
+  <h2>Enregistrement et conservation</h2>
+  <p>L'étude AVP estime 18 à 22 To pour 15 jours d'enregistrement. Nous dimensionnons le stockage du NVR pour la durée validée par EXYTE, <strong>dans la limite légale d'un mois</strong>. L'accès aux images est réservé aux personnes habilitées, par comptes nominatifs ; tout export est tracé. Une procédure de recherche, d'extraction et de sauvegarde d'une séquence est remise à EXYTE.</p>
+  <h2>RGPD et information du personnel</h2>
+  <p>La finalité du dispositif est la protection du site et la prévention des intrusions, jamais la surveillance permanente de l'activité individuelle. Nous fournissons les éléments de l'analyse RGPD et de la signalétique d'information, limitons les champs de vision à l'emprise et paramétrons les droits par profil.</p>
+  <div class="note"><div class="lab">Analyse du port des EPI</div><p>La DPGF prévoit une analyse comportementale incluant le port des EPI. Cette fonction peut être assimilée à une surveillance des salariés : nous proposons de la paramétrer en <strong>mode statistique et préventif</strong> (alertes HSE sans identification nominative), sous réserve de validation par EXYTE et d'information préalable des représentants du personnel.</p></div>
+  <h2>Continuité et accès distant</h2>
+  <p>Caméras et NVR sont alimentés par les départs secourus du lot électricité. Le CCTP prévoyant un <strong>système autonome vis-à-vis d'internet</strong>, l'accès distant éventuel se fait par un routeur 4G/5G dédié avec VPN chiffré, uniquement s'il est validé par EXYTE et le client.</p>
+</section>
+
+<section>
+  <h2>Une solution Hikvision de bout en bout</h2>
+  <p>Caméras, enregistreur et logiciel d'exploitation sont d'une <strong>même marque, Hikvision</strong>. Les analyses intelligentes des caméras (franchissement de ligne, intrusion de zone, filtrage humain / véhicule) sont reconnues nativement par l'enregistreur et par le logiciel : pas de passerelle, pas de licence tierce, pas de perte de fonctions entre la caméra et l'écran de l'opérateur.</p>
+  <div class="two" style="align-items:center">
+    <div>
+      <ul>
+        <li><strong>Enregistreur DS-7732NXI-K4/16P(E)</strong> installé dans la baie du Hub 1, sur le TD ondulé, avec 16 ports PoE intégrés et disque 20 To (HW-SP-HDD-SATA-20TB) : il enregistre en continu les 28 caméras et garde 4 voies de réserve pour les évolutions de phase.</li>
+        <li><strong>Logiciel iVMS-4200</strong> au poste de garde : vue en direct, relecture, centre d'événements et carte du site, sur deux écrans.</li>
+        <li><strong>Réseau dédié</strong> : caméras dans le VLAN 20, enregistreur et poste de garde dans le VLAN 21 (voir chapitre 3).</li>
+      </ul>
+    </div>
+    <div style="flex:.8">
+      <div class="fig" style="margin:0"><div class="screen" style="background:#000;padding:4mm"><img src="img/nvr_ds7732.jpg" style="width:100%"></div>
+        <div class="cap">Figure 9 — Enregistreur Hikvision DS-7732NXI-K4 (1,5U, 32 voies, 4 disques).</div></div>
+    </div>
+  </div>
+  <h2>Dimensionnement de l'enregistrement</h2>
+  <table class="compact"><colgroup><col style="width:42%"><col></colgroup>
+    <thead><tr><th>Paramètre</th><th>Valeur retenue</th></tr></thead>
+    <tbody>
+      <tr><td>Caméras raccordées</td><td>28 caméras 4 MP, 32 voies disponibles</td></tr>
+      <tr><td>Compression et débit moyen</td><td>H.265+, 3 à 4 Mbit/s par caméra, soit environ 110 Mbit/s pour une capacité d'entrée de 256 Mbit/s</td></tr>
+      <tr><td>Mode d'enregistrement</td><td>Continu 24h/24, flux principal ; marquage des séquences sur événement</td></tr>
+      <tr><td>Stockage</td><td>4 disques de 10 To : environ 20 To pour 15 jours (estimation AVP : 18 à 22 To), jusqu'à environ 30 jours</td></tr>
+      <tr><td>Durée de conservation</td><td>Paramétrée selon la durée validée par EXYTE, effacement automatique au-delà, dans la limite légale d'un mois</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Le logiciel d'exploitation iVMS-4200</h2>
+  <p>iVMS-4200 est le logiciel de gestion vidéo de Hikvision. Il est <strong>fourni sans licence</strong>, fonctionne <strong>entièrement en local</strong> (sans connexion internet, comme l'exige le CCTP) et gère dans une même interface la vue en direct, la relecture, les alarmes et la carte du site. Les écrans ci-dessous illustrent l'exploitation telle que nous la paramétrerons pour le chantier KHAZNA ORY01.</p>
+  <div class="fig"><div class="screen"><img src="img/ivms_live.jpg"></div>
+    <div class="cap">Figure 10 — Vue en direct : mosaïque de 16 caméras du périmètre de nuit, arborescence par enregistreur, alarme d'intrusion signalée en rouge sur la caméra concernée (écran type, paramétrage illustratif).</div></div>
+  <ul>
+    <li><strong>Mosaïques préparées</strong> par usage (périmètre de nuit, accès et livraisons, base vie), jusqu'à 64 caméras par écran ; le deuxième écran affiche automatiquement la caméra en alarme.</li>
+    <li><strong>Reprise automatique</strong> de la dernière configuration d'affichage après un redémarrage du poste.</li>
+  </ul>
+
+  <div class="fig"><div class="screen"><img src="img/ivms_playback.jpg"></div>
+    <div class="cap">Figure 11 — Relecture : lecture synchronisée de 4 caméras, frise de 24 heures avec les événements détectés et filtre AcuSearch humain / véhicule (écran type, paramétrage illustratif).</div></div>
+  <ul>
+    <li><strong>Relecture synchronisée</strong> jusqu'à 16 caméras pour suivre un déplacement le long de la clôture.</li>
+    <li><strong>Recherche AcuSearch</strong> : seules les séquences contenant une personne ou un véhicule sont proposées, ce qui ramène la recherche d'un incident de plusieurs heures de vidéo à quelques minutes.</li>
+    <li><strong>Export tracé</strong> d'une séquence vers une clé USB ou un dossier réseau, avec le lecteur Hikvision fourni pour la remise aux autorités.</li>
+  </ul>
+  <div class="fig"><div class="screen"><img src="img/ivms_events.jpg"></div>
+    <div class="cap">Figure 12 — Centre d'événements : liste des alarmes par priorité, détail de l'alarme avec la vidéo associée, saisie de l'observation et acquittement (écran type, paramétrage illustratif).</div></div>
+
+  <ul>
+    <li><strong>Alarme et levée de doute</strong> : sur une intrusion, iVMS déclenche une alarme sonore, ouvre la vidéo en direct et la séquence enregistrée de la caméra et de deux caméras voisines associées.</li>
+    <li><strong>Traçabilité</strong> : chaque alarme est acquittée avec une observation (agent envoyé, livraison prévue, fausse alarme) ; l'historique s'exporte en Excel ou CSV pour le suivi sûreté d'EXYTE.</li>
+    <li><strong>Notifications</strong> par e-mail avec image aux personnes désignées par EXYTE, via le serveur de messagerie d'EXYTE.</li>
+  </ul>
+  <div class="fig"><div class="screen"><img src="img/ivms_emap.jpg"></div>
+    <div class="cap">Figure 13 — Carte électronique : positions des caméras sur le plan de chantier, caméra en alarme mise en évidence et accès direct à sa vidéo (écran type sur le plan d'implantation AVP).</div></div>
+  <ul>
+    <li><strong>Carte du site</strong> mise à jour à chaque phase : l'agent localise immédiatement l'alarme sur le plan et oriente l'intervention.</li>
+    <li><strong>État des équipements</strong> : perte vidéo, caméra déconnectée, disque plein ou en défaut remontent comme des alarmes techniques, exploitées par notre maintenance.</li>
+  </ul>
+  <h2>Droits d'accès</h2>
+  <table class="compact"><colgroup><col style="width:24%"><col></colgroup>
+    <thead><tr><th>Profil</th><th>Droits dans iVMS-4200</th></tr></thead>
+    <tbody>
+      <tr><td>Agent de sécurité</td><td>Vue en direct, acquittement des alarmes, relecture des dernières 24 heures, sans export</td></tr>
+      <tr><td>Responsable sûreté EXYTE</td><td>Toutes caméras, relecture complète, export des séquences, consultation de l'historique</td></tr>
+      <tr><td>Maintenance PROSYB</td><td>Configuration des équipements, état des disques et des caméras, sans accès aux exports</td></tr>
+    </tbody>
+  </table>
+  <div class="cle"><div class="lab">POURQUOI CE CHOIX</div><p>Une seule marque de la caméra au logiciel, c'est moins d'interfaces, aucune licence à renouveler pendant les 29 mois du chantier, un fonctionnement autonome sans internet et des agents formés en une demi-journée sur un outil largement répandu. iVMS-4200 peut aussi être installé sur un poste d'EXYTE pour une consultation à distance depuis son réseau, à travers le pare-feu.</p></div>
+  <p class="small">Les écrans présentés sont des écrans types reconstitués pour illustrer le paramétrage prévu ; les noms de caméras, mosaïques et règles d'alarme définitifs seront arrêtés avec EXYTE pendant les études d'exécution.</p>
+
+  <h2>Conformité au CCTP — annexe A</h2>
+  <table class="compact"><colgroup><col style="width:40%"><col style="width:9%"><col></colgroup>
+    <thead><tr><th>Point de contrôle</th><th>Réponse</th><th>Commentaire</th></tr></thead>
+    <tbody>
+      <tr><td>Plan d'implantation fourni</td><td class="ok">Oui</td><td>Étude de couverture d'exécution sur la base du plan AVP</td></tr>
+      <tr><td>Couverture accès principaux et zones sensibles</td><td class="ok">Oui</td><td>28 caméras, maillage chantier et périphérie</td></tr>
+      <tr><td>Détection intrusion automatique</td><td class="ok">Oui</td><td>Analyse vidéo AcuSense : franchissement de ligne, intrusion de zone</td></tr>
+      <tr><td>Levée de doute vidéo possible</td><td class="ok">Oui</td><td>Alarme associée à la caméra, visualisation et relecture immédiates</td></tr>
+      <tr><td>Fonctionnement jour / nuit</td><td class="ok">Oui</td><td>Smart Hybrid Light, infrarouge et lumière blanche</td></tr>
+      <tr><td>Conservation des images décrite</td><td class="ok">Oui</td><td>Durée validée par EXYTE, un mois maximum</td></tr>
+      <tr><td>Gestion des droits utilisateurs</td><td class="ok">Oui</td><td>Comptes nominatifs, profils, traçabilité des connexions et exports</td></tr>
+      <tr><td>Procédure RGPD et affichage proposés</td><td class="ok">Oui</td><td>Éléments d'analyse et signalétique fournis</td></tr>
+      <tr><td>Maintenance et délais d'intervention précisés</td><td class="ok">Oui</td><td>Voir chapitre 11</td></tr>
+      <tr><td>BPU et options complets</td><td class="ok">Oui</td><td>Déplacement ou ajout de caméra au prix unitaire ; caméra PTZ et barrière infrarouge en option</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- =================== 8 GTB =================== -->
+<section class="chap">
+  <div class="kick">L'énergie</div>
+  <h1 class="t1"><span class="num">8</span>GTB / GTE</h1>
+  <p>La GTB surveille en permanence l'alimentation électrique du chantier : un automate <strong>WAGO Compact Controller 100 (751-9301)</strong> dans chacun des trois TGBT remonte les états, les défauts et les consommations vers un poste de supervision au poste de garde, avec historisation et alertes.</p>
+  <div class="fig"><div class="screen"><img src="img/gtb_synoptique.png" style="width:82%;margin:0 auto"></div>
+    <div class="cap">Figure 14 — Synoptique GTC de l'étude AVP (FR02201-ENG-ELEC-DRW-1017) : un automate WAGO par TGBT, compteurs Modbus, liaisons groupe électrogène et onduleur.</div></div>
+  <h2>Points supervisés par TGBT</h2>
+  <table class="compact">
+    <thead><tr><th>Information</th><th>Type</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>Position de l'inverseur de sources (2), défaut transformateur, défaut parafoudre</td><td>TOR</td><td>TGBT</td></tr>
+      <tr><td>Présence tension normale, secourue et ondulée</td><td>TOR</td><td>TGBT</td></tr>
+      <tr><td>Défauts des départs (contacts SD) : 15 au Hub 1, 14 au Hub 2, 8 au Hub 3</td><td>TOR</td><td>Disjoncteurs</td></tr>
+      <tr><td>Énergies, puissances, tensions, courants</td><td>Modbus RS485</td><td>Compteur d'énergie</td></tr>
+      <tr><td>État et alarmes du groupe électrogène et de l'onduleur</td><td>Liaison de communication</td><td>GE, onduleur</td></tr>
+    </tbody>
+  </table>
+  <h2>Supervision</h2>
+  <div class="two">
+    <ul>
+      <li><strong>Poste fixe à deux écrans</strong> au poste de garde, accès web aux automates.</li>
+      <li><strong>Tableaux de bord</strong> de consommation par Hub et par phase, historisation.</li>
+    </ul>
+    <ul>
+      <li><strong>Alertes SMS et e-mail</strong> sur défaut, perte de tension, passage sur groupe ou sur onduleur.</li>
+      <li><strong>Raccordement</strong> des automates au réseau terrain (VLAN GTB).</li>
+    </ul>
+  </div>
+  <p>Le câblage interne des contacts et des compteurs dans les TGBT est réalisé en coordination avec le tableautier du lot électricité ; nous fournissons dès les études la liste des points et les schémas de raccordement des automates.</p>
+</section>
+
+<!-- =================== 9 ORGANISATION =================== -->
+<section class="chap">
+  <div class="kick">La conduite du lot</div>
+  <h1 class="t1"><span class="num">9</span>Organisation, études et phasage</h1>
+  <h2>L'équipe dédiée</h2>
+  <table class="compact"><colgroup><col style="width:44%"><col></colgroup>
+    <thead><tr><th>Fonction</th><th>Rôle</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Responsable d'affaire</strong> — Woody SEALE, Président</td><td>Interlocuteur contractuel d'EXYTE, engagement de PROSYB, arbitrages</td></tr>
+      <tr><td><strong>Directeur de travaux</strong> — Jean-Michel BARBIER</td><td>Pilotage de la production, des équipes, de la qualité et de la sécurité</td></tr>
+      <tr><td><strong>Chef de projet CFA</strong> — désigné à la commande</td><td>Études d'exécution, coordination avec le lot électricité et l'IT d'EXYTE, planning par phase</td></tr>
+      <tr><td><strong>Technicien réseaux et sûreté</strong></td><td>Paramétrage des switchs, de la vidéo et de la GTB, recettes, maintenance</td></tr>
+      <tr><td><strong>Technicien audiovisuel</strong></td><td>Installation et mise en service des salles de visioconférence et des afficheurs</td></tr>
+      <tr><td><strong>Équipe câblage</strong></td><td>Tirage, raccordement et certification fibre et cuivre</td></tr>
+    </tbody>
+  </table>
+  <h2>Études d'exécution</h2>
+  <p>Remises au visa d'EXYTE dans les 15 jours suivant la commande, conformément au planning AVP : architecture IT et audiovisuel, synoptiques IT, sûreté et GTC, plans d'implantation courants faibles, étude de couverture vidéo, liste des points GTB, plan d'adressage IP, fiches techniques, plan d'assurance qualité.</p>
+  <h2>Phasage</h2>
+  <div class="flow">
+    <div class="s"><span class="k">T0</span><b>02/11/2026</b><span>Commande, études d'exécution (15 jours), approvisionnements.</span></div>
+    <div class="s"><span class="k">T1</span><b>14/12/2026</b><span>Phase 2 : cœur de réseau, îlots 1-2, GTB, 3 salles.</span></div>
+    <div class="s"><span class="k">T2</span><b>02/02/2027</b><span>Phase 3 : îlots 3-10, vidéo, afficheurs, 7 salles.</span></div>
+    <div class="s"><span class="k">T3</span><b>18/06/2027</b><span>Phase 4 : Hub 3, base vie 20 îlots, 60 bornes.</span></div>
+    <div class="s"><span class="k">Fin</span><b>Déc. 2028</b><span>Repli complet et évacuation.</span></div>
+  </div>
+  <h2>Interfaces</h2>
+  <table class="compact"><colgroup><col style="width:28%"><col></colgroup>
+    <thead><tr><th>Avec</th><th>Objet</th></tr></thead>
+    <tbody>
+      <tr><td>Lot électricité</td><td>Alimentations des répartiteurs, mâts, caméras et afficheurs ; fourreaux CFA ; câblage interne des TGBT pour la GTB</td></tr>
+      <tr><td>Lot génie civil</td><td>Massifs des mâts caméras, chambres de tirage, traversées</td></tr>
+      <tr><td>IT EXYTE</td><td>Arrivées opérateurs, politique réseau, SSID, matériel Wi-Fi, postes de travail, licences</td></tr>
+      <tr><td>Lot SSI</td><td>Report des alarmes SSI au poste de garde</td></tr>
+    </tbody>
+  </table>
+  <h2>Sécurité</h2>
+  <p>PPSPS avant démarrage, accueil sécurité EXYTE pour chaque intervenant, habilitations électriques, travail en hauteur sur nacelle pour les mâts, permis de travail selon les règles du site, balisage, chantier propre chaque jour.</p>
+</section>
+
+<!-- =================== 10 ESSAIS =================== -->
+<section>
+  <div class="kick">La validation</div>
+  <h1 class="t1"><span class="num">10</span>Essais et réception</h1>
+  <p>Chaque phase est réceptionnée avant son ouverture aux utilisateurs, sur la base d'un cahier de recette validé par EXYTE.</p>
+  <table class="compact">
+    <thead><tr><th>Domaine</th><th>Essais</th><th>Livrable</th></tr></thead>
+    <tbody>
+      <tr><td>Fibre</td><td>OTDR dans les deux sens et photométrie, brin par brin</td><td>Rapports de mesure</td></tr>
+      <tr><td>Cuivre</td><td>Certification classe EA de chaque lien</td><td>Rapport lien par lien</td></tr>
+      <tr><td>Réseau</td><td>Basculement des anneaux, PoE, VLAN, supervision des switchs</td><td>PV de mise en service</td></tr>
+      <tr><td>Wi-Fi</td><td>Association et relevé de couverture par îlot</td><td>Relevé de couverture</td></tr>
+      <tr><td>Vidéo</td><td>Tests caméra par caméra, de jour et de nuit, simulation d'intrusion, test des alertes, enregistrement et extraction</td><td>PV de tests, fiche de paramétrage</td></tr>
+      <tr><td>GTB</td><td>Essai point à point de chaque information jusqu'au poste de supervision, test des alertes SMS et e-mail</td><td>Liste de points cochée</td></tr>
+      <tr><td>Audiovisuel</td><td>Appel de visioconférence réel dans chaque salle, test des afficheurs</td><td>PV par salle</td></tr>
+    </tbody>
+  </table>
+  <h2>Dossier des ouvrages exécutés</h2>
+  <p>Plans de récolement, synoptiques, plan d'adressage IP, rapports de recette, configurations sauvegardées, fiches techniques, notices, comptes utilisateurs remis, garanties. Le DOE est mis à jour à chaque phase et à chaque modification.</p>
+</section>
+
+<!-- =================== 11 MAINTENANCE =================== -->
+<section class="chap">
+  <div class="kick">La durée</div>
+  <h1 class="t1"><span class="num">11</span>Exploitation et maintenance</h1>
+  <p>Sur un chantier de 29 mois, la maintenance n'est pas une option : c'est elle qui garantit que la base vie reste connectée et le site protégé jusqu'au dernier jour. Notre organisation couvre <strong>les 28 mois d'exploitation</strong> prévus à la DPGF pour l'ensemble des courants faibles.</p>
+  <div class="kpis">
+    <div class="kpi"><div class="v">24/7</div><div class="l">astreinte téléphonique et intervention pour les défauts critiques</div></div>
+    <div class="kpi"><div class="v"><span class="champ">4 h</span></div><div class="l">délai d'intervention sur site, défaut critique</div></div>
+    <div class="kpi"><div class="v">1</div><div class="l">visite préventive par mois</div></div>
+    <div class="kpi"><div class="v">≥ 99 <small>%</small></div><div class="l">objectif de disponibilité des services</div></div>
+  </div>
+  <h2>Organisation</h2>
+  <div class="two">
+    <ul>
+      <li><strong>Un technicien référent</strong> PROSYB, qui connaît l'installation et les interlocuteurs EXYTE, présent sur site lors des visites et des changements de phase.</li>
+      <li><strong>Une astreinte 24/7</strong> joignable par un numéro unique, intégrée à la permanence technique d'exploitation du chantier.</li>
+      <li><strong>Un stock de pièces sur site</strong> : caméra, switch PoE, borne Wi-Fi, alimentation, jarretières, disque NVR, module automate.</li>
+    </ul>
+    <ul>
+      <li><strong>Une supervision à distance</strong> : alertes du NVR (perte vidéo, disque), des switchs (port, anneau) et de la GTB, traitées avant qu'un utilisateur ne s'en aperçoive.</li>
+      <li><strong>Une adresse support dédiée</strong>, <strong>support@prosyb.com</strong>, avec suivi de chaque demande par ticket dans notre outil de gestion.</li>
+      <li><strong>Un rapport mensuel</strong> : interventions, disponibilité, incidents, actions correctives, évolutions à prévoir.</li>
+    </ul>
+  </div>
+  <div class="cle"><div class="lab">SUPPORT ET SUIVI DES DEMANDES</div><p>Toute demande d'EXYTE (incident, dysfonctionnement, demande d'évolution ou de déplacement) s'adresse à <strong>support@prosyb.com</strong>. Chaque message crée automatiquement un <strong>ticket</strong> dans notre outil de gestion dédié : accusé de réception avec numéro de ticket, qualification du niveau de gravité, affectation à un technicien, suivi de l'avancement et clôture après validation par le demandeur. L'historique des tickets constitue le registre des interventions du chantier et alimente le rapport mensuel (délais, disponibilité, incidents récurrents). Pour un défaut critique, l'appel à l'astreinte 24/7 reste prioritaire et le ticket est ouvert en parallèle.</p></div>
+  <h2>Niveaux de gravité et délais</h2>
+  <table class="compact">
+    <thead><tr><th>Niveau</th><th>Exemples</th><th>Intervention</th><th>Remise en service</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag">Critique</span></td><td>Perte d'un cœur de réseau, NVR à l'arrêt, perte de la GTB, coupure d'un anneau fibre</td><td><span class="champ">4 h, 24/7</span></td><td><span class="champ">8 h</span> (solution provisoire incluse)</td></tr>
+      <tr><td><span class="tag b">Majeur</span></td><td>Caméra hors service, zone Wi-Fi coupée, salle de visioconférence indisponible</td><td><span class="champ">J+1 ouvré</span></td><td><span class="champ">J+2 ouvrés</span></td></tr>
+      <tr><td><span class="tag c">Mineur</span></td><td>Prise défectueuse, afficheur, réglage</td><td><span class="champ">72 h ouvrées</span></td><td>Visite suivante au plus tard</td></tr>
+    </tbody>
+  </table>
+  <h2>Maintenance préventive</h2>
+  <table class="compact">
+    <thead><tr><th>Système</th><th>Opérations</th><th>Fréquence</th></tr></thead>
+    <tbody>
+      <tr><td>Réseau et VDI</td><td>Contrôle des répartiteurs et coffrets (étanchéité, température, propreté), états des anneaux, mises à jour, sauvegarde des configurations</td><td>Mensuelle</td></tr>
+      <tr><td>Wi-Fi</td><td>Contrôle de fonctionnement des bornes, contrôle de couverture après réorganisation</td><td>Trimestrielle</td></tr>
+      <tr><td>Vidéoprotection</td><td>Nettoyage des optiques, contrôle des cadrages, de la vision de nuit, des détections et de l'enregistrement, état des disques, fixations des mâts</td><td>Mensuelle</td></tr>
+      <tr><td>GTB / GTE</td><td>Test des alertes, contrôle des remontées et des compteurs, sauvegarde des programmes</td><td>Trimestrielle</td></tr>
+      <tr><td>Audiovisuel et affichage</td><td>Test de chaque salle, mises à jour, contrôle des afficheurs</td><td>Trimestrielle</td></tr>
+    </tbody>
+  </table>
+  <h2>Évolutions de phase, déplacements et repli</h2>
+  <p>Chaque changement de phase est préparé comme une opération à part entière : relevé des besoins avec EXYTE, plan de basculement, réalisation hors des heures d'occupation des îlots lorsque nécessaire, essais, mise à jour du DOE. Les déplacements ou ajouts de caméras, prises et bornes demandés en cours de chantier sont réalisés sur devis selon le bordereau de prix unitaires. En fin de chantier (décembre 2028), nous assurons la dépose, le conditionnement du matériel réutilisable et l'évacuation des déchets selon les filières DEEE.</p>
+  <div class="cle"><div class="lab">NOTRE ENGAGEMENT</div><p>Un interlocuteur unique, joignable jour et nuit, qui connaît l'installation : la base vie reste connectée et le site protégé pendant toute la durée du chantier.</p></div>
+</section>
+
+<!-- =================== 12 HYPOTHÈSES =================== -->
+<section class="chap">
+  <div class="kick">Le cadre</div>
+  <h1 class="t1"><span class="num">12</span>Hypothèses, interfaces et questions</h1>
+  <h2>Hors de notre prestation</h2>
+  <ul>
+    <li>Courants forts (HTA, TGBT, distribution, éclairage, IRVE) et système de sécurité incendie.</li>
+    <li>Massifs, tranchées, fourreaux et chambres de tirage (lots génie civil et électricité).</li>
+    <li>Alimentations électriques des équipements courants faibles, jusqu'à leur coffret (lot électricité).</li>
+    <li>Arrivées opérateurs, abonnements, postes de travail, licences de visioconférence et contenus des afficheurs (EXYTE).</li>
+    <li>Gardiennage, astreinte de levée de doute externalisée et intervention physique sur intrusion.</li>
+  </ul>
+  <h2>Points à confirmer avec EXYTE</h2>
+  <table class="compact"><colgroup><col style="width:6%"><col></colgroup>
+    <thead><tr><th>N°</th><th>Question</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Bornes Wi-Fi : la DPGF prévoit leur fourniture en phase 3 (20) et leur seule pose en phases 2 (4) et 4 (60). Les bornes des phases 2 et 4 sont-elles fournies par EXYTE ? Quel modèle et quel contrôleur faut-il retenir pour la phase 3 ?</td></tr>
+      <tr><td>2</td><td>Prises RJ45 : confirmer la catégorie 6A blindée (DPGF) plutôt que la catégorie 6 de la fiche technique OTH-1033.</td></tr>
+      <tr><td>3</td><td>Vidéo : durée de conservation à retenir (15 jours selon l'AVP, un mois au maximum) et validation de l'analyse du port des EPI au regard du RGPD.</td></tr>
+      <tr><td>4</td><td>Vidéo : accès distant souhaité ou système strictement local (le CCTP prévoit un système autonome vis-à-vis d'internet).</td></tr>
+      <tr><td>5</td><td>Salles de réunion : plateforme de visioconférence d'EXYTE, mode USB ou salle Teams Rooms (licence), et validation de 4 micros déportés au lieu de 5.</td></tr>
+      <tr><td>6</td><td>GTB : logiciel de supervision attendu (supervision web des automates ou logiciel tiers) et destinataires des alertes.</td></tr>
+      <tr><td>7</td><td>Maintenance : répartition de la permanence 24/7 entre le lot électricité et le lot courants faibles.</td></tr>
+      <tr><td>8</td><td>Réseau : plan d'adressage et numérotation des VLAN d'EXYTE, modèles du pare-feu et des switchs du standard KHAZNA, authentification des prises des îlots (802.1X ou MAC), validation de l'accès VPN de maintenance.</td></tr>
+      <tr><td>9</td><td>Afficheurs : validation des six emplacements sous abri (auvents de modules ou totems couverts) et du poste EXYTE qui assurera la diffusion des contenus.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- =================== 13 POURQUOI PROSYB =================== -->
+<section class="chap">
+  <div class="kick">Nos engagements</div>
+  <h1 class="t1"><span class="num">13</span>Pourquoi PROSYB</h1>
+  <div class="kpis">
+    <div class="kpi"><div class="v">1</div><div class="l">interlocuteur pour tous les courants faibles</div></div>
+    <div class="kpi"><div class="v">100 <small>%</small></div><div class="l">des liens fibre et cuivre certifiés</div></div>
+    <div class="kpi"><div class="v">24/7</div><div class="l">astreinte pendant toute la durée du chantier</div></div>
+    <div class="kpi"><div class="v">29 <small>mois</small></div><div class="l">d'accompagnement, de l'installation au repli</div></div>
+  </div>
+  <div class="two">
+    <div class="note"><div class="lab">Les data centers, notre terrain</div><p>PROSYB intervient en courants faibles, sûreté et GTB sur des data centers en construction et en exploitation : exigences, rythmes et règles de ces chantiers sont les nôtres.</p></div>
+    <div class="note"><div class="lab">Toute la chaîne maîtrisée</div><p>Du câble à l'écran : câblage, réseau, vidéo, GTB et audiovisuel sont réalisés et maintenus par nos équipes, sans frontière à arbitrer.</p></div>
+  </div>
+  <div class="two">
+    <div class="note"><div class="lab">Proximité</div><p>Basés à Roissy-en-Brie (77), à moins d'une heure de Fouju : nos équipes et notre astreinte interviennent rapidement.</p></div>
+    <div class="note"><div class="lab">Garantie</div><p>1 an pièces et main-d'œuvre à compter de la réception, 2 ans sur les pièces, en complément de la maintenance pendant le chantier.</p></div>
+  </div>
+  <div class="cle"><div class="lab">EN RÉSUMÉ</div><p>Une base vie connectée dès le premier îlot, un chantier protégé jour et nuit, une énergie surveillée en continu, et une équipe qui reste à vos côtés jusqu'au repli : PROSYB porte le lot courants faibles de KHAZNA ORY01 de bout en bout.</p></div>
+  <div class="sign">
+    <div style="flex:1">
+      <div class="small" style="text-transform:uppercase;letter-spacing:1pt;font-weight:bold">Pour PROSYB</div>
+      <div style="margin-top:2mm"><strong>Woody SEALE</strong>, Président</div>
+      <div class="small">woody.seale@prosyb.com · 07 71 69 47 99</div>
+      <img src="tampon.png" style="height:28mm;margin-top:3mm" onerror="this.style.display='none'">
+    </div>
+    <div style="flex:1">
+      <div class="small" style="text-transform:uppercase;letter-spacing:1pt;font-weight:bold">Bon pour accord — EXYTE</div>
+      <div style="margin-top:2mm" class="small">Nom, fonction, date, signature et cachet</div>
+      <div style="height:30mm;border:.3mm dashed #C9C5DA;border-radius:2mm;margin-top:3mm"></div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
