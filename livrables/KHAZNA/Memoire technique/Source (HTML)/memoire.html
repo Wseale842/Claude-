@@ -156,6 +156,14 @@ table.compact td{padding:1.25mm 2.5mm}
 .p2{background:#8860FE}.p3{background:#7598F4}.p4{background:#3FA7D6}
 </style>
 
+<style>
+@page paysage{size:A4 landscape;margin:10mm 10mm 10mm 10mm}
+.annexe{page:paysage;break-before:page}
+.annexe h1.t1{margin-top:0}
+.annexe .pl{break-before:page;break-inside:avoid}
+.annexe .pl img{width:100%;max-height:170mm;object-fit:contain;display:block;border:.3mm solid var(--ligne);border-radius:2mm}
+.annexe .pl .cap{font-size:8.3pt;color:var(--mute);font-style:italic;margin-top:1.5mm}
+</style>
 <!-- =================== PAGE DE GARDE =================== -->
 <section class="cover">
   <img class="logo" src="logo-blanc.png" alt="PROSYB">
@@ -873,6 +881,24 @@ table.compact td{padding:1.25mm 2.5mm}
       <div style="height:30mm;border:.3mm dashed #C9C5DA;border-radius:2mm;margin-top:3mm"></div>
     </div>
   </div>
+</section>
+
+<!-- =================== ANNEXE SYNOPTIQUES ET PLANS =================== -->
+<section class="annexe">
+  <div class="kick">Annexe</div>
+  <h1 class="t1"><span class="num">A</span>Synoptiques et plans d'implantation de principe</h1>
+  <p>Les synoptiques et plans ci-après présentent, lot par lot, l'ensemble des installations courants faibles de notre offre : équipements, liaisons avec leurs repères, et phasage (P2, P3, P4). Les plans d'implantation sont des <strong>plans de principe redessinés, non à l'échelle</strong> : ils seront recalés sur le plan d'implantation EXYTE 1007 et soumis au visa lors des études d'exécution, dans les 15 jours suivant la commande. Les positions marquées « à confirmer » seront arrêtées avec EXYTE et le coordinateur SSI.</p>
+  <div class="pl" style="break-before:auto"><img src="img/syn_ssi.svg"><div class="cap">Planche A.1 — Synoptique SSI — reports d'alarme incendie au poste de garde (phases 2, 3 et réserve phase 4).</div></div>
+  <div class="pl"><img src="img/plan_ssi.svg"><div class="cap">Planche A.2 — Plan d'implantation de principe SSI — coffret de reports, centrales type 3, déclencheurs manuels DM-01 à DM-16, diffuseurs DS-01 à DS-12, liaisons CR1-C1.</div></div>
+  <div class="pl"><img src="img/syn_it.svg"><div class="cap">Planche A.3 — Synoptique IT / VDI / Wi-Fi — anneaux fibre OS2, répartiteurs, prises et bornes par phase.</div></div>
+  <div class="pl"><img src="img/plan_it.svg"><div class="cap">Planche A.4 — Plan d'implantation de principe IT / VDI / Wi-Fi.</div></div>
+  <div class="pl"><img src="img/syn_video.svg"><div class="cap">Planche A.5 — Synoptique vidéoprotection — anneau fibre des 8 zones, 28 caméras, NVR et supervision.</div></div>
+  <div class="pl"><img src="img/plan_video.svg"><div class="cap">Planche A.6 — Plan d'implantation de principe vidéoprotection — 28 caméras et champs de vision.</div></div>
+  <div class="pl"><img src="img/syn_av.svg"><div class="cap">Planche A.7 — Synoptique audiovisuel et affichage — salle type, afficheur type, raccordements.</div></div>
+  <div class="pl"><img src="img/plan_av.svg"><div class="cap">Planche A.8 — Plan d'implantation de principe audiovisuel — salles SV-01 à SV-10, afficheurs AF-01 à AF-03, totems TT-01 à TT-03.</div></div>
+  <div class="pl"><img src="img/syn_gtb.svg"><div class="cap">Planche A.9 — Synoptique GTB / GTE — automates WAGO, comptage, alarmes techniques, supervision.</div></div>
+  <div class="pl"><img src="img/plan_gtb.svg"><div class="cap">Planche A.10 — Plan d'implantation de principe GTB / GTE.</div></div>
+  <div class="pl"><img src="img/plan_synthese.svg"><div class="cap">Planche A.11 — Plan de synthèse — tous lots courants faibles.</div></div>
 </section>
 
 </body>

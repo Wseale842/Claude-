@@ -1,0 +1,489 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100" font-family="Arial, 'Liberation Sans', Helvetica, sans-serif">
+<title>Plan SSI ORY01</title>
+<rect x="0" y="0" width="1600" height="1100" fill="#FFFFFF"/>
+<defs><clipPath id="clipPlan"><rect x="8" y="64" width="1144" height="964"/></clipPath><pattern id="hatchP4" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#3FA7D6" stroke-width="1.2" opacity="0.35"/></pattern><pattern id="hatchGray" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#E4E1F0" stroke-width="1"/></pattern></defs>
+<rect x="0" y="0" width="1600" height="56" fill="#FFFFFF"/>
+<rect x="16" y="14" width="6" height="30" fill="#8860FE"/>
+<text x="32.0" y="30.0" font-size="20" fill="#2B2640" text-anchor="start" font-weight="bold" style="">KHAZNA ORY01 — Base vie et chantier — Implantation SSI (reports d'alarme incendie)</text>
+<text x="32.0" y="48.0" font-size="12" fill="#6E6A86" text-anchor="start" font-weight="normal" style="">Plan d'implantation de principe — lot SSI prioritaire — phases 2, 3 et réserve phase 4</text>
+<text x="1584.0" y="30.0" font-size="20" fill="#8860FE" text-anchor="end" font-weight="bold" style="">PROSYB</text>
+<text x="1584.0" y="48.0" font-size="11" fill="#6E6A86" text-anchor="end" font-weight="normal" style="">Offre courants faibles — EXYTE / DCE FR02201</text>
+<line x1="16" y1="58" x2="1584" y2="58" stroke="#E4E1F0" stroke-width="1"/>
+<rect x="8" y="64" width="1144" height="964" fill="none" stroke="#E4E1F0"/>
+<rect x="1172" y="64" width="418" height="964" rx="6" fill="#F7F6FC" stroke="#E4E1F0"/>
+<g id="fond" clip-path="url(#clipPlan)">
+<g id="calque-dc11" >
+<rect x="36.0" y="140.0" width="168.0" height="850.0" rx="0" fill="url(#hatchP4)" stroke="#3FA7D6" stroke-width="1.4" stroke-dasharray="8 5" />
+<rect x="46.0" y="186.0" width="148.0" height="354.0" rx="0" fill="#FFFFFF" stroke="#3FA7D6" stroke-width="1" stroke-dasharray="4 3" />
+<rect x="46.0" y="664.0" width="148.0" height="296.0" rx="0" fill="#FFFFFF" stroke="#3FA7D6" stroke-width="1" stroke-dasharray="4 3" />
+<text x="120.0" y="160.0" font-size="12" fill="#3FA7D6" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">PARCELLE DC11</text>
+<text x="120.0" y="175.0" font-size="11" fill="#3FA7D6" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">(phase 4)</text>
+<text x="120.0" y="206.0" font-size="12" fill="#2B2640" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DC11 Nord</text>
+<text x="120.0" y="222.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Base vie P4</text>
+<text x="120.0" y="236.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">îlots 1 à 20</text>
+<text x="120.0" y="250.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">(implantation</text>
+<text x="120.0" y="264.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">à confirmer)</text>
+<text x="120.0" y="880.0" font-size="12" fill="#2B2640" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DC11 Sud</text>
+<text x="120.0" y="896.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">OSM tente, déchets</text>
+<text x="120.0" y="910.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">IRVE DC11 (60)</text>
+<text x="120.0" y="924.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">(à confirmer)</text>
+</g>
+<g id="calque-voies" >
+<polyline points="643.2,10.3 1605.4,1066.4" fill="none" stroke="#E4E1F0" stroke-width="22" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="643.2,10.3 1605.4,1066.4" fill="none" stroke="#6E6A86" stroke-width="1" stroke-dasharray="14 10" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="716" cy="98" r="26" fill="#E4E1F0"/>
+<circle cx="716" cy="98" r="11" fill="#FFFFFF" stroke="#6E6A86"/>
+<polyline points="692.0,100.0 222.0,100.0 222.0,1000.0" fill="none" stroke="#E4E1F0" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="222" cy="1004" r="16" fill="#E4E1F0"/>
+<text x="800.0" y="80.0" font-size="13" fill="#6E6A86" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">RD57</text>
+<text x="800.0" y="95.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">vers Les Bordes</text>
+<text x="1112.0" y="640.0" font-size="12" fill="#6E6A86" text-anchor="start" font-weight="bold" transform="rotate(47.7 1112 640)" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">RD57</text>
+<text x="1104.0" y="676.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" transform="rotate(47.7 1104 676)" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">vers Fouju</text>
+<text x="684.0" y="90.0" font-size="11" fill="#6E6A86" text-anchor="end" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Giratoire</text>
+<text x="212.0" y="820.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" transform="rotate(-90 212 820)" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Voie interne ouest</text>
+</g>
+<g id="calque-emprise" >
+<polygon points="250.0,130.0 690.0,130.0 1100.0,580.0 1100.0,990.0 250.0,990.0" fill="#F7F6FC" stroke="none"/>
+</g>
+<g id="calque-cloture" >
+<polygon points="250.0,130.0 690.0,130.0 1100.0,580.0 1100.0,990.0 250.0,990.0" fill="none" stroke="#6E6A86" stroke-width="1.6" stroke-dasharray="10 3 2 3"/>
+</g>
+<g id="calque-piste" >
+<rect x="310.0" y="505.0" width="510.0" height="420.0" rx="10" fill="none" stroke="#E4E1F0" stroke-width="12" />
+</g>
+<g id="calque-batiment" >
+<rect x="330.0" y="530.0" width="470.0" height="375.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="2" />
+<line x1="424.0" y1="532" x2="424.0" y2="903" stroke="#E4E1F0" stroke-width="1.2"/>
+<line x1="518.0" y1="532" x2="518.0" y2="903" stroke="#E4E1F0" stroke-width="1.2"/>
+<line x1="612.0" y1="532" x2="612.0" y2="903" stroke="#E4E1F0" stroke-width="1.2"/>
+<line x1="706.0" y1="532" x2="706.0" y2="903" stroke="#E4E1F0" stroke-width="1.2"/>
+<text x="565.0" y="700.0" font-size="15" fill="#6E6A86" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">BÂTIMENT DATA CENTER</text>
+<text x="565.0" y="718.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">« Main Building » — 5 travées (POD1 à POD5, phase 4)</text>
+<text x="565.0" y="733.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">chantier en cours — coffrets de chantier hors CFA</text>
+</g>
+<g id="calque-parking" >
+<rect x="270.0" y="192.0" width="150.0" height="238.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1" />
+<rect x="278.0" y="206.0" width="134.0" height="30.0" rx="0" fill="url(#hatchGray)" stroke="#E4E1F0" stroke-width="1" />
+<text x="406.0" y="226.0" font-size="11" fill="#6E6A86" text-anchor="end" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">53</text>
+<rect x="278.0" y="264.0" width="134.0" height="30.0" rx="0" fill="url(#hatchGray)" stroke="#E4E1F0" stroke-width="1" />
+<text x="406.0" y="284.0" font-size="11" fill="#6E6A86" text-anchor="end" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">26</text>
+<rect x="278.0" y="322.0" width="134.0" height="30.0" rx="0" fill="url(#hatchGray)" stroke="#E4E1F0" stroke-width="1" />
+<text x="406.0" y="342.0" font-size="11" fill="#6E6A86" text-anchor="end" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">34</text>
+<rect x="278.0" y="380.0" width="134.0" height="30.0" rx="0" fill="url(#hatchGray)" stroke="#E4E1F0" stroke-width="1" />
+<text x="406.0" y="400.0" font-size="11" fill="#6E6A86" text-anchor="end" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">30</text>
+<text x="345.0" y="254.0" font-size="12" fill="#6E6A86" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">PARKING VL</text>
+<text x="345.0" y="370.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">IRVE P3 : 30 bornes</text>
+</g>
+<g id="calque-base-vie" >
+<rect x="458.0" y="222.0" width="309.8" height="222.0" rx="0" fill="none" stroke="#6E6A86" stroke-width="1" stroke-dasharray="3 3" />
+<polyline points="458.0,444.0 976.1,444.0" fill="none" stroke="#6E6A86" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="466.0" y="434.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">BASE VIE P2/P3 — îlots 1 à 10</text>
+<rect x="466.0" y="232.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#8860FE" stroke-width="1.8" />
+<text x="476.0" y="248.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 1</text>
+<rect x="476.0" y="256.5" width="26" height="15" rx="7.5" fill="#8860FE"/>
+<text x="489.0" y="268.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P2</text>
+<rect x="554.0" y="232.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#8860FE" stroke-width="1.8" />
+<text x="564.0" y="248.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 2</text>
+<rect x="564.0" y="256.5" width="26" height="15" rx="7.5" fill="#8860FE"/>
+<text x="577.0" y="268.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P2</text>
+<rect x="642.0" y="232.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.8" />
+<text x="652.0" y="248.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 3</text>
+<rect x="652.0" y="256.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="665.0" y="268.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<rect x="466.0" y="292.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.8" />
+<text x="476.0" y="308.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 4</text>
+<rect x="476.0" y="316.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="489.0" y="328.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<rect x="554.0" y="292.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.8" />
+<text x="564.0" y="308.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 5</text>
+<rect x="564.0" y="316.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="577.0" y="328.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<rect x="642.0" y="292.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.8" />
+<text x="652.0" y="308.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 6</text>
+<rect x="652.0" y="316.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="665.0" y="328.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<rect x="466.0" y="352.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.8" />
+<text x="476.0" y="368.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 7</text>
+<rect x="476.0" y="376.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="489.0" y="388.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<rect x="554.0" y="352.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.8" />
+<text x="564.0" y="368.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 8</text>
+<rect x="564.0" y="376.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="577.0" y="388.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<rect x="642.0" y="352.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.8" />
+<text x="652.0" y="368.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 9</text>
+<rect x="652.0" y="376.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="665.0" y="388.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<rect x="730.0" y="352.0" width="76.0" height="44.0" rx="2" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.8" />
+<text x="740.0" y="368.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Îlot 10</text>
+<rect x="740.0" y="376.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="753.0" y="388.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<rect x="730.0" y="238.0" width="40.0" height="32.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1.4" />
+<text x="750.0" y="251.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="">Fire</text>
+<text x="750.0" y="264.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="">Tank 2</text>
+<polygon points="845.0,364.0 859.0,378.0 845.0,392.0 831.0,378.0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1.4"/>
+<text x="863.0" y="382.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Fire Tank 1</text>
+<rect x="828.0" y="400.0" width="62.0" height="32.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1.4" />
+<text x="859.0" y="420.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="">HSE tente</text>
+<rect x="900.0" y="462.0" width="62.0" height="32.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1.4" />
+<text x="931.0" y="482.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="">HSE tente</text>
+</g>
+<g id="calque-zones" >
+<rect x="860.0" y="556.0" width="130.0" height="60.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1.2" stroke-dasharray="5 3" />
+<text x="925.0" y="590.0" font-size="12" fill="#6E6A86" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Waste Area</text>
+<rect x="860.0" y="640.0" width="130.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1" stroke-dasharray="2 3" />
+<text x="925.0" y="659.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Aire de livraison</text>
+<text x="925.0" y="673.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">(supposée, à confirmer)</text>
+<rect x="860.0" y="710.0" width="180.0" height="150.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1.2" stroke-dasharray="5 3" />
+<text x="950.0" y="790.0" font-size="12" fill="#6E6A86" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Storage Area</text>
+<rect x="1000.0" y="888.0" width="48.0" height="48.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1.4" />
+<text x="1024.0" y="908.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="">Bât.</text>
+<text x="1024.0" y="922.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="">tech.</text>
+</g>
+<g id="calque-hubs" >
+<rect x="318.0" y="466.0" width="62.0" height="24.0" rx="0" fill="#FFFFFF" stroke="#2B2640" stroke-width="2" />
+<rect x="383.0" y="470.0" width="9.0" height="16.0" rx="0" fill="#E4E1F0" stroke="#6E6A86" stroke-width="1" />
+<rect x="394.0" y="470.0" width="9.0" height="16.0" rx="0" fill="#E4E1F0" stroke="#6E6A86" stroke-width="1" />
+<rect x="600.0" y="936.0" width="62.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#2B2640" stroke-width="2" />
+<rect x="665.0" y="940.0" width="9.0" height="14.0" rx="0" fill="#E4E1F0" stroke="#6E6A86" stroke-width="1" />
+<rect x="676.0" y="940.0" width="9.0" height="14.0" rx="0" fill="#E4E1F0" stroke="#6E6A86" stroke-width="1" />
+<rect x="95.0" y="570.0" width="62.0" height="22.0" rx="0" fill="#FFFFFF" stroke="#2B2640" stroke-width="2" />
+<rect x="160.0" y="574.0" width="9.0" height="14.0" rx="0" fill="#E4E1F0" stroke="#6E6A86" stroke-width="1" />
+<text x="316.0" y="460.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Hub 1 (poste A) + GE</text>
+<text x="720.0" y="956.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Hub 2 (poste B) + GE</text>
+<text x="93.0" y="564.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Hub 3 (poste C)</text>
+</g>
+<g id="calque-acces" >
+<rect x="430.0" y="146.0" width="82.0" height="36.0" rx="0" fill="#FFFFFF" stroke="#2B2640" stroke-width="2" />
+<text x="424.0" y="166.0" font-size="11" fill="#2B2640" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Poste de garde</text>
+<text x="424.0" y="180.0" font-size="11" fill="#2B2640" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">principal</text>
+<circle cx="524.0" cy="164.0" r="7.0" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.6"/>
+<line x1="524.0" y1="164.0" x2="524.0" y2="159.0" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="524.0" y1="164.0" x2="519.7" y2="166.5" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="524.0" y1="164.0" x2="528.3" y2="166.5" stroke="#7598F4" stroke-width="1.4"/>
+<circle cx="540.0" cy="164.0" r="7.0" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.6"/>
+<line x1="540.0" y1="164.0" x2="540.0" y2="159.0" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="540.0" y1="164.0" x2="535.7" y2="166.5" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="540.0" y1="164.0" x2="544.3" y2="166.5" stroke="#7598F4" stroke-width="1.4"/>
+<circle cx="640.0" cy="448.0" r="7.0" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.6"/>
+<line x1="640.0" y1="448.0" x2="640.0" y2="443.0" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="640.0" y1="448.0" x2="635.7" y2="450.5" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="640.0" y1="448.0" x2="644.3" y2="450.5" stroke="#7598F4" stroke-width="1.4"/>
+<circle cx="656.0" cy="448.0" r="7.0" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.6"/>
+<line x1="656.0" y1="448.0" x2="656.0" y2="443.0" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="656.0" y1="448.0" x2="651.7" y2="450.5" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="656.0" y1="448.0" x2="660.3" y2="450.5" stroke="#7598F4" stroke-width="1.4"/>
+<text x="552.0" y="168.0" font-size="11" fill="#7598F4" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Tripodes ×2</text>
+<rect x="668.0" y="441.0" width="40.0" height="15.0" rx="0" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1" />
+<text x="712.0" y="458.0" font-size="11" fill="#7598F4" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Access Control + tripodes ×2</text>
+<g transform="translate(405.0 130.0) rotate(0.0)"><line x1="-9" y1="0" x2="9" y2="0" stroke="#E5484D" stroke-width="3"/><path d="M-9 0 A9 9 0 0 1 0 9" fill="none" stroke="#E5484D" stroke-width="1.2"/><path d="M9 0 A9 9 0 0 0 0 9" fill="none" stroke="#E5484D" stroke-width="1.2"/></g>
+<g transform="translate(753.8 200.0) rotate(47.7)"><line x1="-9" y1="0" x2="9" y2="0" stroke="#E5484D" stroke-width="3"/><path d="M-9 0 A9 9 0 0 1 0 9" fill="none" stroke="#E5484D" stroke-width="1.2"/><path d="M9 0 A9 9 0 0 0 0 9" fill="none" stroke="#E5484D" stroke-width="1.2"/></g>
+<text x="405.0" y="122.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Emergency access</text>
+<text x="767.8" y="194.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Emergency access</text>
+<circle cx="600" cy="130" r="9" fill="#FFFFFF" stroke="#6E6A86" stroke-width="1.4" stroke-dasharray="3 2"/>
+<text x="600.0" y="134.0" font-size="12" fill="#6E6A86" text-anchor="middle" font-weight="bold" style="">?</text>
+<text x="600.0" y="118.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Accès véhicules / portail : à confirmer</text>
+</g>
+</g>
+<g id="calque-habillage" >
+<circle cx="1080" cy="112" r="22" fill="#FFFFFF" stroke="#E4E1F0"/>
+<polygon points="1080.0,94.0 1088.0,122.0 1080.0,116.0 1072.0,122.0" fill="#2B2640"/>
+<text x="1080.0" y="86.0" font-size="13" fill="#2B2640" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">N</text>
+<text x="1080.0" y="150.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">nord supposé</text>
+<text x="1080.0" y="164.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">(déduit des zones R.N/R.E/R.O)</text>
+<rect x="1004.0" y="184.0" width="136.0" height="34.0" rx="0" fill="#FFFFFF" stroke="#2B2640" stroke-width="1" />
+<text x="1072.0" y="198.0" font-size="11" fill="#2B2640" text-anchor="middle" font-weight="bold" style="">PLAN DE PRINCIPE</text>
+<text x="1072.0" y="212.0" font-size="11" fill="#2B2640" text-anchor="middle" font-weight="bold" style="">NON À L'ÉCHELLE</text>
+<text x="1072.0" y="234.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">emprise ≈ 400 × 300-400 m</text>
+<text x="1072.0" y="248.0" font-size="11" fill="#6E6A86" text-anchor="middle" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">(ordre de grandeur, non coté)</text>
+</g>
+<g id="calque-ssi" >
+<polyline points="452.0,182.0 452.0,220.0 458.0,220.0" fill="none" stroke="#E5484D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="458.0,220.0 724.0,220.0" fill="none" stroke="#E5484D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="460.0,220.0 460.0,362.0" fill="none" stroke="#E5484D" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="548.0,220.0 548.0,362.0" fill="none" stroke="#E5484D" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="636.0,220.0 636.0,362.0" fill="none" stroke="#E5484D" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="724.0,220.0 724.0,362.0" fill="none" stroke="#E5484D" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="466.0" cy="242.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="466.0" y="246.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="548.0" cy="242.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="548.0" y="246.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="636.0" cy="242.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="636.0" y="246.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="466.0" cy="302.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="466.0" y="306.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="548.0" cy="302.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="548.0" y="306.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="636.0" cy="302.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="636.0" y="306.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="466.0" cy="362.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="466.0" y="366.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="548.0" cy="362.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="548.0" y="366.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="636.0" cy="362.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="636.0" y="366.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<circle cx="724.0" cy="362.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="724.0" y="366.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<text x="470.0" y="214.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">W-SSI-RD-Îlot n — CR1-C1 5G1,5</text>
+<polyline points="444.0,182.0 444.0,478.0 406.0,478.0" fill="none" stroke="#E5484D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="438.0" y="330.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" transform="rotate(-90 438 330)" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">W-SSI-RD-Hub Elec.1 — CR1-C1 7G1,5</text>
+<polyline points="318.0,482.0 290.0,482.0 290.0,947.0 600.0,947.0" fill="none" stroke="#E5484D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="300.0" y="965.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">W-SSI-RD-Hub Elec.2 — CR1-C1 7G1,5</text>
+<polyline points="318.0,474.0 236.0,474.0 236.0,581.0 171.0,581.0" fill="none" stroke="#E5484D" stroke-width="2.2" stroke-dasharray="7 4" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="150.0,548.0 150.0,528.0" fill="none" stroke="#E5484D" stroke-width="1.6" stroke-dasharray="7 4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="60.0" y="510.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Reports îlots P4 1-20</text>
+<text x="60.0" y="524.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">(réserves coffret, P4)</text>
+<text x="52.0" y="606.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round"></text>
+<text x="120.0" y="628.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">W-SSI-RD-Hub 3 (P4)</text>
+<text x="120.0" y="642.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">câble à définir</text>
+<rect x="438.0" y="156.0" width="28.0" height="16.0" rx="2" fill="#FFFFFF" stroke="#E5484D" stroke-width="2"/>
+<text x="452.0" y="168.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">CR</text>
+<rect x="473.0" y="156.0" width="34.0" height="16.0" rx="2" fill="#E5484D"/>
+<text x="490.0" y="168.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">CT3</text>
+<rect x="477.0" y="186.5" width="26" height="15" rx="7.5" fill="#8860FE"/>
+<text x="490.0" y="198.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P2</text>
+<rect x="327.0" y="470.0" width="34.0" height="16.0" rx="2" fill="#E5484D"/>
+<text x="344.0" y="482.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">CT3</text>
+<rect x="321.0" y="493.5" width="26" height="15" rx="7.5" fill="#8860FE"/>
+<text x="334.0" y="505.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P2</text>
+<rect x="614.0" y="939.0" width="34.0" height="16.0" rx="2" fill="#E5484D"/>
+<text x="631.0" y="951.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">CT3</text>
+<rect x="689.0" y="939.5" width="26" height="15" rx="7.5" fill="#8860FE"/>
+<text x="702.0" y="951.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P2</text>
+<rect x="109.0" y="573.0" width="34.0" height="16.0" rx="2" fill="#E5484D"/>
+<text x="126.0" y="585.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">CT3</text>
+<rect x="112.0" y="600.5" width="26" height="15" rx="7.5" fill="#3FA7D6"/>
+<text x="125.0" y="612.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P4</text>
+<rect x="546.0" y="172.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="552.0" cy="178.0" r="2.2" fill="#FFFFFF"/>
+<text x="562.0" y="192.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-01</text>
+<rect x="684.0" y="460.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="690.0" cy="466.0" r="2.2" fill="#FFFFFF"/>
+<text x="700.0" y="470.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-02</text>
+<rect x="366.0" y="136.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="372.0" cy="142.0" r="2.2" fill="#FFFFFF"/>
+<text x="362.0" y="146.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-03</text>
+<rect x="755.5" y="220.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="761.5" cy="226.0" r="2.2" fill="#FFFFFF"/>
+<text x="751.5" y="230.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-04</text>
+<rect x="864.0" y="566.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="870.0" cy="572.0" r="2.2" fill="#FFFFFF"/>
+<text x="880.0" y="576.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-05</text>
+<rect x="864.0" y="718.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="870.0" cy="724.0" r="2.2" fill="#FFFFFF"/>
+<text x="880.0" y="728.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-06</text>
+<rect x="894.0" y="412.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="900.0" cy="418.0" r="2.2" fill="#FFFFFF"/>
+<text x="910.0" y="422.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-07</text>
+<rect x="984.0" y="894.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="990.0" cy="900.0" r="2.2" fill="#FFFFFF"/>
+<text x="980.0" y="904.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-08</text>
+<rect x="444.0" y="524.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="450.0" cy="530.0" r="2.2" fill="#FFFFFF"/>
+<text x="450.0" y="550.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-09</text>
+<rect x="684.0" y="524.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="690.0" cy="530.0" r="2.2" fill="#FFFFFF"/>
+<text x="690.0" y="550.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-10</text>
+<rect x="794.0" y="604.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="800.0" cy="610.0" r="2.2" fill="#FFFFFF"/>
+<text x="790.0" y="614.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-11</text>
+<rect x="794.0" y="824.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="800.0" cy="830.0" r="2.2" fill="#FFFFFF"/>
+<text x="790.0" y="834.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-12</text>
+<rect x="424.0" y="899.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="430.0" cy="905.0" r="2.2" fill="#FFFFFF"/>
+<text x="430.0" y="893.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-13</text>
+<rect x="734.0" y="899.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="740.0" cy="905.0" r="2.2" fill="#FFFFFF"/>
+<text x="740.0" y="893.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-14</text>
+<rect x="324.0" y="814.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="330.0" cy="820.0" r="2.2" fill="#FFFFFF"/>
+<text x="340.0" y="824.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-15</text>
+<rect x="324.0" y="594.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="330.0" cy="600.0" r="2.2" fill="#FFFFFF"/>
+<text x="340.0" y="604.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DM-16</text>
+<polygon points="532.0,258.0 540.0,272.0 524.0,272.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M529.0 269.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="532.0" cy="270.6" r="1.1" fill="#FFFFFF"/>
+<text x="538.0" y="288.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-01</text>
+<polygon points="708.0,258.0 716.0,272.0 700.0,272.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M705.0 269.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="708.0" cy="270.6" r="1.1" fill="#FFFFFF"/>
+<text x="714.0" y="288.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-02</text>
+<polygon points="532.0,378.0 540.0,392.0 524.0,392.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M529.0 389.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="532.0" cy="390.6" r="1.1" fill="#FFFFFF"/>
+<text x="538.0" y="408.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-03</text>
+<polygon points="796.0,378.0 804.0,392.0 788.0,392.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M793.0 389.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="796.0" cy="390.6" r="1.1" fill="#FFFFFF"/>
+<text x="802.0" y="408.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-04</text>
+<polygon points="975.0,564.0 983.0,578.0 967.0,578.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M972.0 575.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="975.0" cy="576.6" r="1.1" fill="#FFFFFF"/>
+<text x="963.0" y="576.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-05</text>
+<polygon points="1025.0,716.0 1033.0,730.0 1017.0,730.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M1022.0 727.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="1025.0" cy="728.6" r="1.1" fill="#FFFFFF"/>
+<text x="1013.0" y="728.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-06</text>
+<polygon points="888.0,472.0 896.0,486.0 880.0,486.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M885.0 483.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="888.0" cy="484.6" r="1.1" fill="#FFFFFF"/>
+<text x="876.0" y="484.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-07</text>
+<polygon points="1024.0,872.0 1032.0,886.0 1016.0,886.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M1021.0 883.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="1024.0" cy="884.6" r="1.1" fill="#FFFFFF"/>
+<text x="1036.0" y="874.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-08</text>
+<polygon points="570.0,522.0 578.0,536.0 562.0,536.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M567.0 533.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="570.0" cy="534.6" r="1.1" fill="#FFFFFF"/>
+<text x="570.0" y="552.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-09</text>
+<polygon points="800.0,712.0 808.0,726.0 792.0,726.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M797.0 723.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="800.0" cy="724.6" r="1.1" fill="#FFFFFF"/>
+<text x="788.0" y="724.0" font-size="11" fill="#E5484D" text-anchor="end" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-10</text>
+<polygon points="560.0,897.0 568.0,911.0 552.0,911.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M557.0 908.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="560.0" cy="909.6" r="1.1" fill="#FFFFFF"/>
+<text x="560.0" y="893.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-11</text>
+<polygon points="330.0,702.0 338.0,716.0 322.0,716.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M327.0 713.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="330.0" cy="714.6" r="1.1" fill="#FFFFFF"/>
+<text x="342.0" y="714.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">DS-12</text>
+</g>
+<text x="470.0" y="1022.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="bold" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Code phase :</text>
+<rect x="553.0" y="1010.5" width="26" height="15" rx="7.5" fill="#8860FE"/>
+<text x="566.0" y="1022.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P2</text>
+<text x="583.0" y="1022.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">phase 2 — T1 14/12/26</text>
+<rect x="721.0" y="1010.5" width="26" height="15" rx="7.5" fill="#7598F4"/>
+<text x="734.0" y="1022.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P3</text>
+<text x="751.0" y="1022.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">phase 3 — T2 02/02/27</text>
+<rect x="889.0" y="1010.5" width="26" height="15" rx="7.5" fill="#3FA7D6"/>
+<text x="902.0" y="1022.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">P4</text>
+<text x="919.0" y="1022.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">phase 4 — T3 18/06/27</text>
+<text x="20.0" y="82.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" font-style="italic" style="paint-order:stroke;stroke:#FFFFFF;stroke-width:3px;stroke-linejoin:round">Liaisons : tracé de principe le long des fourreaux CFA (2 850 ml le long de la clôture)</text>
+<text x="1186.0" y="92.0" font-size="13" fill="#8860FE" text-anchor="start" font-weight="bold" style="">LÉGENDE SSI</text>
+<line x1="1186" y1="97" x2="1576" y2="97" stroke="#E4E1F0"/>
+<rect x="1188.0" y="102.0" width="28.0" height="16.0" rx="2" fill="#FFFFFF" stroke="#E5484D" stroke-width="2"/>
+<text x="1202.0" y="114.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">CR</text>
+<text x="1224.0" y="114.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">CR — coffret des reports d'alarme SSI</text>
+<text x="1224.0" y="128.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="">poste de garde principal (alim. ondulée TGBT Hub 1)</text>
+<rect x="1185.0" y="138.0" width="34.0" height="16.0" rx="2" fill="#E5484D"/>
+<text x="1202.0" y="150.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">CT3</text>
+<text x="1224.0" y="150.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">CT3 — centrale type 3 AVISS CONCEPT 3</text>
+<text x="1224.0" y="164.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="">PG, Hub 1, Hub 2 (P2) — Hub 3 (P4)</text>
+<circle cx="1202.0" cy="182.0" r="7.5" fill="#FFFFFF" stroke="#E5484D" stroke-width="1.6"/>
+<text x="1202.0" y="186.0" font-size="11" fill="#E5484D" text-anchor="middle" font-weight="bold" style="">R</text>
+<text x="1224.0" y="186.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">R — report contact îlot (R / C / T)</text>
+<text x="1224.0" y="200.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="">centrales îlots hors lot (T4 en P2-P3, T3 en P4)</text>
+<rect x="1196.0" y="212.0" width="12.0" height="12.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="1202.0" cy="218.0" r="2.2" fill="#FFFFFF"/>
+<text x="1224.0" y="222.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">DM-01…16 — déclencheur manuel étanche IP65</text>
+<text x="1224.0" y="236.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="">4 accès · 4 zones chantier · 8 périphérie bâtiment</text>
+<polygon points="1202.0,246.0 1210.0,260.0 1194.0,260.0" fill="#E5484D" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M1199.0 257.5 q3.0 -6.0 6.0 0 z" fill="#FFFFFF"/>
+<circle cx="1202.0" cy="258.6" r="1.1" fill="#FFFFFF"/>
+<text x="1224.0" y="258.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">DS-01…12 — diffuseur sonore et lumineux</text>
+<text x="1224.0" y="272.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="">chantier, sous abri : 4 base vie · 4 chantier · 4 bâtiment</text>
+<polyline points="1190.0,290.0 1214.0,290.0" fill="none" stroke="#E5484D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="1224.0" y="294.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Liaison CR1-C1 (W-SSI-RD-…)</text>
+<text x="1224.0" y="308.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="">5G1,5 îlots — 7G1,5 Hubs et poste de garde</text>
+<polyline points="1190.0,326.0 1214.0,326.0" fill="none" stroke="#E5484D" stroke-width="2.2" stroke-dasharray="7 4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="1224.0" y="330.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Liaison phase 4 (Hub 3, îlots DC11)</text>
+<text x="1224.0" y="344.0" font-size="11" fill="#6E6A86" text-anchor="start" font-weight="normal" style="">sur réserves « Phase 4 » du coffret</text>
+<g transform="translate(1202.0 362.0) rotate(0.0)"><line x1="-9" y1="0" x2="9" y2="0" stroke="#E5484D" stroke-width="3"/><path d="M-9 0 A9 9 0 0 1 0 9" fill="none" stroke="#E5484D" stroke-width="1.2"/><path d="M9 0 A9 9 0 0 0 0 9" fill="none" stroke="#E5484D" stroke-width="1.2"/></g>
+<text x="1224.0" y="366.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Emergency access (portillon)</text>
+<circle cx="1202.0" cy="384.0" r="7.0" fill="#FFFFFF" stroke="#7598F4" stroke-width="1.6"/>
+<line x1="1202.0" y1="384.0" x2="1202.0" y2="379.0" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="1202.0" y1="384.0" x2="1197.7" y2="386.5" stroke="#7598F4" stroke-width="1.4"/>
+<line x1="1202.0" y1="384.0" x2="1206.3" y2="386.5" stroke="#7598F4" stroke-width="1.4"/>
+<text x="1224.0" y="388.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Tripode d'accès piétons</text>
+<text x="1186.0" y="418.0" font-size="13" fill="#8860FE" text-anchor="start" font-weight="bold" style="">QUANTITÉS IMPLANTÉES</text>
+<line x1="1186" y1="423" x2="1576" y2="423" stroke="#E4E1F0"/>
+<text x="1186.0" y="440.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Coffret de reports : 1 (PG) — 10 îlots + PG + Hub 1 + Hub 2, réserves P4</text>
+<text x="1186.0" y="456.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Centrales type 3 : 4 (PG, Hub 1, Hub 2 en P2 ; Hub 3 en P4)</text>
+<text x="1186.0" y="472.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Déclencheurs manuels : 16 — diffuseurs : 12 (P2, maintenus P3-P4)</text>
+<text x="1186.0" y="488.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Raccordement DM/DS chantier : sur la CT3 la plus proche (à valider)</text>
+<text x="1186.0" y="512.0" font-size="13" fill="#8860FE" text-anchor="start" font-weight="bold" style="">LIAISONS (synoptique 1016)</text>
+<line x1="1186" y1="517" x2="1576" y2="517" stroke="#E4E1F0"/>
+<text x="1186.0" y="534.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• W-SSI-RD-Îlot 1 à 10 : CR1-C1 5G1,5 (R / C / T) — P2 : îlots</text>
+<text x="1194.0" y="548.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">1-2, P3 : îlots 3-10</text>
+<text x="1186.0" y="564.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• W-SSI-RD-Hub Elec.1 / Hub Elec.2 / P.d.Garde : CR1-C1 7G1,5</text>
+<text x="1186.0" y="580.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• W-SSI-ALIM-COFFRET REPORT : CR1-C1 3G1,5 depuis départ ondulé</text>
+<text x="1194.0" y="594.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">TGBT Hub 1</text>
+<text x="1186.0" y="618.0" font-size="13" fill="#8860FE" text-anchor="start" font-weight="bold" style="">REPÉRAGE DM / DS (proposition PROSYB)</text>
+<line x1="1186" y1="623" x2="1576" y2="623" stroke="#E4E1F0"/>
+<text x="1186.0" y="640.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-01</text>
+<text x="1228.0" y="640.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Tripodes NO / poste de garde</text>
+<text x="1186.0" y="654.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-02</text>
+<text x="1228.0" y="654.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Tripodes sud / Access Control</text>
+<text x="1186.0" y="668.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-03</text>
+<text x="1228.0" y="668.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Emergency access NO</text>
+<text x="1186.0" y="682.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-04</text>
+<text x="1228.0" y="682.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Emergency access NE</text>
+<text x="1186.0" y="696.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-05</text>
+<text x="1228.0" y="696.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Waste Area</text>
+<text x="1186.0" y="710.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-06</text>
+<text x="1228.0" y="710.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Storage Area</text>
+<text x="1186.0" y="724.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-07</text>
+<text x="1228.0" y="724.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">HSE tente / Fire Tank 1</text>
+<text x="1186.0" y="738.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-08</text>
+<text x="1228.0" y="738.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Bâtiment technique SE</text>
+<text x="1186.0" y="752.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-09</text>
+<text x="1228.0" y="752.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade nord</text>
+<text x="1186.0" y="766.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-10</text>
+<text x="1228.0" y="766.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade nord</text>
+<text x="1186.0" y="780.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-11</text>
+<text x="1228.0" y="780.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade est</text>
+<text x="1186.0" y="794.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-12</text>
+<text x="1228.0" y="794.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade est</text>
+<text x="1186.0" y="808.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-13</text>
+<text x="1228.0" y="808.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade sud</text>
+<text x="1186.0" y="822.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-14</text>
+<text x="1228.0" y="822.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade sud</text>
+<text x="1186.0" y="836.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-15</text>
+<text x="1228.0" y="836.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade ouest</text>
+<text x="1186.0" y="850.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DM-16</text>
+<text x="1228.0" y="850.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade ouest</text>
+<text x="1392.0" y="640.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-01</text>
+<text x="1432.0" y="640.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Îlot 1 (sous auvent)</text>
+<text x="1392.0" y="654.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-02</text>
+<text x="1432.0" y="654.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Îlot 3</text>
+<text x="1392.0" y="668.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-03</text>
+<text x="1432.0" y="668.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Îlot 7</text>
+<text x="1392.0" y="682.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-04</text>
+<text x="1432.0" y="682.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Îlot 10</text>
+<text x="1392.0" y="696.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-05</text>
+<text x="1432.0" y="696.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Waste Area</text>
+<text x="1392.0" y="710.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-06</text>
+<text x="1432.0" y="710.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Storage Area</text>
+<text x="1392.0" y="724.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-07</text>
+<text x="1432.0" y="724.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">HSE tente 2</text>
+<text x="1392.0" y="738.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-08</text>
+<text x="1432.0" y="738.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Bâtiment technique</text>
+<text x="1392.0" y="752.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-09</text>
+<text x="1432.0" y="752.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade nord</text>
+<text x="1392.0" y="766.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-10</text>
+<text x="1432.0" y="766.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade est</text>
+<text x="1392.0" y="780.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-11</text>
+<text x="1432.0" y="780.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade sud</text>
+<text x="1392.0" y="794.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">DS-12</text>
+<text x="1432.0" y="794.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">Façade ouest</text>
+<text x="1186.0" y="876.0" font-size="13" fill="#8860FE" text-anchor="start" font-weight="bold" style="">HYPOTHÈSES À VALIDER</text>
+<line x1="1186" y1="881" x2="1576" y2="881" stroke="#E4E1F0"/>
+<text x="1186.0" y="898.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Nord supposé en haut (pas de flèche du nord au DCE).</text>
+<text x="1186.0" y="914.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Position du poste de garde et des accès véhicules / aire de livraison non</text>
+<text x="1194.0" y="928.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">cotées : à confirmer.</text>
+<text x="1186.0" y="944.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Implantation DM/DS = proposition PROSYB, à valider avec EXYTE et le</text>
+<text x="1194.0" y="958.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">coordinateur SSI.</text>
+<text x="1186.0" y="974.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Câble noté « CR1-CR » au 1016, lu CR1-C1. Liaisons Hub 2 et Hub 3 à</text>
+<text x="1194.0" y="988.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">confirmer (absentes des lignes DPGF P2 / du 1016).</text>
+<text x="1186.0" y="1004.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">• Base vie P4 (DC11) : implantation des îlots 1 à 20 inconnue.</text>
+<rect x="1172" y="1036" width="418" height="56" fill="#FFFFFF" stroke="#2B2640" stroke-width="1.5"/>
+<rect x="1172" y="1036" width="86" height="56" fill="#8860FE"/>
+<text x="1215.0" y="1060.0" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold" style="">PROSYB</text>
+<text x="1215.0" y="1080.0" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="normal" style="">indice A</text>
+<text x="1268.0" y="1053.0" font-size="12" fill="#2B2640" text-anchor="start" font-weight="bold" style="">Plan d'implantation de principe — SSI</text>
+<text x="1268.0" y="1068.0" font-size="11" fill="#2B2640" text-anchor="start" font-weight="normal" style="">KHAZNA ORY01, Fouju (77) — indice A — 10/2026</text>
+<text x="1268.0" y="1083.0" font-size="11" fill="#E5484D" text-anchor="start" font-weight="bold" style="">Non à l'échelle — à recaler sur le plan 1007</text>
+</svg>
