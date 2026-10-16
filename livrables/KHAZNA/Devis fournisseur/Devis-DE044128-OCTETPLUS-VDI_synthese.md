@@ -4,7 +4,8 @@
 - **Devis n°** : DE044128 — référence « BVP DC 77 » — du 15/10/2026, **valable jusqu'au 31/10/2026** (validité 1 mois)
 - **Reçu par mail** le 16/10/2026 17:04, avec 14 fiches techniques
 - **Pièces d'origine** (à déposer ici depuis Outlook) : `DE044128_VDI Base vie provisoire Data Center 77_16 10 2026.pdf` et les 14 fiches techniques
-- **Montant total HT** : **35 211,55 €**
+- **Montant total HT du devis** : **35 211,55 €**
+- **Base retenue par PROSYB** : **32 183,63 € HT**, après retrait des 7 coffrets IP55 COF12645MIP55 (2 891,77 €) et de leurs 7 bandeaux 8 PC (136,15 €) : **coffrets fournis et posés par SPIE** (Ahmed, lot électricité). À faire confirmer par Octet Plus (devis révisé).
 - **Marque** : ZVK EasyLan, **garantie système 25 ans** ; baies et coffrets LIEN'K (1 ou 2 livraisons)
 
 ## Détail
@@ -35,8 +36,8 @@
 |---|---:|
 | Répartiteur principal Hub 1 (baie + bandeau, + switch L3 CCF 786,03 €) | 1 420,88 € |
 | Répartiteurs Hub 2, Hub 3, base vie A et B (baie 42U + bandeau) | 634,85 € /u |
-| Répartiteurs secondaires Est 1-3, Ouest 1-2 (coffret IP55 12U + bandeau) | 432,56 € /u |
-| Répartiteurs annexes ×2 (coffret + liaison fibre ≈ 150 ml) | 1 186,48 € /u |
+| Répartiteurs secondaires Est 1-3, Ouest 1-2 (coffret SPIE) | 0,00 € |
+| Répartiteurs annexes ×2 (liaison fibre ≈ 150 ml ; coffret SPIE) | 753,92 € /u |
 | Boucle fibre P2 (6 tronçons, ≈ 2 900 ml) | 7 094,92 € |
 | Fibre Hub 1 → Hub 2 (≈ 450 ml) | 1 139,63 € |
 | Fibre Hub 1 → Hub 3 (≈ 150 ml) | 753,92 € |
@@ -46,9 +47,11 @@
 | Liaisons techniques ×30 (≈ 60 m) | 48,71 € /u |
 | Cuivre P4 — 360 liens | 11 561,43 € |
 
-Méthode : câble fibre au mètre (surlongueurs réparties), tiroirs + fusion + photométrie + jarretières répartis par tronçon (12 tronçons) ; câble cuivre au mètre (19 000 m pour 18 600 m utiles), 2 noyaux + 1 plastron + 2 cordons par lien, platines réparties sur les 510 liens. Écart d'arrondi de 0,13 € sur le total.
+Méthode : câble fibre au mètre (surlongueurs réparties), tiroirs + fusion + photométrie + jarretières répartis par tronçon (12 tronçons) ; câble cuivre au mètre (19 000 m pour 18 600 m utiles), 2 noyaux + 1 plastron + 2 cordons par lien, platines réparties sur les 510 liens. Total ventilé 32 183,50 € (écart d'arrondi 0,13 €).
 
 ## Points ouverts
+
+0. **Coffrets IP55 SPIE** : demander à Octet Plus un devis révisé sans COF12645MIP55 ni bandeaux associés ; valider avec SPIE la compatibilité du coffret avec un tiroir optique et un panneau 19" (sinon boîtier optique rail DIN).
 
 1. **Pose cuivre non chiffrée** : Octet Plus ne chiffre que la fourniture cuivre (la consultation demandait fourniture et pose). Pose des 510 liens, des noyaux et des plastrons à chiffrer en MO PROSYB ou à redemander à Octet Plus.
 2. **Certification cuivre classe EA** non chiffrée (lignes « Recettage cuivre »).
