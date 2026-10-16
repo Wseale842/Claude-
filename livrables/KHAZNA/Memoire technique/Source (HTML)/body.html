@@ -1,9 +1,10 @@
 <style>
-@page paysage{size:A4 landscape;margin:10mm 10mm 10mm 10mm}
+@page paysage{size:A4 landscape;margin:26mm 14mm 18mm 14mm}
+.toc .it{padding:1.8mm 0}
 .annexe{page:paysage;break-before:page}
 .annexe h1.t1{margin-top:0}
 .annexe .pl{break-before:page;break-inside:avoid}
-.annexe .pl img{width:100%;max-height:170mm;object-fit:contain;display:block;border:.3mm solid var(--ligne);border-radius:2mm}
+.annexe .pl img{width:100%;max-height:150mm;object-fit:contain;display:block;border:.3mm solid var(--ligne);border-radius:2mm}
 .annexe .pl .cap{font-size:8.3pt;color:var(--mute);font-style:italic;margin-top:1.5mm}
 </style>
 <style>
@@ -57,7 +58,7 @@
     <div class="it"><span class="n">3</span><div class="x"><b>Architecture des réseaux</b><div>Architecture logique · plan de VLAN · flux autorisés · sécurisation · typologie des équipements · évolution par phase</div></div></div>
     <div class="it"><span class="n">4</span><div class="x"><b>VDI — câblage fibre et cuivre</b><div>Répartiteurs · fibre OS2 · cuivre Cat. 6A · recette</div></div></div>
     <div class="it"><span class="n">5</span><div class="x"><b>Wi-Fi et informatique</b><div>Bornes · paramétrage des équipements · postes de travail</div></div></div>
-    <div class="it"><span class="n">6</span><div class="x"><b>Audiovisuel et affichage</b><div>Salles de visioconférence · afficheurs de chantier</div></div></div>
+    <div class="it"><span class="n">6</span><div class="x"><b>Audiovisuel et affichage</b><div>Salles de visioconférence · afficheurs de chantier · diffusion centralisée</div></div></div>
     <div class="it"><span class="n">7</span><div class="x"><b>Vidéoprotection et détection intrusion</b><div>Couverture · caméras · NVR Hikvision · logiciel iVMS-4200 · enregistrement · RGPD · conformité au CCTP</div></div></div>
     <div class="it"><span class="n">8</span><div class="x"><b>GTB / GTE</b><div>Automates WAGO · comptage · alarmes techniques · supervision</div></div></div>
     <div class="it"><span class="n">9</span><div class="x"><b>Organisation, études et phasage</b><div>Équipe · études d'exécution · planning · interfaces · sécurité</div></div></div>
@@ -65,6 +66,7 @@
     <div class="it"><span class="n">11</span><div class="x"><b>Exploitation et maintenance</b><div>Organisation sur 29 mois · préventif · correctif · délais · astreinte · évolutions de phase</div></div></div>
     <div class="it"><span class="n">12</span><div class="x"><b>Hypothèses, interfaces et questions</b><div>Limites de prestation · points à confirmer avec EXYTE</div></div></div>
     <div class="it"><span class="n">13</span><div class="x"><b>Pourquoi PROSYB</b><div>Nos engagements</div></div></div>
+    <div class="it"><span class="n">A</span><div class="x"><b>Annexe — synoptiques et plans de principe</b><div>SSI · IT/VDI/Wi-Fi · vidéo · audiovisuel · GTB · plan de synthèse</div></div></div>
   </div>
 </section>
 
@@ -86,7 +88,7 @@
       <tr><td><strong>Études d'exécution CFA</strong></td><td>Architecture IT et audiovisuel, synoptiques IT, sûreté et GTC, plans, fiches, PAQ</td><td>§ 2 (EXE.CFA)</td></tr>
       <tr><td><strong>VDI et informatique</strong></td><td>Répartiteurs principaux (Hubs 1, 2, 3) et secondaires, anneaux fibre OS2, liaisons cuivre Cat. 6A ; pose, raccordement et paramétrage des switchs (switchs informatiques fournis par EXYTE, switchs de vidéoprotection fournis par PROSYB), recettes</td><td>§ 4</td></tr>
       <tr><td><strong>Wi-Fi</strong></td><td>84 bornes : 4 en phase 2, 20 en phase 3, 60 en phase 4</td><td>§ 4</td></tr>
-      <tr><td><strong>Audiovisuel et affichage</strong></td><td>10 salles de réunion mobiles (écran iiyama 86" 4K sur chariot Chief, Logitech Rally Bar, 4 micros déportés), 6 afficheurs de chantier Samsung OHDX 55" 3 500 cd/m², diffusion centralisée Navori sur 16 écrans</td><td>§ 4</td></tr>
+      <tr><td><strong>Audiovisuel et affichage</strong></td><td>10 salles visio mobiles (écran 86" sur chariot, Rally Bar, 4 micros), 6 afficheurs extérieurs Samsung 55", diffusion Navori</td><td>§ 4</td></tr>
       <tr><td><strong>Vidéoprotection</strong></td><td>28 caméras sur mâts, réseau PoE, NVR, analyse intrusion et port des EPI</td><td>§ 6 + CCTP lot 03</td></tr>
       <tr><td><strong>GTB / GTE</strong></td><td>3 automates WAGO, comptage et alarmes des TGBT, poste de supervision, historisation et alertes</td><td>§ 7</td></tr>
       <tr><td><strong>Exploitation et maintenance CFA</strong></td><td>Maintenance préventive et corrective, permanence, adaptations de phase, repli</td><td>§ 8 (part CFA)</td></tr>
