@@ -1,6 +1,8 @@
 <style>
 @page paysage{size:A4 landscape;margin:26mm 14mm 18mm 14mm}
 .toc .it{padding:1.8mm 0}
+.kick,h1.t1,h2{break-after:avoid;page-break-after:avoid}
+.kick+h1.t1{break-before:avoid}
 .annexe{page:paysage;break-before:page}
 .annexe h1.t1{margin-top:0}
 .annexe .pl{break-before:page;break-inside:avoid}
@@ -268,29 +270,44 @@
   <table class="compact">
     <thead><tr><th>Répartiteur</th><th>Phase</th><th>Emplacement</th><th>Équipement</th></tr></thead>
     <tbody>
-      <tr><td>Principal Hub 1 et Hub 2</td><td><span class="phase p2">2</span></td><td>Postes énergie, compartiment CFA climatisé</td><td>Baie 19", tiroirs optiques, panneaux Cat. 6A, onduleur amont ; switch informatique fourni par EXYTE, switch d'agrégation vidéo PROSYB au Hub 1</td></tr>
-      <tr><td>Secondaires Est 1, 2, 3 et Ouest 1, 2</td><td><span class="phase p2">2</span></td><td>Zones de chantier</td><td>Coffret électrique extérieur fourni et posé par le lot électricité (SPIE) ; PROSYB y installe boîtier optique rail DIN, switch PoE industriel rail DIN, alimentation 48 V et parafoudres</td></tr>
-      <tr><td>Secondaires bâtiments annexes ×2</td><td><span class="phase p3">3</span></td><td>Bâtiments techniques</td><td>Coffret ou baie murale ; switch fourni par EXYTE</td></tr>
-      <tr><td>Principal Hub 3</td><td><span class="phase p4">4</span></td><td>Poste énergie Hub 3</td><td>Baie 19", tiroirs optiques ; switch fourni par EXYTE</td></tr>
-      <tr><td>Secondaires base vie A et B</td><td><span class="phase p4">4</span></td><td>Base vie îlots 1-10 et 11-20</td><td>Baie, panneaux Cat. 6A ; switchs fournis par EXYTE</td></tr>
+      <tr><td>Principal Hub 1 et Hub 2</td><td><span class="phase p2">2</span></td><td>Postes énergie, compartiment CFA climatisé</td><td>Baie LIEN'K 42U 800 × 800 (porte vitrée à clé, 800 kg), tiroirs optiques ZVK Splicebox, panneaux 24 ports Cat. 6A, bandeau 8 prises, onduleur amont ; switch informatique fourni par EXYTE, switch d'agrégation vidéo PROSYB au Hub 1</td></tr>
+      <tr><td>Secondaires Est 1, 2, 3 et Ouest 1, 2</td><td><span class="phase p2">2</span></td><td>Zones de chantier</td><td>Réseau informatique : coffret LIEN'K 19" 12U étanche IP55 / IK10 (tiroir optique, panneau Cat. 6A, bandeau 8 prises), switch fourni par EXYTE. Vidéoprotection : coffret électrique fourni et posé par le lot électricité (SPIE), dans lequel PROSYB installe boîtier optique rail DIN, switch PoE industriel, alimentation 48 V et parafoudres</td></tr>
+      <tr><td>Secondaires bâtiments annexes ×2</td><td><span class="phase p3">3</span></td><td>Bâtiments techniques</td><td>Coffret LIEN'K 19" 12U étanche IP55 ; switch fourni par EXYTE</td></tr>
+      <tr><td>Principal Hub 3</td><td><span class="phase p4">4</span></td><td>Poste énergie Hub 3</td><td>Baie LIEN'K 42U 800 × 800, tiroirs optiques ZVK ; switch fourni par EXYTE</td></tr>
+      <tr><td>Secondaires base vie A et B</td><td><span class="phase p4">4</span></td><td>Base vie îlots 1-10 et 11-20</td><td>Baie LIEN'K 42U 800 × 800, panneaux Cat. 6A ; switchs fournis par EXYTE</td></tr>
     </tbody>
   </table>
   <h2>Liaisons</h2>
   <table class="compact">
     <thead><tr><th>Liaison</th><th>Support</th><th>Desserte</th></tr></thead>
     <tbody>
-      <tr><td>Boucle terrain phase 2</td><td>Fibre OS2 12 brins, câble armé extérieur</td><td>Hub 1 → Est 1, Est 2, Est 3, Ouest 1, Ouest 2 → Hub 1</td></tr>
+      <tr><td>Boucle terrain phase 2</td><td>Fibre OS2 12 brins, câble intérieur/extérieur anti-rongeurs</td><td>Hub 1 → Est 1, Est 2, Est 3, Ouest 1, Ouest 2 → Hub 1</td></tr>
       <tr><td>Inter-Hubs</td><td>Fibre OS2 12 brins</td><td>Hub 1 ↔ Hub 2 (phase 2), Hub 1 ↔ Hub 3 (phase 4)</td></tr>
       <tr><td>Base vie phase 4</td><td>Fibre OS2 12 brins</td><td>Hub 3 → répartiteurs A et B</td></tr>
       <tr><td>Îlots</td><td>Cuivre Cat. 6A F/STP</td><td>12 prises par îlot (phases 2 et 3), 18 prises par îlot (phase 4) : 480 prises</td></tr>
-      <tr><td>Bâtiments techniques et extérieurs</td><td>Cuivre Cat. 6A F/STP extérieur</td><td>30 liaisons</td></tr>
+      <tr><td>Bâtiments techniques et extérieurs</td><td>Cuivre Cat. 6A F/FTP, sous fourreau sur les parcours extérieurs</td><td>30 liaisons</td></tr>
+    </tbody>
+  </table>
+  <h2>Matériel retenu</h2>
+  <p>L'infrastructure passive est fournie par notre partenaire <strong>Octet Plus</strong> en système <strong>ZVK EasyLan</strong>, avec une <strong>garantie système de 25 ans</strong>, et en baies et coffrets <strong>LIEN'K</strong>. Octet Plus réalise aussi la fusion et les mesures de la fibre, en quatre interventions calées sur les phases.</p>
+  <table class="compact"><colgroup><col style="width:26%"><col></colgroup>
+    <thead><tr><th>Élément</th><th>Référence et caractéristiques</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Câble cuivre</strong></td><td>ZVK EasyLan Cat. 6A F/FTP 4 paires AWG 23, 500 MHz, gaine LSFROH, Euroclasse Dca (réf. ZVKCEFF1212K) ; 510 liens, environ 19 000 m</td></tr>
+      <tr><td><strong>Connecteurs</strong></td><td>Noyaux RJ45 ZVK fixLink SL Cat. 6A (CKFAK001), sans outil : classe EA selon ISO/IEC 11801 et EN 50173-1, homologués GHMT, 10 GbE, PoE type 3 et 4 (802.3at/bt), boîtier zinc nickelé, contacts dorés ; plastrons 45 × 45 côté poste</td></tr>
+      <tr><td><strong>Brassage cuivre</strong></td><td>Panneaux 19" 1U 24 ports Keystone (CKVPL0102E) avec cordon de masse, passe-cordons 1U ; cordons Cat. 6A S/FTP LSZH de 1 m (2 par lien)</td></tr>
+      <tr><td><strong>Câble fibre</strong></td><td>12 brins monomodes OS2 9/125, intérieur/extérieur, anti-rongeurs, tube central, gaine LSZH Euroclasse Dca (réf. ZVKLUZB12OS2) ; fibre Corning SMF-28 Ultra (G.652.D, courbure meilleure que G.657.A1, ≤ 0,32 dB/km à 1310 nm et ≤ 0,18 dB/km à 1550 nm) ; environ 4 500 m en 12 tronçons</td></tr>
+      <tr><td><strong>Raccordement fibre</strong></td><td>Tiroirs coulissants 19" 1U ZVK Splicebox (6 ou 12 traversées LC duplex OS2, cassettes de lovage) ; fusion de 288 pigtails LC/UPC ; jarretières duplex LC/LC OS2</td></tr>
+      <tr><td><strong>Baies</strong></td><td>5 baies LIEN'K 42U 800 × 800 (BAI4288CN) : Hubs 1, 2, 3 et répartiteurs base vie A et B ; porte avant vitrée à clé, 800 kg, IK10, passages de câbles à balais, kit de masse</td></tr>
+      <tr><td><strong>Coffrets</strong></td><td>7 coffrets LIEN'K 19" 12U étanches IP55 / IK10 (COF12645MIP55) : répartiteurs Est 1 à 3, Ouest 1 et 2, bâtiments annexes ; acier soudé, verrouillage 3 points, entrées par presse-étoupes</td></tr>
+      <tr><td><strong>Énergie</strong></td><td>1 bandeau 19" 8 prises avec voyant par baie et par coffret (12 au total)</td></tr>
     </tbody>
   </table>
   <h2>Mise en œuvre</h2>
   <div class="two">
     <ul>
       <li><strong>Cheminements</strong> en fourreaux CFA 40/25 le long de la clôture (posés au lot électricité), liaisons aériennes sur mâts lorsque l'AVP le prévoit.</li>
-      <li><strong>Câbles extérieurs</strong> armés et anti-rongeurs, protégés UV, rayons de courbure respectés.</li>
+      <li><strong>Câbles fibre</strong> intérieur/extérieur anti-rongeurs à tube central, posés en fourreaux, rayons de courbure respectés.</li>
       <li><strong>Raccordement</strong> fibre par soudure de pigtails, cuivre sur noyaux Cat. 6A blindés, continuité des écrans.</li>
     </ul>
     <ul>
@@ -300,12 +317,12 @@
     </ul>
   </div>
   <h2>Recette</h2>
-  <p><strong>Fibre</strong> : test de réflectométrie (OTDR) dans les deux sens et mesure de photométrie de chaque brin, avec rapport. <strong>Cuivre</strong> : certification de chaque lien en classe EA (Cat. 6A) selon ISO/IEC 11801, avec rapport lien par lien. Les rapports sont remis avant l'ouverture de chaque phase.</p>
+  <p><strong>Fibre</strong> : test de chaque brin à 1310 et 1550 nm dans les deux sens et mesure de photométrie au Fluke Versiv 2 (modules CertiFiber Pro Quad) selon ISO/IEC 14763-3, avec dossier de mesures informatisé. <strong>Cuivre</strong> : certification de chaque lien en classe EA (Cat. 6A) selon ISO/IEC 11801, avec rapport lien par lien. Les rapports sont remis avant l'ouverture de chaque phase.</p>
   <div class="note"><div class="lab">Point d'attention</div><p>La DPGF prévoit des liaisons Cat. 6A F/STP, alors que la fiche technique jointe (FR02201-ENG-ELEC-OTH-1033) décrit des prises Legrand Mosaic Cat. 6. Notre offre retient une solution homogène <strong>Cat. 6A blindée</strong> de bout en bout, conforme à la DPGF.</p></div>
 </section>
 
 <!-- =================== 5 WIFI IT =================== -->
-<section>
+<section class="chap">
   <div class="kick">La connectivité</div>
   <h1 class="t1"><span class="num">5</span>Wi-Fi et informatique</h1>
   <h2>Bornes Wi-Fi</h2>
