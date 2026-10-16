@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="680" fill="#FFFFFF"/>
+<rect x="150" y="20" width="600" height="34" rx="8" fill="#8860FE" stroke="#8860FE" stroke-width="1.5"/>
+<text x="164" y="42" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="start">Réseau terrain (sûreté, GTB, affichage)</text>
+<rect x="760" y="20" width="420" height="34" rx="8" fill="#7598F4" stroke="#7598F4" stroke-width="1.5"/>
+<text x="774" y="42" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="start">Réseau informatique et Wi-Fi</text>
+<rect x="20" y="64" width="120" height="132" rx="8" fill="#2B2640" stroke="#2B2640" stroke-width="1.5"/>
+<text x="80.0" y="126.0" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="80.0" y="148.0" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Cœur</text>
+<rect x="20" y="206" width="120" height="170" rx="8" fill="#2B2640" stroke="#2B2640" stroke-width="1.5"/>
+<text x="80.0" y="287.0" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="80.0" y="309.0" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Zone</text>
+<rect x="20" y="386" width="120" height="88" rx="8" fill="#2B2640" stroke="#2B2640" stroke-width="1.5"/>
+<text x="80.0" y="426.0" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="80.0" y="448.0" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Accès</text>
+<rect x="20" y="484" width="120" height="70" rx="8" fill="#2B2640" stroke="#2B2640" stroke-width="1.5"/>
+<text x="80.0" y="515.0" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="80.0" y="537.0" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Terminaux</text>
+<rect x="20" y="564" width="120" height="66" rx="8" fill="#2B2640" stroke="#2B2640" stroke-width="1.5"/>
+<text x="80.0" y="602.0" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Transverse</text>
+<rect x="150" y="64" width="193.33333333333334" height="132" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="150" y="74" width="4" height="112" rx="2" fill="#8860FE"/>
+<text x="164" y="86" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Cœur L3 · Hub 1</text>
+<text x="333.33333333333337" y="86" font-size="16" font-weight="bold" fill="#8860FE" text-anchor="end">×1</text>
+<text x="164" y="106" font-size="13" fill="#6E6A86" text-anchor="start">phase 2 · agrégation vidéo</text>
+<text x="164" y="124" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">ELB S57244-B0</text>
+<text x="164" y="142" font-size="13" fill="#6E6A86" text-anchor="start">24 SFP 1G + 4 SFP+ 10G</text>
+<rect x="164" y="164" width="141.5" height="22" rx="11" fill="#8860FE" stroke="#8860FE" stroke-width="1.5"/>
+<text x="173" y="179.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Fourniture PROSYB</text>
+<rect x="353.33333333333337" y="64" width="193.33333333333334" height="132" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="353.33333333333337" y="74" width="4" height="112" rx="2" fill="#7598F4"/>
+<text x="367.33333333333337" y="86" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Cœur L3 · Hub 3</text>
+<text x="536.6666666666667" y="86" font-size="16" font-weight="bold" fill="#7598F4" text-anchor="end">×1</text>
+<text x="367.33333333333337" y="106" font-size="13" fill="#6E6A86" text-anchor="start">phase 4 · nouvelle zone</text>
+<text x="367.33333333333337" y="124" font-size="13" fill="#6E6A86" text-anchor="start">24 ports 1G PoE+</text>
+<text x="367.33333333333337" y="142" font-size="13" fill="#6E6A86" text-anchor="start">4 SFP+ 10G, ERPS, ACL</text>
+<rect x="367.33333333333337" y="164" width="129.21875" height="22" rx="11" fill="#7598F4" stroke="#7598F4" stroke-width="1.5"/>
+<text x="376.33333333333337" y="179.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Fourniture EXYTE</text>
+<rect x="556.6666666666667" y="64" width="193.33333333333334" height="132" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="556.6666666666667" y="74" width="4" height="112" rx="2" fill="#6E6A86"/>
+<text x="570.6666666666667" y="86" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Rechange (spare)</text>
+<text x="740.0000000000001" y="86" font-size="16" font-weight="bold" fill="#6E6A86" text-anchor="end">×1</text>
+<text x="570.6666666666667" y="106" font-size="13" fill="#6E6A86" text-anchor="start">stock chantier</text>
+<text x="570.6666666666667" y="124" font-size="13" fill="#6E6A86" text-anchor="start">même référence</text>
+<text x="570.6666666666667" y="142" font-size="13" fill="#6E6A86" text-anchor="start">que les cœurs L3</text>
+<rect x="570.6666666666667" y="164" width="59.859375" height="22" rx="11" fill="#6E6A86" stroke="#6E6A86" stroke-width="1.5"/>
+<text x="579.6666666666667" y="179.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Option</text>
+<rect x="760" y="64" width="420" height="132" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="760" y="74" width="4" height="112" rx="2" fill="#7598F4"/>
+<text x="774" y="86" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Cœur L3 informatique</text>
+<text x="1170" y="86" font-size="16" font-weight="bold" fill="#7598F4" text-anchor="end">×1</text>
+<text x="774" y="106" font-size="13" fill="#6E6A86" text-anchor="start">répartiteur principal desservant la base vie</text>
+<text x="774" y="124" font-size="13" fill="#6E6A86" text-anchor="start">48 ports 1G PoE+, 4 SFP+ 10G, empilable</text>
+<text x="774" y="142" font-size="13" fill="#6E6A86" text-anchor="start">liaisons redondées vers le pare-feu EXYTE</text>
+<rect x="774" y="164" width="129.21875" height="22" rx="11" fill="#7598F4" stroke="#7598F4" stroke-width="1.5"/>
+<text x="783" y="179.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Fourniture EXYTE</text>
+<rect x="150" y="206" width="200" height="170" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="150" y="216" width="4" height="150" rx="2" fill="#7598F4"/>
+<text x="164" y="228" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Switch L2 · Hub 2</text>
+<text x="340" y="228" font-size="16" font-weight="bold" fill="#7598F4" text-anchor="end">×1</text>
+<text x="164" y="248" font-size="13" fill="#6E6A86" text-anchor="start">phase 2 · rackable 19"</text>
+<text x="164" y="266" font-size="13" fill="#6E6A86" text-anchor="start">8 ports PoE+ 2,5G</text>
+<text x="164" y="284" font-size="13" fill="#6E6A86" text-anchor="start">2 SFP+</text>
+<text x="164" y="302" font-size="13" fill="#6E6A86" text-anchor="start">fibre vers le cœur</text>
+<text x="164" y="320" font-size="13" fill="#6E6A86" text-anchor="start">du Hub 1</text>
+<rect x="164" y="344" width="129.21875" height="22" rx="11" fill="#7598F4" stroke="#7598F4" stroke-width="1.5"/>
+<text x="173" y="359.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Fourniture EXYTE</text>
+<rect x="360" y="206" width="390" height="170" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="360" y="216" width="4" height="150" rx="2" fill="#8860FE"/>
+<text x="374" y="228" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Switchs industriels de zone (vidéo)</text>
+<text x="740" y="228" font-size="16" font-weight="bold" fill="#8860FE" text-anchor="end">×8</text>
+<text x="374" y="248" font-size="13" font-weight="bold" fill="#2B2640" text-anchor="start">RG-NIS3100-8GT4SFP-HP · rail DIN, -40 à +70 °C</text>
+<text x="374" y="266" font-size="13" fill="#6E6A86" text-anchor="start">8 RJ45 PoE/PoE+ (240 W), 4 SFP 1G, ERPS</text>
+<text x="374" y="284" font-size="13" fill="#6E6A86" text-anchor="start">alimentation 48 V DC RFOFIBRE-M430400-VB</text>
+<text x="374" y="302" font-size="13" fill="#6E6A86" text-anchor="start">boîtier optique BOPTDIN08SCSS2E · SFP SFPL-1GD31-20</text>
+<text x="374" y="320" font-size="13" fill="#6E6A86" text-anchor="start">parafoudres Ethernet · coffrets fournis par SPIE</text>
+<rect x="374" y="344" width="141.5" height="22" rx="11" fill="#8860FE" stroke="#8860FE" stroke-width="1.5"/>
+<text x="383" y="359.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Fourniture PROSYB</text>
+<rect x="760" y="206" width="420" height="170" rx="8" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.5"/>
+<text x="774" y="228" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Anneau fibre informatique</text>
+<text x="774" y="248" font-size="13" fill="#6E6A86" text-anchor="start">répartiteur principal ↔ répartiteurs base vie</text>
+<text x="774" y="266" font-size="13" fill="#6E6A86" text-anchor="start">A (îlots 1 à 10) et B (îlots 11 à 20), phase 4</text>
+<text x="774" y="284" font-size="13" fill="#6E6A86" text-anchor="start">fibre OS2 12 brins autocicatrisante</text>
+<text x="774" y="302" font-size="13" fill="#6E6A86" text-anchor="start">switch informatique du Hub 3 en phase 4</text>
+<rect x="150" y="386" width="270" height="88" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="150" y="396" width="4" height="68" rx="2" fill="#8860FE"/>
+<text x="164" y="408" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Switch PoE · poste de garde</text>
+<text x="164" y="428" font-size="13" fill="#6E6A86" text-anchor="start">switch local de vidéoprotection</text>
+<rect x="164" y="442" width="141.5" height="22" rx="11" fill="#8860FE" stroke="#8860FE" stroke-width="1.5"/>
+<text x="173" y="457.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Fourniture PROSYB</text>
+<rect x="430" y="386" width="320" height="88" rx="8" fill="#F7F6FC" stroke="#E4E1F0" stroke-width="1.5"/>
+<text x="444" y="408" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Ports PoE+ des switchs de zone</text>
+<text x="444" y="428" font-size="13" fill="#6E6A86" text-anchor="start">caméras, automates, afficheurs,</text>
+<text x="444" y="446" font-size="13" fill="#6E6A86" text-anchor="start">interfaces des lots tiers</text>
+<rect x="760" y="386" width="420" height="88" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="760" y="396" width="4" height="68" rx="2" fill="#7598F4"/>
+<text x="774" y="408" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Switchs d'accès PoE+</text>
+<text x="1170" y="408" font-size="16" font-weight="bold" fill="#7598F4" text-anchor="end">selon EXYTE</text>
+<text x="774" y="428" font-size="13" fill="#6E6A86" text-anchor="start">48 ports 802.3at (≥ 370 W), 2 SFP+ 10G, réemployés</text>
+<rect x="774" y="442" width="129.21875" height="22" rx="11" fill="#7598F4" stroke="#7598F4" stroke-width="1.5"/>
+<text x="783" y="457.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="start">Fourniture EXYTE</text>
+<rect x="150" y="484" width="193.33333333333334" height="70" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="150" y="494" width="4" height="50" rx="2" fill="#8860FE"/>
+<text x="164" y="506" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Caméras + NVR</text>
+<text x="333.33333333333337" y="506" font-size="16" font-weight="bold" fill="#8860FE" text-anchor="end">28</text>
+<text x="164" y="526" font-size="13" fill="#6E6A86" text-anchor="start">vidéoprotection</text>
+<rect x="353.33333333333337" y="484" width="193.33333333333334" height="70" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="353.33333333333337" y="494" width="4" height="50" rx="2" fill="#8860FE"/>
+<text x="367.33333333333337" y="506" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Automates WAGO</text>
+<text x="536.6666666666667" y="506" font-size="16" font-weight="bold" fill="#8860FE" text-anchor="end">3</text>
+<text x="367.33333333333337" y="526" font-size="13" fill="#6E6A86" text-anchor="start">+ poste de supervision</text>
+<rect x="556.6666666666667" y="484" width="193.33333333333334" height="70" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="556.6666666666667" y="494" width="4" height="50" rx="2" fill="#8860FE"/>
+<text x="570.6666666666667" y="506" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Afficheurs</text>
+<text x="740.0000000000001" y="506" font-size="16" font-weight="bold" fill="#8860FE" text-anchor="end">6</text>
+<text x="570.6666666666667" y="526" font-size="13" fill="#6E6A86" text-anchor="start">afficheurs de chantier</text>
+<rect x="760" y="484" width="205.0" height="70" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="760" y="494" width="4" height="50" rx="2" fill="#7598F4"/>
+<text x="774" y="506" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Bornes Wi-Fi 6</text>
+<text x="955.0" y="506" font-size="16" font-weight="bold" fill="#7598F4" text-anchor="end">84</text>
+<text x="774" y="526" font-size="13" fill="#6E6A86" text-anchor="start">802.11ax, standard EXYTE</text>
+<rect x="975.0" y="484" width="205.0" height="70" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="975.0" y="494" width="4" height="50" rx="2" fill="#7598F4"/>
+<text x="989.0" y="506" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Postes CAD, visio</text>
+<text x="989.0" y="526" font-size="13" fill="#6E6A86" text-anchor="start">10 salles, imprimantes</text>
+<rect x="150" y="564" width="336.6666666666667" height="66" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="150" y="574" width="4" height="46" rx="2" fill="#66C2EB"/>
+<text x="164" y="586" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Modules optiques</text>
+<text x="476.6666666666667" y="586" font-size="16" font-weight="bold" fill="#66C2EB" text-anchor="end">selon liaisons</text>
+<text x="164" y="606" font-size="13" fill="#6E6A86" text-anchor="start">SFP 1G LX, SFP+ 10G LR monomode</text>
+<rect x="496.6666666666667" y="564" width="336.6666666666667" height="66" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="496.6666666666667" y="574" width="4" height="46" rx="2" fill="#6E6A86"/>
+<text x="510.6666666666667" y="586" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Routeur 4G/5G VPN</text>
+<text x="823.3333333333334" y="586" font-size="16" font-weight="bold" fill="#6E6A86" text-anchor="end">option</text>
+<text x="510.6666666666667" y="606" font-size="13" fill="#6E6A86" text-anchor="start">baie du Hub 1, activé à la demande</text>
+<rect x="843.3333333333334" y="564" width="336.6666666666667" height="66" rx="8" fill="#FFFFFF" stroke="#E4E1F0" stroke-width="1.5"/>
+<rect x="843.3333333333334" y="574" width="4" height="46" rx="2" fill="#2B2640"/>
+<text x="857.3333333333334" y="586" font-size="14" font-weight="bold" fill="#2B2640" text-anchor="start">Supervision réseau</text>
+<text x="1170.0" y="586" font-size="16" font-weight="bold" fill="#2B2640" text-anchor="end">×1</text>
+<text x="857.3333333333334" y="606" font-size="13" fill="#6E6A86" text-anchor="start">poste Hub 1 ou VM EXYTE, SNMPv3</text>
+<rect x="20" y="640" width="1160" height="30" rx="8" fill="#EFE9FF" stroke="#EFE9FF" stroke-width="1.5"/>
+<text x="34" y="660" font-size="13" fill="#2B2640" text-anchor="start">Pose, raccordement et paramétrage de tous les switchs par PROSYB (VLAN, PoE, redondance, supervision, sauvegardes, firmwares), puis recettes</text>
+</svg>
